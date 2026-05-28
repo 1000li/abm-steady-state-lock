@@ -4,9 +4,9 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Agent-based model for**: *Steady-State Lock and Emergent Order in Finite-Resource Competition* (submitted to JASSS)
+> **Agent-based model for**: *Steady-State Lock and Emergent Order in Finite-Resource Competition* (working paper)
 > 
-> **论文**: 《有限资源竞争中的稳态锁定与涌现秩序》（投稿 JASSS 中）
+> **论文**: 《有限资源竞争中的稳态锁定与涌现秩序》（工作论文）
 
 ## Overview | 项目概述
 
@@ -223,18 +223,22 @@ See `src/fsm.py` line 15–60 for the full parameter list and defaults.
 
 ## Citation | 引用
 
-If you use this code, please cite:
+If you use this code, please cite the associated paper (forthcoming):
 
-如果使用本代码，请引用：
+如果使用本代码，请引用相关论文（即将发表）：
 
 ```bibtex
 @article{steadystatelock2026,
   title={Steady-State Lock and Emergent Order in Finite-Resource Competition},
   author={[Authors]},
-  journal={Journal of Artificial Societies and Social Simulation},
-  year={2026}
+  year={2026},
+  note={Working paper}
 }
 ```
+
+*Journal submission pending. Citation details will be updated upon acceptance.*
+
+*期刊投稿进行中。接受后将更新引用信息。*
 
 ## License | 许可
 
