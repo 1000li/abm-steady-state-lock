@@ -9,7 +9,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 from fsm import resolve_turn
-from models import GameState, Lobster, Stance
+from models import GameState, Agent, Stance
 import json
 from datetime import datetime
 import random
@@ -29,7 +29,7 @@ def run_extinction_tracking(n=1000, seed=None, max_rounds=100):
             stance, score = Stance.HAWK, 5
         else:
             stance, score = Stance.NEUTRAL, 0
-        state.lobsters.append(Lobster(
+        state.agents.append(Agent(
             id=i, name=f'L{i}', stance=stance, stance_score=score,
             health=100, resources=5
         ))
@@ -45,7 +45,7 @@ def run_extinction_tracking(n=1000, seed=None, max_rounds=100):
     timeline = []
     for round_num in range(1, max_rounds + 1):
         state, events = resolve_turn(state, [])
-        alive = state.get_alive_lobsters()
+        alive = state.get_alive_agents()
         factions = state.get_factions()
 
         counts = {

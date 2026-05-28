@@ -10,7 +10,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'core'))
 
 from fsm import resolve_turn
-from models import GameState, Lobster, Stance
+from models import GameState, Agent, Stance
 import json
 from datetime import datetime
 import random
@@ -45,24 +45,24 @@ def run_single_condition(hawk_ratio: float, run_id: int) -> dict:
     
     lid = 1
     for i in range(doves):
-        l = Lobster(id=lid, name=f"鸽{i+1}", stance=Stance.DOVE,
+        l = Agent(id=lid, name=f"鸽{i+1}", stance=Stance.DOVE,
             stance_score=-5 - random.randint(0, 5), health=100,
             resources=random.randint(3, 6))
-        state.lobsters.append(l); lid += 1
+        state.agents.append(l); lid += 1
     for i in range(hawks):
-        l = Lobster(id=lid, name=f"鹰{i+1}", stance=Stance.HAWK,
+        l = Agent(id=lid, name=f"鹰{i+1}", stance=Stance.HAWK,
             stance_score=5 + random.randint(0, 5), health=100,
             resources=random.randint(4, 7))
-        state.lobsters.append(l); lid += 1
+        state.agents.append(l); lid += 1
     for i in range(neutral):
-        l = Lobster(id=lid, name=f"中{i+1}", stance=Stance.NEUTRAL,
+        l = Agent(id=lid, name=f"中{i+1}", stance=Stance.NEUTRAL,
             stance_score=random.randint(-2, 2), health=100,
             resources=random.randint(3, 6))
-        state.lobsters.append(l); lid += 1
+        state.agents.append(l); lid += 1
     
-    stance_map = {l.id: l.stance for l in state.lobsters}
-    for l1 in state.lobsters:
-        for l2 in state.lobsters:
+    stance_map = {l.id: l.stance for l in state.agents}
+    for l1 in state.agents:
+        for l2 in state.agents:
             if l1.id != l2.id:
                 l1.trust_to[l2.id] = 2 if stance_map[l1.id] == stance_map[l2.id] else 0
     
@@ -73,7 +73,7 @@ def run_single_condition(hawk_ratio: float, run_id: int) -> dict:
     for round_num in range(1, MAX_ROUNDS + 1):
         state, events = resolve_turn(state, [])
         
-        alive = state.get_alive_lobsters()
+        alive = state.get_alive_agents()
         factions = state.get_factions()
         
         round_conv = 0
@@ -107,7 +107,7 @@ def run_single_condition(hawk_ratio: float, run_id: int) -> dict:
             if alive_changes <= 2:
                 break
     
-    final_alive = state.get_alive_lobsters()
+    final_alive = state.get_alive_agents()
     final_factions = state.get_factions()
     
     return {
@@ -217,7 +217,7 @@ def main():
         json.dump({
             "experiment": "P1-PhaseTransition",
             "version": "v0.8-E",
-            "num_lobsters": NUM_LOBSTERS,
+            "num_agents": NUM_LOBSTERS,
             "num_neutral": NUM_NEUTRAL,
             "hawk_ratios": HAWK_RATIOS,
             "num_runs": NUM_RUNS,

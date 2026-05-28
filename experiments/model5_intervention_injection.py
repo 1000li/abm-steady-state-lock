@@ -10,7 +10,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'core'))
 
 from fsm import resolve_turn
-from models import GameState, Lobster, Stance
+from models import GameState, Agent, Stance
 import json
 from datetime import datetime
 import random
@@ -73,25 +73,25 @@ def run_single_experiment(run_id: int) -> dict:
     # 初始化
     lid = 1
     for i in range(NUM_DOVES):
-        l = Lobster(id=lid, name=f"鸽{i+1}", stance=Stance.DOVE,
+        l = Agent(id=lid, name=f"鸽{i+1}", stance=Stance.DOVE,
             stance_score=-5 - random.randint(0, 5), health=100,
             resources=random.randint(3, 6))
-        state.lobsters.append(l); lid += 1
+        state.agents.append(l); lid += 1
     for i in range(NUM_HAWKS):
-        l = Lobster(id=lid, name=f"鹰{i+1}", stance=Stance.HAWK,
+        l = Agent(id=lid, name=f"鹰{i+1}", stance=Stance.HAWK,
             stance_score=5 + random.randint(0, 5), health=100,
             resources=random.randint(4, 7))
-        state.lobsters.append(l); lid += 1
+        state.agents.append(l); lid += 1
     for i in range(NUM_NEUTRAL):
-        l = Lobster(id=lid, name=f"中{i+1}", stance=Stance.NEUTRAL,
+        l = Agent(id=lid, name=f"中{i+1}", stance=Stance.NEUTRAL,
             stance_score=random.randint(-2, 2), health=100,
             resources=random.randint(3, 6))
-        state.lobsters.append(l); lid += 1
+        state.agents.append(l); lid += 1
     
     # 信任关系
-    stance_map = {l.id: l.stance for l in state.lobsters}
-    for l1 in state.lobsters:
-        for l2 in state.lobsters:
+    stance_map = {l.id: l.stance for l in state.agents}
+    for l1 in state.agents:
+        for l2 in state.agents:
             if l1.id != l2.id:
                 l1.trust_to[l2.id] = 2 if stance_map[l1.id] == stance_map[l2.id] else 0
     
@@ -114,7 +114,7 @@ def run_single_experiment(run_id: int) -> dict:
         state, events = resolve_turn(state, [])
         
         all_events = int_events + events
-        alive = state.get_alive_lobsters()
+        alive = state.get_alive_agents()
         factions = state.get_factions()
         
         round_inj, round_nat, round_conv = classify_events(events, int_events)
@@ -162,7 +162,7 @@ def run_single_experiment(run_id: int) -> dict:
                 print(f"\n✓ 第{round_num}回合：达到稳态")
                 break
     
-    final_alive = state.get_alive_lobsters()
+    final_alive = state.get_alive_agents()
     final_factions = state.get_factions()
     
     print(f"\n结果: 存活{len(final_alive)}/{NUM_LOBSTERS} ({len(final_alive)/NUM_LOBSTERS*100:.1f}%)")
@@ -234,7 +234,7 @@ def main():
         json.dump({
             "experiment": "I4-ResourceInjection",
             "version": "v0.8-E",
-            "num_lobsters": NUM_LOBSTERS,
+            "num_agents": NUM_LOBSTERS,
             "initial_config": {"dove": NUM_DOVES, "hawk": NUM_HAWKS, "neutral": NUM_NEUTRAL},
             "intervention": {"type": "resource_injection", "interval": INTERVAL, "amount": AMOUNT},
             "mean_survival_rate": mean_rate,

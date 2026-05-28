@@ -8,7 +8,7 @@ import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'core'))
 
 from fsm import resolve_turn
-from models import GameState, Lobster, Stance
+from models import GameState, Agent, Stance
 import json
 from datetime import datetime
 import random
@@ -56,16 +56,16 @@ def run_single_experiment(run_id: int, exp_label: str, regen: int, initial_pool:
     
     # 初始化1000只纯鸽派
     for i in range(NUM_LOBSTERS):
-        lobster = Lobster(
+        agent = Agent(
             id=i+1, name=f"鸽{i+1}", stance=Stance.DOVE,
             stance_score=-5 - random.randint(0, 5), health=100,
             resources=random.randint(3, 6)
         )
-        state.lobsters.append(lobster)
+        state.agents.append(agent)
     
     # 初始化信任（全部是鸽派，互相信任）
-    for l1 in state.lobsters:
-        for l2 in state.lobsters:
+    for l1 in state.agents:
+        for l2 in state.agents:
             if l1.id != l2.id:
                 l1.trust_to[l2.id] = 2
     
@@ -81,7 +81,7 @@ def run_single_experiment(run_id: int, exp_label: str, regen: int, initial_pool:
     for round_num in range(1, MAX_ROUNDS + 1):
         state, events = resolve_turn(state, [])
         
-        alive = state.get_alive_lobsters()
+        alive = state.get_alive_agents()
         factions = state.get_factions()
         
         round_natural_death, round_stance_conversion = classify_events(events)
@@ -115,7 +115,7 @@ def run_single_experiment(run_id: int, exp_label: str, regen: int, initial_pool:
                 print(f"\n✓ 第{round_num}回合：达到稳态")
                 break
     
-    final_alive = state.get_alive_lobsters()
+    final_alive = state.get_alive_agents()
     final_factions = state.get_factions()
     
     print(f"\n结果: 存活{len(final_alive)}/{NUM_LOBSTERS} ({len(final_alive)/NUM_LOBSTERS*100:.1f}%)")
@@ -216,7 +216,7 @@ def main():
         json.dump({
             "experiment_series": "C1-Resource-Cross-Validation",
             "version": "v0.8-Scheme E",
-            "num_lobsters": NUM_LOBSTERS,
+            "num_agents": NUM_LOBSTERS,
             "initial_config": {"dove": NUM_LOBSTERS, "hawk": 0, "neutral": 0},
             "results": all_results,
         }, f, indent=2, ensure_ascii=False)

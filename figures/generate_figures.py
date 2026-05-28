@@ -14,7 +14,7 @@ import numpy as np
 from collections import Counter
 
 from fsm import resolve_turn
-from models import GameState, Lobster, Stance
+from models import GameState, Agent, Stance
 
 
 def create_r3_state(n=1000, seed=None):
@@ -30,7 +30,7 @@ def create_r3_state(n=1000, seed=None):
             stance, score = Stance.HAWK, 5
         else:
             stance, score = Stance.NEUTRAL, 0
-        state.lobsters.append(Lobster(
+        state.agents.append(Agent(
             id=i, name=f'L{i}', stance=stance, stance_score=score,
             health=100, resources=5
         ))
@@ -46,7 +46,7 @@ def run_single(n=1000, seed=None, max_rounds=100):
     trajectory = []
     for round_num in range(max_rounds):
         state, events = resolve_turn(state, [])
-        alive = state.get_alive_lobsters()
+        alive = state.get_alive_agents()
         stances = Counter([l.stance.value for l in alive])
         trajectory.append({
             'round': round_num + 1,

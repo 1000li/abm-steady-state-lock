@@ -7,7 +7,7 @@ from datetime import datetime
 
 sys.path.insert(0, '../src')
 from fsm import resolve_turn
-from models import Lobster, GameState, Stance
+from models import Agent, GameState, Stance
 
 def create_r3_state(n=1000):
     """R3-1000 基准状态创建器 (30鸽/30鹰/40中, pool=3000, regen=1200)"""
@@ -23,12 +23,12 @@ def create_r3_state(n=1000):
             stance, score = Stance.HAWK, 5
         else:
             stance, score = Stance.NEUTRAL, 0
-        lobster = Lobster(
+        agent = Agent(
             id=i, name=f'L{i}',
             stance=stance, stance_score=score,
             health=100, resources=5
         )
-        state.lobsters.append(lobster)
+        state.agents.append(agent)
     return state
 
 def run_single(params, seed=None):
@@ -39,13 +39,13 @@ def run_single(params, seed=None):
     
     # 记录初始立场分布
     initial = {}
-    for l in state.lobsters:
+    for l in state.agents:
         initial[l.id] = l.stance.value
     
     for round_num in range(100):
         state, events = resolve_turn(state, [], mechanism_params=params)
     
-    alive = state.get_alive_lobsters()
+    alive = state.get_alive_agents()
     from collections import Counter
     stances = Counter([l.stance.value for l in alive])
     

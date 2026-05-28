@@ -13,8 +13,8 @@ class Stance(Enum):
 
 
 @dataclass
-class Lobster:
-    """龙虾个体"""
+class Agent:
+    """Agent个体"""
     id: int
     name: str
     stance: Stance = Stance.NEUTRAL
@@ -23,7 +23,7 @@ class Lobster:
     resources: int = 5
     
     # 社会关系
-    trust_to: Dict[int, int] = field(default_factory=dict)  # 对其他龙虾的信任度
+    trust_to: Dict[int, int] = field(default_factory=dict)  # 对其他Agent的信任度
     violence_history: List[str] = field(default_factory=list)  # 暴力记录
     
     # 状态标签
@@ -60,22 +60,22 @@ class GameState:
     round: int = 1
     resource_pool: int = 30       # 初始资源池（紧张开局）
     resource_regen: int = 12      # 每回合恢复量（略低于消耗）
-    consumption_rate: int = 2     # 每只龙虾每回合消耗（新机制）
+    consumption_rate: int = 2     # 每只Agent每回合消耗（新机制）
     
-    lobsters: List[Lobster] = field(default_factory=list)
+    agents: List[Agent] = field(default_factory=list)
     events_history: List[dict] = field(default_factory=list)
     
     # 玩家状态
     action_points: int = 2        # 每回合行动点
     action_points_max: int = 2
     
-    def get_alive_lobsters(self) -> List[Lobster]:
-        return [l for l in self.lobsters if l.is_alive()]
+    def get_alive_agents(self) -> List[Agent]:
+        return [l for l in self.agents if l.is_alive()]
     
-    def get_factions(self) -> Dict[str, List[Lobster]]:
+    def get_factions(self) -> Dict[str, List[Agent]]:
         """按立场聚类派系"""
         factions = {"dove": [], "hawk": [], "neutral": []}
-        for l in self.get_alive_lobsters():
+        for l in self.get_alive_agents():
             factions[l.stance.value].append(l)
         return factions
     
@@ -83,7 +83,7 @@ class GameState:
         return {
             "round": self.round,
             "resource_pool": self.resource_pool,
-            "lobsters": [l.to_dict() for l in self.get_alive_lobsters()],
+            "agents": [l.to_dict() for l in self.get_alive_agents()],
             "factions": {
                 k: [l.name for l in v] 
                 for k, v in self.get_factions().items()
@@ -91,8 +91,8 @@ class GameState:
         }
 
 
-# 初始龙虾配置（资源紧张开局）
-INITIAL_LOBSTERS = [
+# 初始Agent配置（资源紧张开局）
+INITIAL_AGENTS = [
     # 鸽派
     {"id": 1, "name": "钳子", "stance": Stance.DOVE, "stance_score": -8, "resources": 4},
     {"id": 2, "name": "软壳", "stance": Stance.DOVE, "stance_score": -6, "resources": 3},
@@ -112,8 +112,8 @@ INITIAL_LOBSTERS = [
 def create_initial_state() -> GameState:
     """创建初始游戏状态"""
     state = GameState()
-    for cfg in INITIAL_LOBSTERS:
-        lobster = Lobster(
+    for cfg in INITIAL_AGENTS:
+        agent = Agent(
             id=cfg["id"],
             name=cfg["name"],
             stance=cfg["stance"],
@@ -122,11 +122,11 @@ def create_initial_state() -> GameState:
             resources=cfg.get("resources", 4),  # 使用配置中的初始资源
         )
         # 初始化信任度（同阵营初始信任+2）
-        for other_cfg in INITIAL_LOBSTERS:
+        for other_cfg in INITIAL_AGENTS:
             if other_cfg["id"] != cfg["id"]:
                 if other_cfg["stance"] == cfg["stance"]:
-                    lobster.trust_to[other_cfg["id"]] = 2
+                    agent.trust_to[other_cfg["id"]] = 2
                 else:
-                    lobster.trust_to[other_cfg["id"]] = 0
-        state.lobsters.append(lobster)
+                    agent.trust_to[other_cfg["id"]] = 0
+        state.agents.append(agent)
     return state
