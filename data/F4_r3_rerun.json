@@ -1,0 +1,65 @@
+{
+  "experiment": "F4-R3-rerun",
+  "config": {
+    "dove": 800,
+    "hawk": 100,
+    "neutral": 100
+  },
+  "regen": 1200,
+  "pool": 3000,
+  "num_runs": 5,
+  "mean_survival_rate": 0.4744,
+  "std": 0.0062481997407253295,
+  "results": [
+    {
+      "run_id": 0,
+      "seed": 40000,
+      "final_alive": 478,
+      "survival_rate": 0.478,
+      "dove": 477,
+      "hawk": 1,
+      "neutral": 0,
+      "rounds": 100
+    },
+    {
+      "run_id": 1,
+      "seed": 40010,
+      "final_alive": 485,
+      "survival_rate": 0.485,
+      "dove": 480,
+      "hawk": 4,
+      "neutral": 1,
+      "rounds": 100
+    },
+    {
+      "run_id": 2,
+      "seed": 40020,
+      "final_alive": 469,
+      "survival_rate": 0.469,
+      "dove": 465,
+      "hawk": 4,
+      "neutral": 0,
+      "rounds": 100
+    },
+    {
+      "run_id": 3,
+      "seed": 40030,
+      "final_alive": 471,
+      "survival_rate": 0.471,
+      "dove": 465,
+      "hawk": 5,
+      "neutral": 1,
+      "rounds": 97
+    },
+    {
+      "run_id": 4,
+      "seed": 40040,
+      "final_alive": 469,
+      "survival_rate": 0.469,
+      "dove": 463,
+      "hawk": 5,
+      "neutral": 1,
+      "rounds": 100
+    }
+  ]
+}

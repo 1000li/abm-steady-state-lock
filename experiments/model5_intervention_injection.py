@@ -7,7 +7,7 @@ I4 资源注入实验运行器
 """
 import sys
 import os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'core'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'src'))
 
 from fsm import resolve_turn
 from models import GameState, Agent, Stance

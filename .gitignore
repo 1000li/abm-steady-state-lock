@@ -45,3 +45,6 @@ Thumbs.db
 
 # Save files (from original game)
 save/
+
+# Curated supplementary dataset (kept despite data/*.json ignore)
+!data/F4_r3_rerun.json
