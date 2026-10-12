@@ -1,0 +1,663 @@
+{
+  "scan_type": "desperate_attack_probability",
+  "scan_values": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "fixed_conditions": {
+    "n": 1000,
+    "resource_regen_per_100": 12,
+    "consumption_rate": 2,
+    "max_rounds": 100,
+    "repeats_per_value": 5
+  },
+  "results": [
+    {
+      "desperate_attack_prob": 0.1,
+      "repeats": 5,
+      "avg_survival_rate": 28.380000000000003,
+      "std": 0.8074651695274544,
+      "cv_percent": 2.8451908721897614,
+      "min_survival": 27.6,
+      "max_survival": 29.6,
+      "raw_results": [
+        {
+          "survival_rate": 28.6,
+          "alive_count": 286,
+          "dove": 278,
+          "hawk": 6,
+          "neutral": 2,
+          "faction_changes": 225,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 54754,
+          "desperate_attack_prob": 0.1
+        },
+        {
+          "survival_rate": 27.7,
+          "alive_count": 277,
+          "dove": 269,
+          "hawk": 6,
+          "neutral": 2,
+          "faction_changes": 218,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 84089,
+          "desperate_attack_prob": 0.1
+        },
+        {
+          "survival_rate": 27.6,
+          "alive_count": 276,
+          "dove": 264,
+          "hawk": 9,
+          "neutral": 3,
+          "faction_changes": 208,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 13053,
+          "desperate_attack_prob": 0.1
+        },
+        {
+          "survival_rate": 29.6,
+          "alive_count": 296,
+          "dove": 290,
+          "hawk": 5,
+          "neutral": 1,
+          "faction_changes": 214,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 41372,
+          "desperate_attack_prob": 0.1
+        },
+        {
+          "survival_rate": 28.4,
+          "alive_count": 284,
+          "dove": 282,
+          "hawk": 2,
+          "neutral": 0,
+          "faction_changes": 209,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 70691,
+          "desperate_attack_prob": 0.1
+        }
+      ]
+    },
+    {
+      "desperate_attack_prob": 0.2,
+      "repeats": 5,
+      "avg_survival_rate": 27.72,
+      "std": 1.2153188881935468,
+      "cv_percent": 4.384267273425494,
+      "min_survival": 26.6,
+      "max_survival": 29.1,
+      "raw_results": [
+        {
+          "survival_rate": 26.6,
+          "alive_count": 266,
+          "dove": 259,
+          "hawk": 5,
+          "neutral": 2,
+          "faction_changes": 224,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 99511,
+          "desperate_attack_prob": 0.2
+        },
+        {
+          "survival_rate": 26.6,
+          "alive_count": 266,
+          "dove": 255,
+          "hawk": 8,
+          "neutral": 3,
+          "faction_changes": 194,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 27392,
+          "desperate_attack_prob": 0.2
+        },
+        {
+          "survival_rate": 29.1,
+          "alive_count": 291,
+          "dove": 286,
+          "hawk": 4,
+          "neutral": 1,
+          "faction_changes": 229,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 55843,
+          "desperate_attack_prob": 0.2
+        },
+        {
+          "survival_rate": 28.9,
+          "alive_count": 289,
+          "dove": 283,
+          "hawk": 5,
+          "neutral": 1,
+          "faction_changes": 210,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 84336,
+          "desperate_attack_prob": 0.2
+        },
+        {
+          "survival_rate": 27.4,
+          "alive_count": 274,
+          "dove": 262,
+          "hawk": 9,
+          "neutral": 3,
+          "faction_changes": 234,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 13281,
+          "desperate_attack_prob": 0.2
+        }
+      ]
+    },
+    {
+      "desperate_attack_prob": 0.3,
+      "repeats": 5,
+      "avg_survival_rate": 28.72,
+      "std": 1.2637246535539304,
+      "cv_percent": 4.400155478948226,
+      "min_survival": 27.2,
+      "max_survival": 30.6,
+      "raw_results": [
+        {
+          "survival_rate": 27.2,
+          "alive_count": 272,
+          "dove": 264,
+          "hawk": 6,
+          "neutral": 2,
+          "faction_changes": 228,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 41665,
+          "desperate_attack_prob": 0.3
+        },
+        {
+          "survival_rate": 30.6,
+          "alive_count": 306,
+          "dove": 301,
+          "hawk": 4,
+          "neutral": 1,
+          "faction_changes": 225,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 70514,
+          "desperate_attack_prob": 0.3
+        },
+        {
+          "survival_rate": 29.1,
+          "alive_count": 291,
+          "dove": 283,
+          "hawk": 6,
+          "neutral": 2,
+          "faction_changes": 218,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 353,
+          "desperate_attack_prob": 0.3
+        },
+        {
+          "survival_rate": 28.1,
+          "alive_count": 281,
+          "dove": 274,
+          "hawk": 5,
+          "neutral": 2,
+          "faction_changes": 194,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 29991,
+          "desperate_attack_prob": 0.3
+        },
+        {
+          "survival_rate": 28.6,
+          "alive_count": 286,
+          "dove": 278,
+          "hawk": 6,
+          "neutral": 2,
+          "faction_changes": 199,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 58674,
+          "desperate_attack_prob": 0.3
+        }
+      ]
+    },
+    {
+      "desperate_attack_prob": 0.4,
+      "repeats": 5,
+      "avg_survival_rate": 28.02,
+      "std": 1.6483324907311638,
+      "cv_percent": 5.882699824165467,
+      "min_survival": 26.2,
+      "max_survival": 30.1,
+      "raw_results": [
+        {
+          "survival_rate": 30.1,
+          "alive_count": 301,
+          "dove": 294,
+          "hawk": 5,
+          "neutral": 2,
+          "faction_changes": 232,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 87657,
+          "desperate_attack_prob": 0.4
+        },
+        {
+          "survival_rate": 27.7,
+          "alive_count": 277,
+          "dove": 267,
+          "hawk": 7,
+          "neutral": 3,
+          "faction_changes": 209,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 17138,
+          "desperate_attack_prob": 0.4
+        },
+        {
+          "survival_rate": 29.3,
+          "alive_count": 293,
+          "dove": 291,
+          "hawk": 2,
+          "neutral": 0,
+          "faction_changes": 217,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 46047,
+          "desperate_attack_prob": 0.4
+        },
+        {
+          "survival_rate": 26.2,
+          "alive_count": 262,
+          "dove": 254,
+          "hawk": 6,
+          "neutral": 2,
+          "faction_changes": 214,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 75568,
+          "desperate_attack_prob": 0.4
+        },
+        {
+          "survival_rate": 26.8,
+          "alive_count": 268,
+          "dove": 257,
+          "hawk": 8,
+          "neutral": 3,
+          "faction_changes": 219,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 2961,
+          "desperate_attack_prob": 0.4
+        }
+      ]
+    },
+    {
+      "desperate_attack_prob": 0.5,
+      "repeats": 5,
+      "avg_survival_rate": 27.5,
+      "std": 1.2349089035228469,
+      "cv_percent": 4.490577830992171,
+      "min_survival": 26.1,
+      "max_survival": 29.3,
+      "raw_results": [
+        {
+          "survival_rate": 26.1,
+          "alive_count": 261,
+          "dove": 252,
+          "hawk": 7,
+          "neutral": 2,
+          "faction_changes": 247,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 31158,
+          "desperate_attack_prob": 0.5
+        },
+        {
+          "survival_rate": 26.7,
+          "alive_count": 267,
+          "dove": 259,
+          "hawk": 6,
+          "neutral": 2,
+          "faction_changes": 210,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 58905,
+          "desperate_attack_prob": 0.5
+        },
+        {
+          "survival_rate": 28.0,
+          "alive_count": 280,
+          "dove": 278,
+          "hawk": 2,
+          "neutral": 0,
+          "faction_changes": 216,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 86991,
+          "desperate_attack_prob": 0.5
+        },
+        {
+          "survival_rate": 29.3,
+          "alive_count": 293,
+          "dove": 282,
+          "hawk": 8,
+          "neutral": 3,
+          "faction_changes": 245,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 15530,
+          "desperate_attack_prob": 0.5
+        },
+        {
+          "survival_rate": 27.4,
+          "alive_count": 274,
+          "dove": 265,
+          "hawk": 7,
+          "neutral": 2,
+          "faction_changes": 202,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 45040,
+          "desperate_attack_prob": 0.5
+        }
+      ]
+    },
+    {
+      "desperate_attack_prob": 0.6,
+      "repeats": 5,
+      "avg_survival_rate": 27.52,
+      "std": 1.4463747785411638,
+      "cv_percent": 5.2557223057455085,
+      "min_survival": 26.3,
+      "max_survival": 29.1,
+      "raw_results": [
+        {
+          "survival_rate": 26.3,
+          "alive_count": 263,
+          "dove": 257,
+          "hawk": 5,
+          "neutral": 1,
+          "faction_changes": 212,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 73463,
+          "desperate_attack_prob": 0.6
+        },
+        {
+          "survival_rate": 29.1,
+          "alive_count": 291,
+          "dove": 286,
+          "hawk": 4,
+          "neutral": 1,
+          "faction_changes": 233,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 1070,
+          "desperate_attack_prob": 0.6
+        },
+        {
+          "survival_rate": 26.5,
+          "alive_count": 265,
+          "dove": 256,
+          "hawk": 7,
+          "neutral": 2,
+          "faction_changes": 231,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 30506,
+          "desperate_attack_prob": 0.6
+        },
+        {
+          "survival_rate": 26.6,
+          "alive_count": 266,
+          "dove": 257,
+          "hawk": 7,
+          "neutral": 2,
+          "faction_changes": 219,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 58520,
+          "desperate_attack_prob": 0.6
+        },
+        {
+          "survival_rate": 29.1,
+          "alive_count": 291,
+          "dove": 279,
+          "hawk": 9,
+          "neutral": 3,
+          "faction_changes": 244,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 86836,
+          "desperate_attack_prob": 0.6
+        }
+      ]
+    },
+    {
+      "desperate_attack_prob": 0.7,
+      "repeats": 5,
+      "avg_survival_rate": 28.52,
+      "std": 1.577022510936352,
+      "cv_percent": 5.5295319457796355,
+      "min_survival": 26.6,
+      "max_survival": 30.9,
+      "raw_results": [
+        {
+          "survival_rate": 28.8,
+          "alive_count": 288,
+          "dove": 286,
+          "hawk": 2,
+          "neutral": 0,
+          "faction_changes": 206,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 15445,
+          "desperate_attack_prob": 0.7
+        },
+        {
+          "survival_rate": 30.9,
+          "alive_count": 309,
+          "dove": 306,
+          "hawk": 3,
+          "neutral": 0,
+          "faction_changes": 229,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 45014,
+          "desperate_attack_prob": 0.7
+        },
+        {
+          "survival_rate": 28.5,
+          "alive_count": 285,
+          "dove": 277,
+          "hawk": 6,
+          "neutral": 2,
+          "faction_changes": 224,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 75569,
+          "desperate_attack_prob": 0.7
+        },
+        {
+          "survival_rate": 27.8,
+          "alive_count": 278,
+          "dove": 265,
+          "hawk": 10,
+          "neutral": 3,
+          "faction_changes": 213,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 4503,
+          "desperate_attack_prob": 0.7
+        },
+        {
+          "survival_rate": 26.6,
+          "alive_count": 266,
+          "dove": 260,
+          "hawk": 5,
+          "neutral": 1,
+          "faction_changes": 226,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 33789,
+          "desperate_attack_prob": 0.7
+        }
+      ]
+    },
+    {
+      "desperate_attack_prob": 0.8,
+      "repeats": 5,
+      "avg_survival_rate": 28.02,
+      "std": 1.4113823011501885,
+      "cv_percent": 5.037053180407525,
+      "min_survival": 26.0,
+      "max_survival": 29.6,
+      "raw_results": [
+        {
+          "survival_rate": 29.6,
+          "alive_count": 296,
+          "dove": 289,
+          "hawk": 5,
+          "neutral": 2,
+          "faction_changes": 219,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 62294,
+          "desperate_attack_prob": 0.8
+        },
+        {
+          "survival_rate": 26.0,
+          "alive_count": 260,
+          "dove": 251,
+          "hawk": 7,
+          "neutral": 2,
+          "faction_changes": 230,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 92093,
+          "desperate_attack_prob": 0.8
+        },
+        {
+          "survival_rate": 27.8,
+          "alive_count": 278,
+          "dove": 268,
+          "hawk": 8,
+          "neutral": 2,
+          "faction_changes": 222,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 19336,
+          "desperate_attack_prob": 0.8
+        },
+        {
+          "survival_rate": 29.1,
+          "alive_count": 291,
+          "dove": 289,
+          "hawk": 2,
+          "neutral": 0,
+          "faction_changes": 250,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 47949,
+          "desperate_attack_prob": 0.8
+        },
+        {
+          "survival_rate": 27.6,
+          "alive_count": 276,
+          "dove": 271,
+          "hawk": 4,
+          "neutral": 1,
+          "faction_changes": 226,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 77015,
+          "desperate_attack_prob": 0.8
+        }
+      ]
+    },
+    {
+      "desperate_attack_prob": 0.9,
+      "repeats": 5,
+      "avg_survival_rate": 27.72,
+      "std": 1.145425685062108,
+      "cv_percent": 4.132127290988846,
+      "min_survival": 26.7,
+      "max_survival": 29.2,
+      "raw_results": [
+        {
+          "survival_rate": 26.7,
+          "alive_count": 267,
+          "dove": 258,
+          "hawk": 7,
+          "neutral": 2,
+          "faction_changes": 222,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 5054,
+          "desperate_attack_prob": 0.9
+        },
+        {
+          "survival_rate": 27.1,
+          "alive_count": 271,
+          "dove": 266,
+          "hawk": 4,
+          "neutral": 1,
+          "faction_changes": 215,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 33142,
+          "desperate_attack_prob": 0.9
+        },
+        {
+          "survival_rate": 29.2,
+          "alive_count": 292,
+          "dove": 289,
+          "hawk": 3,
+          "neutral": 0,
+          "faction_changes": 246,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 61114,
+          "desperate_attack_prob": 0.9
+        },
+        {
+          "survival_rate": 26.9,
+          "alive_count": 269,
+          "dove": 267,
+          "hawk": 2,
+          "neutral": 0,
+          "faction_changes": 241,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 90162,
+          "desperate_attack_prob": 0.9
+        },
+        {
+          "survival_rate": 28.7,
+          "alive_count": 287,
+          "dove": 282,
+          "hawk": 4,
+          "neutral": 1,
+          "faction_changes": 234,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 18392,
+          "desperate_attack_prob": 0.9
+        }
+      ]
+    }
+  ],
+  "timestamp": "20260430_140227"
+}

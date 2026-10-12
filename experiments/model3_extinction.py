@@ -114,7 +114,7 @@ def main():
     print(f"\n  {order_correct}/{len(results)} runs confirm N → H → D order")
 
     # Save
-    output_dir = os.path.join(os.path.dirname(__file__), '..', 'data')
+    output_dir = os.path.join(os.path.dirname(__file__), '..', 'outputs')
     os.makedirs(output_dir, exist_ok=True)
     filepath = os.path.join(output_dir, f"extinction_order_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
     with open(filepath, 'w') as f:

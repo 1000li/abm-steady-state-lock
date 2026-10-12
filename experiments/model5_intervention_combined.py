@@ -236,7 +236,7 @@ def main():
     print(f"  vs I3靶向处决(21.3%): {(mean_rate*100)-21.3:+.1f}%")
     print(f"  vs I5高强度注入(21.7%): {(mean_rate*100)-21.7:+.1f}%")
     
-    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', '07-data', 'v0.8_schemeE_intervention', 'I7_combined_intervention')
+    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'outputs', 'v0.8_schemeE_intervention', 'I7_combined_intervention')
     os.makedirs(output_dir, exist_ok=True)
     
     output_file = os.path.join(output_dir, f"I7_combined_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")

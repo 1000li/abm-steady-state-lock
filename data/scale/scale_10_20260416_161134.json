@@ -1,0 +1,1501 @@
+{
+  "experiment": "v0.8_schemeE_scale_10",
+  "scale": 10,
+  "config": {
+    "num_lobsters": 10,
+    "num_runs": 5,
+    "resource_regen": 12,
+    "initial_pool": 30
+  },
+  "results": [
+    {
+      "trial_num": 0,
+      "seed": 8000,
+      "final_round": 49,
+      "final_alive": 1,
+      "survival_rate": 0.1,
+      "dove_count": 0,
+      "hawk_count": 1,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 2,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 3,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 4,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 5,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 6,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 7,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 8,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 9,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 10,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 11,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 12,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 13,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 1
+        },
+        {
+          "round": 14,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 1
+        },
+        {
+          "round": 15,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 1
+        },
+        {
+          "round": 16,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 1
+        },
+        {
+          "round": 17,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 1
+        },
+        {
+          "round": 18,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 1
+        },
+        {
+          "round": 19,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 20,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 21,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 22,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 23,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 24,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 25,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 26,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 27,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 28,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 29,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 30,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 31,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 32,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 33,
+          "alive_count": 2,
+          "dove_count": 1,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 34,
+          "alive_count": 2,
+          "dove_count": 1,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 35,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 36,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 37,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 38,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 39,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 40,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 41,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 42,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 43,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 44,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 45,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 46,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 47,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 48,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 49,
+          "alive_count": 1,
+          "dove_count": 0,
+          "hawk_count": 1,
+          "neutral_count": 0
+        }
+      ]
+    },
+    {
+      "trial_num": 1,
+      "seed": 8001,
+      "final_round": 38,
+      "final_alive": 3,
+      "survival_rate": 0.3,
+      "dove_count": 1,
+      "hawk_count": 2,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 2,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 3,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 4,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 5,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 6,
+          "alive_count": 9,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 7,
+          "alive_count": 9,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 8,
+          "alive_count": 9,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 9,
+          "alive_count": 9,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 10,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 11,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 12,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 13,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 14,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 15,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 16,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 17,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 1
+        },
+        {
+          "round": 18,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 1
+        },
+        {
+          "round": 19,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 20,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 21,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 22,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 23,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 24,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 25,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 26,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 0
+        },
+        {
+          "round": 27,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 28,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 29,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 30,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 31,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 32,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 33,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 34,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 35,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 36,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 37,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 38,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        }
+      ]
+    },
+    {
+      "trial_num": 2,
+      "seed": 8002,
+      "final_round": 41,
+      "final_alive": 2,
+      "survival_rate": 0.2,
+      "dove_count": 1,
+      "hawk_count": 1,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 2,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 3,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 4,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 5,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 6,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 7,
+          "alive_count": 9,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 8,
+          "alive_count": 9,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 9,
+          "alive_count": 9,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 10,
+          "alive_count": 9,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 11,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 12,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 13,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 14,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 15,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 16,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 17,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 18,
+          "alive_count": 7,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 19,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 20,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 21,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 22,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 23,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 24,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 25,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 26,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 27,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 28,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 29,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 30,
+          "alive_count": 3,
+          "dove_count": 2,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 31,
+          "alive_count": 3,
+          "dove_count": 2,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 32,
+          "alive_count": 3,
+          "dove_count": 2,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 33,
+          "alive_count": 3,
+          "dove_count": 2,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 34,
+          "alive_count": 3,
+          "dove_count": 2,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 35,
+          "alive_count": 3,
+          "dove_count": 2,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 36,
+          "alive_count": 3,
+          "dove_count": 2,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 37,
+          "alive_count": 2,
+          "dove_count": 1,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 38,
+          "alive_count": 2,
+          "dove_count": 1,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 39,
+          "alive_count": 2,
+          "dove_count": 1,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 40,
+          "alive_count": 2,
+          "dove_count": 1,
+          "hawk_count": 1,
+          "neutral_count": 0
+        },
+        {
+          "round": 41,
+          "alive_count": 2,
+          "dove_count": 1,
+          "hawk_count": 1,
+          "neutral_count": 0
+        }
+      ]
+    },
+    {
+      "trial_num": 3,
+      "seed": 8003,
+      "final_round": 39,
+      "final_alive": 2,
+      "survival_rate": 0.2,
+      "dove_count": 0,
+      "hawk_count": 2,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 2,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 3,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 4,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 4
+        },
+        {
+          "round": 5,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 4,
+          "neutral_count": 3
+        },
+        {
+          "round": 6,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 4,
+          "neutral_count": 3
+        },
+        {
+          "round": 7,
+          "alive_count": 9,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 8,
+          "alive_count": 9,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 9,
+          "alive_count": 9,
+          "dove_count": 3,
+          "hawk_count": 4,
+          "neutral_count": 2
+        },
+        {
+          "round": 10,
+          "alive_count": 8,
+          "dove_count": 3,
+          "hawk_count": 3,
+          "neutral_count": 2
+        },
+        {
+          "round": 11,
+          "alive_count": 7,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 12,
+          "alive_count": 7,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 13,
+          "alive_count": 7,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 14,
+          "alive_count": 7,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 15,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 16,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 17,
+          "alive_count": 5,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 18,
+          "alive_count": 5,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 19,
+          "alive_count": 5,
+          "dove_count": 1,
+          "hawk_count": 3,
+          "neutral_count": 1
+        },
+        {
+          "round": 20,
+          "alive_count": 4,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 21,
+          "alive_count": 3,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 22,
+          "alive_count": 3,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 23,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 24,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 25,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 26,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 27,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 28,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 29,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 30,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 31,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 32,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 33,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 34,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 35,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 36,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 37,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 38,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 39,
+          "alive_count": 2,
+          "dove_count": 0,
+          "hawk_count": 2,
+          "neutral_count": 0
+        }
+      ]
+    },
+    {
+      "trial_num": 4,
+      "seed": 8004,
+      "final_round": 37,
+      "final_alive": 3,
+      "survival_rate": 0.3,
+      "dove_count": 1,
+      "hawk_count": 2,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 2,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 3,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 4,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 5,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 6,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 7,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 8,
+          "alive_count": 10,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 5
+        },
+        {
+          "round": 9,
+          "alive_count": 9,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 4
+        },
+        {
+          "round": 10,
+          "alive_count": 9,
+          "dove_count": 3,
+          "hawk_count": 2,
+          "neutral_count": 4
+        },
+        {
+          "round": 11,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 12,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 13,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 14,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 15,
+          "alive_count": 8,
+          "dove_count": 2,
+          "hawk_count": 3,
+          "neutral_count": 3
+        },
+        {
+          "round": 16,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 17,
+          "alive_count": 6,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 2
+        },
+        {
+          "round": 18,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 19,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 20,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 21,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 22,
+          "alive_count": 5,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 1
+        },
+        {
+          "round": 23,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 24,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 25,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 26,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 27,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 28,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 29,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 30,
+          "alive_count": 4,
+          "dove_count": 2,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 31,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 32,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 33,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 34,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 35,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 36,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        },
+        {
+          "round": 37,
+          "alive_count": 3,
+          "dove_count": 1,
+          "hawk_count": 2,
+          "neutral_count": 0
+        }
+      ]
+    }
+  ],
+  "timestamp": "2026-04-16T16:11:34.060893"
+}

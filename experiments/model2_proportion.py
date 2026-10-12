@@ -209,7 +209,7 @@ def main():
               f"{c['mean_neutral_count']:>6.0f} | {c['mean_rounds']:>5.0f}")
     
     # 保存数据
-    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', '07-data', 'v0.8_schemeE_layer3', 'P1_phase_transition')
+    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'outputs', 'v0.8_schemeE_layer3', 'P1_phase_transition')
     os.makedirs(output_dir, exist_ok=True)
     
     output_file = os.path.join(output_dir, f"P1_phase_transition_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")

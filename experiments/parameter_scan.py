@@ -125,7 +125,7 @@ def main():
     
     # 保存结果
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_dir = f"../../07-data/v0.8_robustness/sensitivity_desperate_attack"
+    output_dir = f"../../outputs/v0.8_robustness/sensitivity_desperate_attack"
     os.makedirs(output_dir, exist_ok=True)
     
     output_file = f"{output_dir}/scan_desperate_attack_{timestamp}.json"

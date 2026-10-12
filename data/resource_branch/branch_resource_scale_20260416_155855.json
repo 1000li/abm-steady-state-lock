@@ -1,0 +1,4826 @@
+{
+  "experiment": "v0.8_schemeE_resource_scale_branch",
+  "hypothesis": "100\u53ea\u89c4\u6a21\u4e0bR4/R5\u5b58\u6d3b\u7387\u672a\u63d0\u5347\u662f\u56e0\u89c4\u6a21\u592a\u5c0f",
+  "conclusion": "\u5047\u8bbe\u4e0d\u6210\u7acb\uff1a\u89c4\u6a21\u4e0d\u662f\u4e3b\u8981\u9650\u5236\u56e0\u7d20",
+  "config": {
+    "num_lobsters": 1000,
+    "num_runs": 3,
+    "max_rounds": 100,
+    "mechanism": "scheme_E_effective_mechanisms",
+    "resource_configs": {
+      "R4": {
+        "regen": 2000,
+        "net": 0,
+        "label": "\u96f6\u5e73\u8861(0)",
+        "initial": 6000
+      },
+      "R5": {
+        "regen": 2400,
+        "net": 400,
+        "label": "\u76c8\u4f59(+400)",
+        "initial": 7200
+      }
+    },
+    "comparison_baseline": {
+      "R4": {
+        "scale": 100,
+        "survival_rate": 0.246,
+        "label": "100\u53ea-R4(\u96f6\u5e73\u8861)"
+      },
+      "R5": {
+        "scale": 100,
+        "survival_rate": 0.248,
+        "label": "100\u53ea-R5(\u76c8\u4f59)"
+      }
+    }
+  },
+  "results": {
+    "R4": [
+      {
+        "config_id": "R4",
+        "trial_num": 0,
+        "seed": 12200,
+        "final_round": 94,
+        "final_alive": 209,
+        "survival_rate": 0.209,
+        "dove_count": 203,
+        "hawk_count": 5,
+        "neutral_count": 1,
+        "timeline": [
+          {
+            "round": 1,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 292,
+            "neutral_count": 408,
+            "resource_pool": 7416
+          },
+          {
+            "round": 2,
+            "alive_count": 971,
+            "dove_count": 271,
+            "hawk_count": 290,
+            "neutral_count": 410,
+            "resource_pool": 8874
+          },
+          {
+            "round": 3,
+            "alive_count": 971,
+            "dove_count": 271,
+            "hawk_count": 311,
+            "neutral_count": 389,
+            "resource_pool": 7820
+          },
+          {
+            "round": 4,
+            "alive_count": 971,
+            "dove_count": 271,
+            "hawk_count": 310,
+            "neutral_count": 390,
+            "resource_pool": 8766
+          },
+          {
+            "round": 5,
+            "alive_count": 956,
+            "dove_count": 271,
+            "hawk_count": 328,
+            "neutral_count": 357,
+            "resource_pool": 8685
+          },
+          {
+            "round": 6,
+            "alive_count": 902,
+            "dove_count": 267,
+            "hawk_count": 315,
+            "neutral_count": 320,
+            "resource_pool": 9465
+          },
+          {
+            "round": 7,
+            "alive_count": 857,
+            "dove_count": 265,
+            "hawk_count": 327,
+            "neutral_count": 265,
+            "resource_pool": 9710
+          },
+          {
+            "round": 8,
+            "alive_count": 820,
+            "dove_count": 261,
+            "hawk_count": 315,
+            "neutral_count": 244,
+            "resource_pool": 10490
+          },
+          {
+            "round": 9,
+            "alive_count": 780,
+            "dove_count": 259,
+            "hawk_count": 323,
+            "neutral_count": 198,
+            "resource_pool": 10986
+          },
+          {
+            "round": 10,
+            "alive_count": 746,
+            "dove_count": 256,
+            "hawk_count": 318,
+            "neutral_count": 172,
+            "resource_pool": 11804
+          },
+          {
+            "round": 11,
+            "alive_count": 708,
+            "dove_count": 255,
+            "hawk_count": 314,
+            "neutral_count": 139,
+            "resource_pool": 12506
+          },
+          {
+            "round": 12,
+            "alive_count": 678,
+            "dove_count": 251,
+            "hawk_count": 306,
+            "neutral_count": 121,
+            "resource_pool": 13404
+          },
+          {
+            "round": 13,
+            "alive_count": 640,
+            "dove_count": 246,
+            "hawk_count": 303,
+            "neutral_count": 91,
+            "resource_pool": 14372
+          },
+          {
+            "round": 14,
+            "alive_count": 604,
+            "dove_count": 240,
+            "hawk_count": 296,
+            "neutral_count": 68,
+            "resource_pool": 15352
+          },
+          {
+            "round": 15,
+            "alive_count": 567,
+            "dove_count": 233,
+            "hawk_count": 289,
+            "neutral_count": 45,
+            "resource_pool": 16426
+          },
+          {
+            "round": 16,
+            "alive_count": 543,
+            "dove_count": 233,
+            "hawk_count": 273,
+            "neutral_count": 37,
+            "resource_pool": 17502
+          },
+          {
+            "round": 17,
+            "alive_count": 514,
+            "dove_count": 230,
+            "hawk_count": 260,
+            "neutral_count": 24,
+            "resource_pool": 18644
+          },
+          {
+            "round": 18,
+            "alive_count": 490,
+            "dove_count": 226,
+            "hawk_count": 249,
+            "neutral_count": 15,
+            "resource_pool": 19824
+          },
+          {
+            "round": 19,
+            "alive_count": 453,
+            "dove_count": 221,
+            "hawk_count": 226,
+            "neutral_count": 6,
+            "resource_pool": 21056
+          },
+          {
+            "round": 20,
+            "alive_count": 441,
+            "dove_count": 221,
+            "hawk_count": 218,
+            "neutral_count": 2,
+            "resource_pool": 22306
+          },
+          {
+            "round": 21,
+            "alive_count": 428,
+            "dove_count": 218,
+            "hawk_count": 208,
+            "neutral_count": 2,
+            "resource_pool": 23616
+          },
+          {
+            "round": 22,
+            "alive_count": 412,
+            "dove_count": 216,
+            "hawk_count": 194,
+            "neutral_count": 2,
+            "resource_pool": 24860
+          },
+          {
+            "round": 23,
+            "alive_count": 397,
+            "dove_count": 213,
+            "hawk_count": 183,
+            "neutral_count": 1,
+            "resource_pool": 26202
+          },
+          {
+            "round": 24,
+            "alive_count": 384,
+            "dove_count": 211,
+            "hawk_count": 171,
+            "neutral_count": 2,
+            "resource_pool": 27508
+          },
+          {
+            "round": 25,
+            "alive_count": 375,
+            "dove_count": 211,
+            "hawk_count": 162,
+            "neutral_count": 2,
+            "resource_pool": 28880
+          },
+          {
+            "round": 26,
+            "alive_count": 365,
+            "dove_count": 211,
+            "hawk_count": 152,
+            "neutral_count": 2,
+            "resource_pool": 30246
+          },
+          {
+            "round": 27,
+            "alive_count": 354,
+            "dove_count": 211,
+            "hawk_count": 141,
+            "neutral_count": 2,
+            "resource_pool": 31622
+          },
+          {
+            "round": 28,
+            "alive_count": 345,
+            "dove_count": 210,
+            "hawk_count": 133,
+            "neutral_count": 2,
+            "resource_pool": 33030
+          },
+          {
+            "round": 29,
+            "alive_count": 337,
+            "dove_count": 209,
+            "hawk_count": 127,
+            "neutral_count": 1,
+            "resource_pool": 34428
+          },
+          {
+            "round": 30,
+            "alive_count": 329,
+            "dove_count": 209,
+            "hawk_count": 119,
+            "neutral_count": 1,
+            "resource_pool": 35844
+          },
+          {
+            "round": 31,
+            "alive_count": 317,
+            "dove_count": 208,
+            "hawk_count": 108,
+            "neutral_count": 1,
+            "resource_pool": 37280
+          },
+          {
+            "round": 32,
+            "alive_count": 310,
+            "dove_count": 207,
+            "hawk_count": 102,
+            "neutral_count": 1,
+            "resource_pool": 38722
+          },
+          {
+            "round": 33,
+            "alive_count": 305,
+            "dove_count": 207,
+            "hawk_count": 97,
+            "neutral_count": 1,
+            "resource_pool": 40142
+          },
+          {
+            "round": 34,
+            "alive_count": 301,
+            "dove_count": 207,
+            "hawk_count": 93,
+            "neutral_count": 1,
+            "resource_pool": 41612
+          },
+          {
+            "round": 35,
+            "alive_count": 296,
+            "dove_count": 207,
+            "hawk_count": 87,
+            "neutral_count": 2,
+            "resource_pool": 43074
+          },
+          {
+            "round": 36,
+            "alive_count": 289,
+            "dove_count": 206,
+            "hawk_count": 81,
+            "neutral_count": 2,
+            "resource_pool": 44536
+          },
+          {
+            "round": 37,
+            "alive_count": 283,
+            "dove_count": 206,
+            "hawk_count": 75,
+            "neutral_count": 2,
+            "resource_pool": 46014
+          },
+          {
+            "round": 38,
+            "alive_count": 278,
+            "dove_count": 206,
+            "hawk_count": 70,
+            "neutral_count": 2,
+            "resource_pool": 47532
+          },
+          {
+            "round": 39,
+            "alive_count": 273,
+            "dove_count": 206,
+            "hawk_count": 65,
+            "neutral_count": 2,
+            "resource_pool": 48992
+          },
+          {
+            "round": 40,
+            "alive_count": 271,
+            "dove_count": 206,
+            "hawk_count": 63,
+            "neutral_count": 2,
+            "resource_pool": 50508
+          },
+          {
+            "round": 41,
+            "alive_count": 266,
+            "dove_count": 206,
+            "hawk_count": 58,
+            "neutral_count": 2,
+            "resource_pool": 52006
+          },
+          {
+            "round": 42,
+            "alive_count": 261,
+            "dove_count": 205,
+            "hawk_count": 55,
+            "neutral_count": 1,
+            "resource_pool": 53532
+          },
+          {
+            "round": 43,
+            "alive_count": 257,
+            "dove_count": 205,
+            "hawk_count": 51,
+            "neutral_count": 1,
+            "resource_pool": 55046
+          },
+          {
+            "round": 44,
+            "alive_count": 255,
+            "dove_count": 205,
+            "hawk_count": 49,
+            "neutral_count": 1,
+            "resource_pool": 56562
+          },
+          {
+            "round": 45,
+            "alive_count": 250,
+            "dove_count": 205,
+            "hawk_count": 44,
+            "neutral_count": 1,
+            "resource_pool": 58108
+          },
+          {
+            "round": 46,
+            "alive_count": 248,
+            "dove_count": 205,
+            "hawk_count": 42,
+            "neutral_count": 1,
+            "resource_pool": 59604
+          },
+          {
+            "round": 47,
+            "alive_count": 245,
+            "dove_count": 205,
+            "hawk_count": 39,
+            "neutral_count": 1,
+            "resource_pool": 61144
+          },
+          {
+            "round": 48,
+            "alive_count": 245,
+            "dove_count": 205,
+            "hawk_count": 39,
+            "neutral_count": 1,
+            "resource_pool": 62682
+          },
+          {
+            "round": 49,
+            "alive_count": 244,
+            "dove_count": 205,
+            "hawk_count": 38,
+            "neutral_count": 1,
+            "resource_pool": 64218
+          },
+          {
+            "round": 50,
+            "alive_count": 240,
+            "dove_count": 205,
+            "hawk_count": 34,
+            "neutral_count": 1,
+            "resource_pool": 65754
+          },
+          {
+            "round": 51,
+            "alive_count": 238,
+            "dove_count": 205,
+            "hawk_count": 32,
+            "neutral_count": 1,
+            "resource_pool": 67304
+          },
+          {
+            "round": 52,
+            "alive_count": 235,
+            "dove_count": 204,
+            "hawk_count": 30,
+            "neutral_count": 1,
+            "resource_pool": 68852
+          },
+          {
+            "round": 53,
+            "alive_count": 234,
+            "dove_count": 204,
+            "hawk_count": 29,
+            "neutral_count": 1,
+            "resource_pool": 70398
+          },
+          {
+            "round": 54,
+            "alive_count": 233,
+            "dove_count": 204,
+            "hawk_count": 28,
+            "neutral_count": 1,
+            "resource_pool": 71952
+          },
+          {
+            "round": 55,
+            "alive_count": 230,
+            "dove_count": 204,
+            "hawk_count": 25,
+            "neutral_count": 1,
+            "resource_pool": 73502
+          },
+          {
+            "round": 56,
+            "alive_count": 228,
+            "dove_count": 203,
+            "hawk_count": 24,
+            "neutral_count": 1,
+            "resource_pool": 75078
+          },
+          {
+            "round": 57,
+            "alive_count": 228,
+            "dove_count": 203,
+            "hawk_count": 24,
+            "neutral_count": 1,
+            "resource_pool": 76628
+          },
+          {
+            "round": 58,
+            "alive_count": 226,
+            "dove_count": 203,
+            "hawk_count": 22,
+            "neutral_count": 1,
+            "resource_pool": 78184
+          },
+          {
+            "round": 59,
+            "alive_count": 224,
+            "dove_count": 203,
+            "hawk_count": 20,
+            "neutral_count": 1,
+            "resource_pool": 79754
+          },
+          {
+            "round": 60,
+            "alive_count": 223,
+            "dove_count": 203,
+            "hawk_count": 19,
+            "neutral_count": 1,
+            "resource_pool": 81314
+          },
+          {
+            "round": 61,
+            "alive_count": 221,
+            "dove_count": 203,
+            "hawk_count": 17,
+            "neutral_count": 1,
+            "resource_pool": 82880
+          },
+          {
+            "round": 62,
+            "alive_count": 219,
+            "dove_count": 203,
+            "hawk_count": 15,
+            "neutral_count": 1,
+            "resource_pool": 84454
+          },
+          {
+            "round": 63,
+            "alive_count": 219,
+            "dove_count": 203,
+            "hawk_count": 15,
+            "neutral_count": 1,
+            "resource_pool": 86030
+          },
+          {
+            "round": 64,
+            "alive_count": 218,
+            "dove_count": 203,
+            "hawk_count": 14,
+            "neutral_count": 1,
+            "resource_pool": 87600
+          },
+          {
+            "round": 65,
+            "alive_count": 218,
+            "dove_count": 203,
+            "hawk_count": 14,
+            "neutral_count": 1,
+            "resource_pool": 89168
+          },
+          {
+            "round": 66,
+            "alive_count": 216,
+            "dove_count": 203,
+            "hawk_count": 12,
+            "neutral_count": 1,
+            "resource_pool": 90748
+          },
+          {
+            "round": 67,
+            "alive_count": 216,
+            "dove_count": 203,
+            "hawk_count": 12,
+            "neutral_count": 1,
+            "resource_pool": 92324
+          },
+          {
+            "round": 68,
+            "alive_count": 215,
+            "dove_count": 203,
+            "hawk_count": 11,
+            "neutral_count": 1,
+            "resource_pool": 93904
+          },
+          {
+            "round": 69,
+            "alive_count": 215,
+            "dove_count": 203,
+            "hawk_count": 11,
+            "neutral_count": 1,
+            "resource_pool": 95486
+          },
+          {
+            "round": 70,
+            "alive_count": 214,
+            "dove_count": 203,
+            "hawk_count": 10,
+            "neutral_count": 1,
+            "resource_pool": 97070
+          },
+          {
+            "round": 71,
+            "alive_count": 212,
+            "dove_count": 203,
+            "hawk_count": 8,
+            "neutral_count": 1,
+            "resource_pool": 98646
+          },
+          {
+            "round": 72,
+            "alive_count": 212,
+            "dove_count": 203,
+            "hawk_count": 8,
+            "neutral_count": 1,
+            "resource_pool": 100226
+          },
+          {
+            "round": 73,
+            "alive_count": 212,
+            "dove_count": 203,
+            "hawk_count": 8,
+            "neutral_count": 1,
+            "resource_pool": 101806
+          },
+          {
+            "round": 74,
+            "alive_count": 212,
+            "dove_count": 203,
+            "hawk_count": 8,
+            "neutral_count": 1,
+            "resource_pool": 103388
+          },
+          {
+            "round": 75,
+            "alive_count": 211,
+            "dove_count": 203,
+            "hawk_count": 7,
+            "neutral_count": 1,
+            "resource_pool": 104974
+          },
+          {
+            "round": 76,
+            "alive_count": 210,
+            "dove_count": 203,
+            "hawk_count": 6,
+            "neutral_count": 1,
+            "resource_pool": 106556
+          },
+          {
+            "round": 77,
+            "alive_count": 210,
+            "dove_count": 203,
+            "hawk_count": 6,
+            "neutral_count": 1,
+            "resource_pool": 108138
+          },
+          {
+            "round": 78,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 109728
+          },
+          {
+            "round": 79,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 111310
+          },
+          {
+            "round": 80,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 112892
+          },
+          {
+            "round": 81,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 114478
+          },
+          {
+            "round": 82,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 116060
+          },
+          {
+            "round": 83,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 117646
+          },
+          {
+            "round": 84,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 119228
+          },
+          {
+            "round": 85,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 120814
+          },
+          {
+            "round": 86,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 122396
+          },
+          {
+            "round": 87,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 123986
+          },
+          {
+            "round": 88,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 125570
+          },
+          {
+            "round": 89,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 127156
+          },
+          {
+            "round": 90,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 128742
+          },
+          {
+            "round": 91,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 130324
+          },
+          {
+            "round": 92,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 131908
+          },
+          {
+            "round": 93,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 133494
+          },
+          {
+            "round": 94,
+            "alive_count": 209,
+            "dove_count": 203,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 135080
+          }
+        ]
+      },
+      {
+        "config_id": "R4",
+        "trial_num": 1,
+        "seed": 12201,
+        "final_round": 100,
+        "final_alive": 238,
+        "survival_rate": 0.238,
+        "dove_count": 233,
+        "hawk_count": 4,
+        "neutral_count": 1,
+        "timeline": [
+          {
+            "round": 1,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 296,
+            "neutral_count": 404,
+            "resource_pool": 7400
+          },
+          {
+            "round": 2,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 292,
+            "neutral_count": 408,
+            "resource_pool": 8766
+          },
+          {
+            "round": 3,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 319,
+            "neutral_count": 381,
+            "resource_pool": 7746
+          },
+          {
+            "round": 4,
+            "alive_count": 995,
+            "dove_count": 300,
+            "hawk_count": 316,
+            "neutral_count": 379,
+            "resource_pool": 8582
+          },
+          {
+            "round": 5,
+            "alive_count": 973,
+            "dove_count": 299,
+            "hawk_count": 329,
+            "neutral_count": 345,
+            "resource_pool": 8463
+          },
+          {
+            "round": 6,
+            "alive_count": 923,
+            "dove_count": 298,
+            "hawk_count": 311,
+            "neutral_count": 314,
+            "resource_pool": 9133
+          },
+          {
+            "round": 7,
+            "alive_count": 887,
+            "dove_count": 296,
+            "hawk_count": 323,
+            "neutral_count": 268,
+            "resource_pool": 9321
+          },
+          {
+            "round": 8,
+            "alive_count": 843,
+            "dove_count": 293,
+            "hawk_count": 312,
+            "neutral_count": 238,
+            "resource_pool": 10083
+          },
+          {
+            "round": 9,
+            "alive_count": 808,
+            "dove_count": 291,
+            "hawk_count": 310,
+            "neutral_count": 207,
+            "resource_pool": 10465
+          },
+          {
+            "round": 10,
+            "alive_count": 776,
+            "dove_count": 287,
+            "hawk_count": 309,
+            "neutral_count": 180,
+            "resource_pool": 11315
+          },
+          {
+            "round": 11,
+            "alive_count": 735,
+            "dove_count": 285,
+            "hawk_count": 308,
+            "neutral_count": 142,
+            "resource_pool": 11881
+          },
+          {
+            "round": 12,
+            "alive_count": 702,
+            "dove_count": 283,
+            "hawk_count": 299,
+            "neutral_count": 120,
+            "resource_pool": 12769
+          },
+          {
+            "round": 13,
+            "alive_count": 668,
+            "dove_count": 281,
+            "hawk_count": 287,
+            "neutral_count": 100,
+            "resource_pool": 13597
+          },
+          {
+            "round": 14,
+            "alive_count": 636,
+            "dove_count": 277,
+            "hawk_count": 285,
+            "neutral_count": 74,
+            "resource_pool": 14554
+          },
+          {
+            "round": 15,
+            "alive_count": 609,
+            "dove_count": 272,
+            "hawk_count": 274,
+            "neutral_count": 63,
+            "resource_pool": 15474
+          },
+          {
+            "round": 16,
+            "alive_count": 576,
+            "dove_count": 265,
+            "hawk_count": 267,
+            "neutral_count": 44,
+            "resource_pool": 16558
+          },
+          {
+            "round": 17,
+            "alive_count": 557,
+            "dove_count": 265,
+            "hawk_count": 259,
+            "neutral_count": 33,
+            "resource_pool": 17552
+          },
+          {
+            "round": 18,
+            "alive_count": 530,
+            "dove_count": 262,
+            "hawk_count": 247,
+            "neutral_count": 21,
+            "resource_pool": 18686
+          },
+          {
+            "round": 19,
+            "alive_count": 509,
+            "dove_count": 256,
+            "hawk_count": 236,
+            "neutral_count": 17,
+            "resource_pool": 19774
+          },
+          {
+            "round": 20,
+            "alive_count": 486,
+            "dove_count": 255,
+            "hawk_count": 222,
+            "neutral_count": 9,
+            "resource_pool": 20986
+          },
+          {
+            "round": 21,
+            "alive_count": 466,
+            "dove_count": 253,
+            "hawk_count": 207,
+            "neutral_count": 6,
+            "resource_pool": 22190
+          },
+          {
+            "round": 22,
+            "alive_count": 452,
+            "dove_count": 250,
+            "hawk_count": 198,
+            "neutral_count": 4,
+            "resource_pool": 23372
+          },
+          {
+            "round": 23,
+            "alive_count": 431,
+            "dove_count": 244,
+            "hawk_count": 183,
+            "neutral_count": 4,
+            "resource_pool": 24650
+          },
+          {
+            "round": 24,
+            "alive_count": 418,
+            "dove_count": 243,
+            "hawk_count": 172,
+            "neutral_count": 3,
+            "resource_pool": 25920
+          },
+          {
+            "round": 25,
+            "alive_count": 409,
+            "dove_count": 242,
+            "hawk_count": 165,
+            "neutral_count": 2,
+            "resource_pool": 27232
+          },
+          {
+            "round": 26,
+            "alive_count": 399,
+            "dove_count": 242,
+            "hawk_count": 155,
+            "neutral_count": 2,
+            "resource_pool": 28498
+          },
+          {
+            "round": 27,
+            "alive_count": 393,
+            "dove_count": 242,
+            "hawk_count": 150,
+            "neutral_count": 1,
+            "resource_pool": 29820
+          },
+          {
+            "round": 28,
+            "alive_count": 377,
+            "dove_count": 241,
+            "hawk_count": 135,
+            "neutral_count": 1,
+            "resource_pool": 31150
+          },
+          {
+            "round": 29,
+            "alive_count": 370,
+            "dove_count": 241,
+            "hawk_count": 128,
+            "neutral_count": 1,
+            "resource_pool": 32464
+          },
+          {
+            "round": 30,
+            "alive_count": 363,
+            "dove_count": 241,
+            "hawk_count": 121,
+            "neutral_count": 1,
+            "resource_pool": 33830
+          },
+          {
+            "round": 31,
+            "alive_count": 357,
+            "dove_count": 240,
+            "hawk_count": 116,
+            "neutral_count": 1,
+            "resource_pool": 35176
+          },
+          {
+            "round": 32,
+            "alive_count": 352,
+            "dove_count": 240,
+            "hawk_count": 111,
+            "neutral_count": 1,
+            "resource_pool": 36556
+          },
+          {
+            "round": 33,
+            "alive_count": 343,
+            "dove_count": 239,
+            "hawk_count": 103,
+            "neutral_count": 1,
+            "resource_pool": 37904
+          },
+          {
+            "round": 34,
+            "alive_count": 337,
+            "dove_count": 239,
+            "hawk_count": 97,
+            "neutral_count": 1,
+            "resource_pool": 39284
+          },
+          {
+            "round": 35,
+            "alive_count": 333,
+            "dove_count": 239,
+            "hawk_count": 93,
+            "neutral_count": 1,
+            "resource_pool": 40672
+          },
+          {
+            "round": 36,
+            "alive_count": 327,
+            "dove_count": 238,
+            "hawk_count": 87,
+            "neutral_count": 2,
+            "resource_pool": 42086
+          },
+          {
+            "round": 37,
+            "alive_count": 320,
+            "dove_count": 238,
+            "hawk_count": 80,
+            "neutral_count": 2,
+            "resource_pool": 43482
+          },
+          {
+            "round": 38,
+            "alive_count": 316,
+            "dove_count": 238,
+            "hawk_count": 76,
+            "neutral_count": 2,
+            "resource_pool": 44872
+          },
+          {
+            "round": 39,
+            "alive_count": 314,
+            "dove_count": 238,
+            "hawk_count": 75,
+            "neutral_count": 1,
+            "resource_pool": 46308
+          },
+          {
+            "round": 40,
+            "alive_count": 307,
+            "dove_count": 238,
+            "hawk_count": 68,
+            "neutral_count": 1,
+            "resource_pool": 47744
+          },
+          {
+            "round": 41,
+            "alive_count": 300,
+            "dove_count": 237,
+            "hawk_count": 62,
+            "neutral_count": 1,
+            "resource_pool": 49184
+          },
+          {
+            "round": 42,
+            "alive_count": 297,
+            "dove_count": 237,
+            "hawk_count": 59,
+            "neutral_count": 1,
+            "resource_pool": 50602
+          },
+          {
+            "round": 43,
+            "alive_count": 295,
+            "dove_count": 237,
+            "hawk_count": 56,
+            "neutral_count": 2,
+            "resource_pool": 52056
+          },
+          {
+            "round": 44,
+            "alive_count": 292,
+            "dove_count": 236,
+            "hawk_count": 54,
+            "neutral_count": 2,
+            "resource_pool": 53500
+          },
+          {
+            "round": 45,
+            "alive_count": 287,
+            "dove_count": 236,
+            "hawk_count": 49,
+            "neutral_count": 2,
+            "resource_pool": 54980
+          },
+          {
+            "round": 46,
+            "alive_count": 285,
+            "dove_count": 236,
+            "hawk_count": 47,
+            "neutral_count": 2,
+            "resource_pool": 56418
+          },
+          {
+            "round": 47,
+            "alive_count": 283,
+            "dove_count": 235,
+            "hawk_count": 46,
+            "neutral_count": 2,
+            "resource_pool": 57882
+          },
+          {
+            "round": 48,
+            "alive_count": 280,
+            "dove_count": 234,
+            "hawk_count": 44,
+            "neutral_count": 2,
+            "resource_pool": 59358
+          },
+          {
+            "round": 49,
+            "alive_count": 275,
+            "dove_count": 234,
+            "hawk_count": 39,
+            "neutral_count": 2,
+            "resource_pool": 60820
+          },
+          {
+            "round": 50,
+            "alive_count": 273,
+            "dove_count": 234,
+            "hawk_count": 38,
+            "neutral_count": 1,
+            "resource_pool": 62308
+          },
+          {
+            "round": 51,
+            "alive_count": 271,
+            "dove_count": 234,
+            "hawk_count": 36,
+            "neutral_count": 1,
+            "resource_pool": 63788
+          },
+          {
+            "round": 52,
+            "alive_count": 269,
+            "dove_count": 234,
+            "hawk_count": 34,
+            "neutral_count": 1,
+            "resource_pool": 65264
+          },
+          {
+            "round": 53,
+            "alive_count": 267,
+            "dove_count": 233,
+            "hawk_count": 33,
+            "neutral_count": 1,
+            "resource_pool": 66752
+          },
+          {
+            "round": 54,
+            "alive_count": 264,
+            "dove_count": 233,
+            "hawk_count": 30,
+            "neutral_count": 1,
+            "resource_pool": 68232
+          },
+          {
+            "round": 55,
+            "alive_count": 262,
+            "dove_count": 233,
+            "hawk_count": 28,
+            "neutral_count": 1,
+            "resource_pool": 69730
+          },
+          {
+            "round": 56,
+            "alive_count": 261,
+            "dove_count": 233,
+            "hawk_count": 27,
+            "neutral_count": 1,
+            "resource_pool": 71210
+          },
+          {
+            "round": 57,
+            "alive_count": 261,
+            "dove_count": 233,
+            "hawk_count": 27,
+            "neutral_count": 1,
+            "resource_pool": 72716
+          },
+          {
+            "round": 58,
+            "alive_count": 260,
+            "dove_count": 233,
+            "hawk_count": 26,
+            "neutral_count": 1,
+            "resource_pool": 74206
+          },
+          {
+            "round": 59,
+            "alive_count": 260,
+            "dove_count": 233,
+            "hawk_count": 26,
+            "neutral_count": 1,
+            "resource_pool": 75702
+          },
+          {
+            "round": 60,
+            "alive_count": 258,
+            "dove_count": 233,
+            "hawk_count": 24,
+            "neutral_count": 1,
+            "resource_pool": 77200
+          },
+          {
+            "round": 61,
+            "alive_count": 257,
+            "dove_count": 233,
+            "hawk_count": 23,
+            "neutral_count": 1,
+            "resource_pool": 78690
+          },
+          {
+            "round": 62,
+            "alive_count": 255,
+            "dove_count": 233,
+            "hawk_count": 21,
+            "neutral_count": 1,
+            "resource_pool": 80202
+          },
+          {
+            "round": 63,
+            "alive_count": 254,
+            "dove_count": 233,
+            "hawk_count": 20,
+            "neutral_count": 1,
+            "resource_pool": 81702
+          },
+          {
+            "round": 64,
+            "alive_count": 254,
+            "dove_count": 233,
+            "hawk_count": 20,
+            "neutral_count": 1,
+            "resource_pool": 83212
+          },
+          {
+            "round": 65,
+            "alive_count": 252,
+            "dove_count": 233,
+            "hawk_count": 18,
+            "neutral_count": 1,
+            "resource_pool": 84722
+          },
+          {
+            "round": 66,
+            "alive_count": 250,
+            "dove_count": 233,
+            "hawk_count": 16,
+            "neutral_count": 1,
+            "resource_pool": 86228
+          },
+          {
+            "round": 67,
+            "alive_count": 250,
+            "dove_count": 233,
+            "hawk_count": 16,
+            "neutral_count": 1,
+            "resource_pool": 87738
+          },
+          {
+            "round": 68,
+            "alive_count": 248,
+            "dove_count": 233,
+            "hawk_count": 14,
+            "neutral_count": 1,
+            "resource_pool": 89254
+          },
+          {
+            "round": 69,
+            "alive_count": 247,
+            "dove_count": 233,
+            "hawk_count": 13,
+            "neutral_count": 1,
+            "resource_pool": 90766
+          },
+          {
+            "round": 70,
+            "alive_count": 247,
+            "dove_count": 233,
+            "hawk_count": 13,
+            "neutral_count": 1,
+            "resource_pool": 92276
+          },
+          {
+            "round": 71,
+            "alive_count": 245,
+            "dove_count": 233,
+            "hawk_count": 11,
+            "neutral_count": 1,
+            "resource_pool": 93796
+          },
+          {
+            "round": 72,
+            "alive_count": 245,
+            "dove_count": 233,
+            "hawk_count": 11,
+            "neutral_count": 1,
+            "resource_pool": 95314
+          },
+          {
+            "round": 73,
+            "alive_count": 245,
+            "dove_count": 233,
+            "hawk_count": 11,
+            "neutral_count": 1,
+            "resource_pool": 96832
+          },
+          {
+            "round": 74,
+            "alive_count": 245,
+            "dove_count": 233,
+            "hawk_count": 11,
+            "neutral_count": 1,
+            "resource_pool": 98344
+          },
+          {
+            "round": 75,
+            "alive_count": 245,
+            "dove_count": 233,
+            "hawk_count": 11,
+            "neutral_count": 1,
+            "resource_pool": 99868
+          },
+          {
+            "round": 76,
+            "alive_count": 244,
+            "dove_count": 233,
+            "hawk_count": 10,
+            "neutral_count": 1,
+            "resource_pool": 101384
+          },
+          {
+            "round": 77,
+            "alive_count": 243,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 1,
+            "resource_pool": 102900
+          },
+          {
+            "round": 78,
+            "alive_count": 243,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 1,
+            "resource_pool": 104426
+          },
+          {
+            "round": 79,
+            "alive_count": 243,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 1,
+            "resource_pool": 105924
+          },
+          {
+            "round": 80,
+            "alive_count": 243,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 1,
+            "resource_pool": 107454
+          },
+          {
+            "round": 81,
+            "alive_count": 243,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 1,
+            "resource_pool": 108960
+          },
+          {
+            "round": 82,
+            "alive_count": 242,
+            "dove_count": 233,
+            "hawk_count": 8,
+            "neutral_count": 1,
+            "resource_pool": 110490
+          },
+          {
+            "round": 83,
+            "alive_count": 242,
+            "dove_count": 233,
+            "hawk_count": 8,
+            "neutral_count": 1,
+            "resource_pool": 112004
+          },
+          {
+            "round": 84,
+            "alive_count": 242,
+            "dove_count": 233,
+            "hawk_count": 8,
+            "neutral_count": 1,
+            "resource_pool": 113530
+          },
+          {
+            "round": 85,
+            "alive_count": 241,
+            "dove_count": 233,
+            "hawk_count": 7,
+            "neutral_count": 1,
+            "resource_pool": 115044
+          },
+          {
+            "round": 86,
+            "alive_count": 241,
+            "dove_count": 233,
+            "hawk_count": 7,
+            "neutral_count": 1,
+            "resource_pool": 116570
+          },
+          {
+            "round": 87,
+            "alive_count": 241,
+            "dove_count": 233,
+            "hawk_count": 7,
+            "neutral_count": 1,
+            "resource_pool": 118092
+          },
+          {
+            "round": 88,
+            "alive_count": 240,
+            "dove_count": 233,
+            "hawk_count": 6,
+            "neutral_count": 1,
+            "resource_pool": 119618
+          },
+          {
+            "round": 89,
+            "alive_count": 240,
+            "dove_count": 233,
+            "hawk_count": 6,
+            "neutral_count": 1,
+            "resource_pool": 121146
+          },
+          {
+            "round": 90,
+            "alive_count": 240,
+            "dove_count": 233,
+            "hawk_count": 6,
+            "neutral_count": 1,
+            "resource_pool": 122668
+          },
+          {
+            "round": 91,
+            "alive_count": 240,
+            "dove_count": 233,
+            "hawk_count": 6,
+            "neutral_count": 1,
+            "resource_pool": 124190
+          },
+          {
+            "round": 92,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 125716
+          },
+          {
+            "round": 93,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 127246
+          },
+          {
+            "round": 94,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 128768
+          },
+          {
+            "round": 95,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 130288
+          },
+          {
+            "round": 96,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 131814
+          },
+          {
+            "round": 97,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 133336
+          },
+          {
+            "round": 98,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 5,
+            "neutral_count": 1,
+            "resource_pool": 134864
+          },
+          {
+            "round": 99,
+            "alive_count": 238,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 1,
+            "resource_pool": 136394
+          },
+          {
+            "round": 100,
+            "alive_count": 238,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 1,
+            "resource_pool": 137918
+          }
+        ]
+      },
+      {
+        "config_id": "R4",
+        "trial_num": 2,
+        "seed": 12202,
+        "final_round": 94,
+        "final_alive": 219,
+        "survival_rate": 0.219,
+        "dove_count": 215,
+        "hawk_count": 4,
+        "neutral_count": 0,
+        "timeline": [
+          {
+            "round": 1,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 293,
+            "neutral_count": 407,
+            "resource_pool": 7438
+          },
+          {
+            "round": 2,
+            "alive_count": 970,
+            "dove_count": 270,
+            "hawk_count": 293,
+            "neutral_count": 407,
+            "resource_pool": 8898
+          },
+          {
+            "round": 3,
+            "alive_count": 970,
+            "dove_count": 270,
+            "hawk_count": 319,
+            "neutral_count": 381,
+            "resource_pool": 7854
+          },
+          {
+            "round": 4,
+            "alive_count": 970,
+            "dove_count": 270,
+            "hawk_count": 320,
+            "neutral_count": 380,
+            "resource_pool": 8762
+          },
+          {
+            "round": 5,
+            "alive_count": 958,
+            "dove_count": 269,
+            "hawk_count": 346,
+            "neutral_count": 343,
+            "resource_pool": 8679
+          },
+          {
+            "round": 6,
+            "alive_count": 899,
+            "dove_count": 265,
+            "hawk_count": 331,
+            "neutral_count": 303,
+            "resource_pool": 9434
+          },
+          {
+            "round": 7,
+            "alive_count": 846,
+            "dove_count": 263,
+            "hawk_count": 328,
+            "neutral_count": 255,
+            "resource_pool": 9724
+          },
+          {
+            "round": 8,
+            "alive_count": 809,
+            "dove_count": 260,
+            "hawk_count": 320,
+            "neutral_count": 229,
+            "resource_pool": 10528
+          },
+          {
+            "round": 9,
+            "alive_count": 775,
+            "dove_count": 257,
+            "hawk_count": 324,
+            "neutral_count": 194,
+            "resource_pool": 11022
+          },
+          {
+            "round": 10,
+            "alive_count": 735,
+            "dove_count": 251,
+            "hawk_count": 318,
+            "neutral_count": 166,
+            "resource_pool": 11941
+          },
+          {
+            "round": 11,
+            "alive_count": 707,
+            "dove_count": 251,
+            "hawk_count": 318,
+            "neutral_count": 138,
+            "resource_pool": 12588
+          },
+          {
+            "round": 12,
+            "alive_count": 669,
+            "dove_count": 247,
+            "hawk_count": 310,
+            "neutral_count": 112,
+            "resource_pool": 13556
+          },
+          {
+            "round": 13,
+            "alive_count": 631,
+            "dove_count": 244,
+            "hawk_count": 302,
+            "neutral_count": 85,
+            "resource_pool": 14436
+          },
+          {
+            "round": 14,
+            "alive_count": 611,
+            "dove_count": 242,
+            "hawk_count": 299,
+            "neutral_count": 70,
+            "resource_pool": 15414
+          },
+          {
+            "round": 15,
+            "alive_count": 579,
+            "dove_count": 239,
+            "hawk_count": 282,
+            "neutral_count": 58,
+            "resource_pool": 16468
+          },
+          {
+            "round": 16,
+            "alive_count": 542,
+            "dove_count": 233,
+            "hawk_count": 265,
+            "neutral_count": 44,
+            "resource_pool": 17574
+          },
+          {
+            "round": 17,
+            "alive_count": 516,
+            "dove_count": 230,
+            "hawk_count": 256,
+            "neutral_count": 30,
+            "resource_pool": 18687
+          },
+          {
+            "round": 18,
+            "alive_count": 489,
+            "dove_count": 228,
+            "hawk_count": 244,
+            "neutral_count": 17,
+            "resource_pool": 19903
+          },
+          {
+            "round": 19,
+            "alive_count": 471,
+            "dove_count": 227,
+            "hawk_count": 233,
+            "neutral_count": 11,
+            "resource_pool": 21079
+          },
+          {
+            "round": 20,
+            "alive_count": 449,
+            "dove_count": 224,
+            "hawk_count": 219,
+            "neutral_count": 6,
+            "resource_pool": 22305
+          },
+          {
+            "round": 21,
+            "alive_count": 433,
+            "dove_count": 224,
+            "hawk_count": 206,
+            "neutral_count": 3,
+            "resource_pool": 23533
+          },
+          {
+            "round": 22,
+            "alive_count": 416,
+            "dove_count": 221,
+            "hawk_count": 195,
+            "neutral_count": 0,
+            "resource_pool": 24867
+          },
+          {
+            "round": 23,
+            "alive_count": 401,
+            "dove_count": 219,
+            "hawk_count": 182,
+            "neutral_count": 0,
+            "resource_pool": 26207
+          },
+          {
+            "round": 24,
+            "alive_count": 389,
+            "dove_count": 219,
+            "hawk_count": 170,
+            "neutral_count": 0,
+            "resource_pool": 27499
+          },
+          {
+            "round": 25,
+            "alive_count": 378,
+            "dove_count": 216,
+            "hawk_count": 162,
+            "neutral_count": 0,
+            "resource_pool": 28863
+          },
+          {
+            "round": 26,
+            "alive_count": 366,
+            "dove_count": 215,
+            "hawk_count": 151,
+            "neutral_count": 0,
+            "resource_pool": 30229
+          },
+          {
+            "round": 27,
+            "alive_count": 356,
+            "dove_count": 215,
+            "hawk_count": 141,
+            "neutral_count": 0,
+            "resource_pool": 31649
+          },
+          {
+            "round": 28,
+            "alive_count": 348,
+            "dove_count": 215,
+            "hawk_count": 133,
+            "neutral_count": 0,
+            "resource_pool": 33015
+          },
+          {
+            "round": 29,
+            "alive_count": 340,
+            "dove_count": 215,
+            "hawk_count": 125,
+            "neutral_count": 0,
+            "resource_pool": 34413
+          },
+          {
+            "round": 30,
+            "alive_count": 330,
+            "dove_count": 215,
+            "hawk_count": 115,
+            "neutral_count": 0,
+            "resource_pool": 35829
+          },
+          {
+            "round": 31,
+            "alive_count": 325,
+            "dove_count": 215,
+            "hawk_count": 110,
+            "neutral_count": 0,
+            "resource_pool": 37207
+          },
+          {
+            "round": 32,
+            "alive_count": 317,
+            "dove_count": 215,
+            "hawk_count": 102,
+            "neutral_count": 0,
+            "resource_pool": 38671
+          },
+          {
+            "round": 33,
+            "alive_count": 310,
+            "dove_count": 215,
+            "hawk_count": 95,
+            "neutral_count": 0,
+            "resource_pool": 40099
+          },
+          {
+            "round": 34,
+            "alive_count": 307,
+            "dove_count": 215,
+            "hawk_count": 92,
+            "neutral_count": 0,
+            "resource_pool": 41525
+          },
+          {
+            "round": 35,
+            "alive_count": 302,
+            "dove_count": 215,
+            "hawk_count": 87,
+            "neutral_count": 0,
+            "resource_pool": 42987
+          },
+          {
+            "round": 36,
+            "alive_count": 293,
+            "dove_count": 215,
+            "hawk_count": 78,
+            "neutral_count": 0,
+            "resource_pool": 44451
+          },
+          {
+            "round": 37,
+            "alive_count": 289,
+            "dove_count": 215,
+            "hawk_count": 74,
+            "neutral_count": 0,
+            "resource_pool": 45927
+          },
+          {
+            "round": 38,
+            "alive_count": 283,
+            "dove_count": 215,
+            "hawk_count": 68,
+            "neutral_count": 0,
+            "resource_pool": 47377
+          },
+          {
+            "round": 39,
+            "alive_count": 280,
+            "dove_count": 215,
+            "hawk_count": 65,
+            "neutral_count": 0,
+            "resource_pool": 48871
+          },
+          {
+            "round": 40,
+            "alive_count": 275,
+            "dove_count": 215,
+            "hawk_count": 60,
+            "neutral_count": 0,
+            "resource_pool": 50361
+          },
+          {
+            "round": 41,
+            "alive_count": 272,
+            "dove_count": 215,
+            "hawk_count": 57,
+            "neutral_count": 0,
+            "resource_pool": 51843
+          },
+          {
+            "round": 42,
+            "alive_count": 269,
+            "dove_count": 215,
+            "hawk_count": 53,
+            "neutral_count": 1,
+            "resource_pool": 53337
+          },
+          {
+            "round": 43,
+            "alive_count": 265,
+            "dove_count": 215,
+            "hawk_count": 50,
+            "neutral_count": 0,
+            "resource_pool": 54825
+          },
+          {
+            "round": 44,
+            "alive_count": 261,
+            "dove_count": 215,
+            "hawk_count": 46,
+            "neutral_count": 0,
+            "resource_pool": 56353
+          },
+          {
+            "round": 45,
+            "alive_count": 257,
+            "dove_count": 215,
+            "hawk_count": 42,
+            "neutral_count": 0,
+            "resource_pool": 57859
+          },
+          {
+            "round": 46,
+            "alive_count": 256,
+            "dove_count": 215,
+            "hawk_count": 41,
+            "neutral_count": 0,
+            "resource_pool": 59365
+          },
+          {
+            "round": 47,
+            "alive_count": 253,
+            "dove_count": 215,
+            "hawk_count": 38,
+            "neutral_count": 0,
+            "resource_pool": 60889
+          },
+          {
+            "round": 48,
+            "alive_count": 250,
+            "dove_count": 215,
+            "hawk_count": 35,
+            "neutral_count": 0,
+            "resource_pool": 62411
+          },
+          {
+            "round": 49,
+            "alive_count": 248,
+            "dove_count": 215,
+            "hawk_count": 33,
+            "neutral_count": 0,
+            "resource_pool": 63931
+          },
+          {
+            "round": 50,
+            "alive_count": 244,
+            "dove_count": 215,
+            "hawk_count": 29,
+            "neutral_count": 0,
+            "resource_pool": 65457
+          },
+          {
+            "round": 51,
+            "alive_count": 244,
+            "dove_count": 215,
+            "hawk_count": 29,
+            "neutral_count": 0,
+            "resource_pool": 66979
+          },
+          {
+            "round": 52,
+            "alive_count": 244,
+            "dove_count": 215,
+            "hawk_count": 29,
+            "neutral_count": 0,
+            "resource_pool": 68505
+          },
+          {
+            "round": 53,
+            "alive_count": 243,
+            "dove_count": 215,
+            "hawk_count": 28,
+            "neutral_count": 0,
+            "resource_pool": 70035
+          },
+          {
+            "round": 54,
+            "alive_count": 239,
+            "dove_count": 215,
+            "hawk_count": 24,
+            "neutral_count": 0,
+            "resource_pool": 71575
+          },
+          {
+            "round": 55,
+            "alive_count": 237,
+            "dove_count": 215,
+            "hawk_count": 22,
+            "neutral_count": 0,
+            "resource_pool": 73123
+          },
+          {
+            "round": 56,
+            "alive_count": 236,
+            "dove_count": 215,
+            "hawk_count": 21,
+            "neutral_count": 0,
+            "resource_pool": 74645
+          },
+          {
+            "round": 57,
+            "alive_count": 235,
+            "dove_count": 215,
+            "hawk_count": 20,
+            "neutral_count": 0,
+            "resource_pool": 76201
+          },
+          {
+            "round": 58,
+            "alive_count": 234,
+            "dove_count": 215,
+            "hawk_count": 19,
+            "neutral_count": 0,
+            "resource_pool": 77733
+          },
+          {
+            "round": 59,
+            "alive_count": 234,
+            "dove_count": 215,
+            "hawk_count": 19,
+            "neutral_count": 0,
+            "resource_pool": 79275
+          },
+          {
+            "round": 60,
+            "alive_count": 234,
+            "dove_count": 215,
+            "hawk_count": 19,
+            "neutral_count": 0,
+            "resource_pool": 80811
+          },
+          {
+            "round": 61,
+            "alive_count": 232,
+            "dove_count": 215,
+            "hawk_count": 17,
+            "neutral_count": 0,
+            "resource_pool": 82361
+          },
+          {
+            "round": 62,
+            "alive_count": 231,
+            "dove_count": 215,
+            "hawk_count": 16,
+            "neutral_count": 0,
+            "resource_pool": 83909
+          },
+          {
+            "round": 63,
+            "alive_count": 230,
+            "dove_count": 215,
+            "hawk_count": 15,
+            "neutral_count": 0,
+            "resource_pool": 85455
+          },
+          {
+            "round": 64,
+            "alive_count": 229,
+            "dove_count": 215,
+            "hawk_count": 14,
+            "neutral_count": 0,
+            "resource_pool": 87005
+          },
+          {
+            "round": 65,
+            "alive_count": 228,
+            "dove_count": 215,
+            "hawk_count": 13,
+            "neutral_count": 0,
+            "resource_pool": 88559
+          },
+          {
+            "round": 66,
+            "alive_count": 227,
+            "dove_count": 215,
+            "hawk_count": 12,
+            "neutral_count": 0,
+            "resource_pool": 90101
+          },
+          {
+            "round": 67,
+            "alive_count": 227,
+            "dove_count": 215,
+            "hawk_count": 12,
+            "neutral_count": 0,
+            "resource_pool": 91663
+          },
+          {
+            "round": 68,
+            "alive_count": 226,
+            "dove_count": 215,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 93217
+          },
+          {
+            "round": 69,
+            "alive_count": 226,
+            "dove_count": 215,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 94773
+          },
+          {
+            "round": 70,
+            "alive_count": 224,
+            "dove_count": 215,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 96333
+          },
+          {
+            "round": 71,
+            "alive_count": 224,
+            "dove_count": 215,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 97883
+          },
+          {
+            "round": 72,
+            "alive_count": 224,
+            "dove_count": 215,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 99443
+          },
+          {
+            "round": 73,
+            "alive_count": 222,
+            "dove_count": 215,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 101005
+          },
+          {
+            "round": 74,
+            "alive_count": 222,
+            "dove_count": 215,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 102567
+          },
+          {
+            "round": 75,
+            "alive_count": 221,
+            "dove_count": 215,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 104125
+          },
+          {
+            "round": 76,
+            "alive_count": 221,
+            "dove_count": 215,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 105685
+          },
+          {
+            "round": 77,
+            "alive_count": 221,
+            "dove_count": 215,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 107247
+          },
+          {
+            "round": 78,
+            "alive_count": 221,
+            "dove_count": 215,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 108807
+          },
+          {
+            "round": 79,
+            "alive_count": 221,
+            "dove_count": 215,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 110363
+          },
+          {
+            "round": 80,
+            "alive_count": 221,
+            "dove_count": 215,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 111923
+          },
+          {
+            "round": 81,
+            "alive_count": 221,
+            "dove_count": 215,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 113487
+          },
+          {
+            "round": 82,
+            "alive_count": 220,
+            "dove_count": 215,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 115051
+          },
+          {
+            "round": 83,
+            "alive_count": 220,
+            "dove_count": 215,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 116609
+          },
+          {
+            "round": 84,
+            "alive_count": 220,
+            "dove_count": 215,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 118167
+          },
+          {
+            "round": 85,
+            "alive_count": 220,
+            "dove_count": 215,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 119733
+          },
+          {
+            "round": 86,
+            "alive_count": 219,
+            "dove_count": 215,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 121291
+          },
+          {
+            "round": 87,
+            "alive_count": 219,
+            "dove_count": 215,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 122861
+          },
+          {
+            "round": 88,
+            "alive_count": 219,
+            "dove_count": 215,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 124423
+          },
+          {
+            "round": 89,
+            "alive_count": 219,
+            "dove_count": 215,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 125989
+          },
+          {
+            "round": 90,
+            "alive_count": 219,
+            "dove_count": 215,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 127553
+          },
+          {
+            "round": 91,
+            "alive_count": 219,
+            "dove_count": 215,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 129117
+          },
+          {
+            "round": 92,
+            "alive_count": 219,
+            "dove_count": 215,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 130679
+          },
+          {
+            "round": 93,
+            "alive_count": 219,
+            "dove_count": 215,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 132241
+          },
+          {
+            "round": 94,
+            "alive_count": 219,
+            "dove_count": 215,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 133801
+          }
+        ]
+      }
+    ],
+    "R5": [
+      {
+        "config_id": "R5",
+        "trial_num": 0,
+        "seed": 12300,
+        "final_round": 100,
+        "final_alive": 236,
+        "survival_rate": 0.236,
+        "dove_count": 233,
+        "hawk_count": 3,
+        "neutral_count": 0,
+        "timeline": [
+          {
+            "round": 1,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 287,
+            "neutral_count": 413,
+            "resource_pool": 9000
+          },
+          {
+            "round": 2,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 279,
+            "neutral_count": 421,
+            "resource_pool": 10788
+          },
+          {
+            "round": 3,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 297,
+            "neutral_count": 403,
+            "resource_pool": 10096
+          },
+          {
+            "round": 4,
+            "alive_count": 997,
+            "dove_count": 299,
+            "hawk_count": 300,
+            "neutral_count": 398,
+            "resource_pool": 11430
+          },
+          {
+            "round": 5,
+            "alive_count": 975,
+            "dove_count": 298,
+            "hawk_count": 320,
+            "neutral_count": 357,
+            "resource_pool": 11586
+          },
+          {
+            "round": 6,
+            "alive_count": 933,
+            "dove_count": 296,
+            "hawk_count": 312,
+            "neutral_count": 325,
+            "resource_pool": 12753
+          },
+          {
+            "round": 7,
+            "alive_count": 887,
+            "dove_count": 294,
+            "hawk_count": 314,
+            "neutral_count": 279,
+            "resource_pool": 13294
+          },
+          {
+            "round": 8,
+            "alive_count": 849,
+            "dove_count": 291,
+            "hawk_count": 299,
+            "neutral_count": 259,
+            "resource_pool": 14414
+          },
+          {
+            "round": 9,
+            "alive_count": 814,
+            "dove_count": 288,
+            "hawk_count": 306,
+            "neutral_count": 220,
+            "resource_pool": 15227
+          },
+          {
+            "round": 10,
+            "alive_count": 783,
+            "dove_count": 285,
+            "hawk_count": 298,
+            "neutral_count": 200,
+            "resource_pool": 16431
+          },
+          {
+            "round": 11,
+            "alive_count": 741,
+            "dove_count": 281,
+            "hawk_count": 299,
+            "neutral_count": 161,
+            "resource_pool": 17443
+          },
+          {
+            "round": 12,
+            "alive_count": 708,
+            "dove_count": 279,
+            "hawk_count": 296,
+            "neutral_count": 133,
+            "resource_pool": 18745
+          },
+          {
+            "round": 13,
+            "alive_count": 678,
+            "dove_count": 279,
+            "hawk_count": 285,
+            "neutral_count": 114,
+            "resource_pool": 19939
+          },
+          {
+            "round": 14,
+            "alive_count": 651,
+            "dove_count": 274,
+            "hawk_count": 286,
+            "neutral_count": 91,
+            "resource_pool": 21243
+          },
+          {
+            "round": 15,
+            "alive_count": 624,
+            "dove_count": 272,
+            "hawk_count": 275,
+            "neutral_count": 77,
+            "resource_pool": 22597
+          },
+          {
+            "round": 16,
+            "alive_count": 599,
+            "dove_count": 270,
+            "hawk_count": 266,
+            "neutral_count": 63,
+            "resource_pool": 23963
+          },
+          {
+            "round": 17,
+            "alive_count": 576,
+            "dove_count": 265,
+            "hawk_count": 264,
+            "neutral_count": 47,
+            "resource_pool": 25395
+          },
+          {
+            "round": 18,
+            "alive_count": 548,
+            "dove_count": 263,
+            "hawk_count": 253,
+            "neutral_count": 32,
+            "resource_pool": 26851
+          },
+          {
+            "round": 19,
+            "alive_count": 513,
+            "dove_count": 258,
+            "hawk_count": 238,
+            "neutral_count": 17,
+            "resource_pool": 28363
+          },
+          {
+            "round": 20,
+            "alive_count": 496,
+            "dove_count": 252,
+            "hawk_count": 230,
+            "neutral_count": 14,
+            "resource_pool": 29899
+          },
+          {
+            "round": 21,
+            "alive_count": 471,
+            "dove_count": 250,
+            "hawk_count": 218,
+            "neutral_count": 3,
+            "resource_pool": 31499
+          },
+          {
+            "round": 22,
+            "alive_count": 454,
+            "dove_count": 244,
+            "hawk_count": 207,
+            "neutral_count": 3,
+            "resource_pool": 33129
+          },
+          {
+            "round": 23,
+            "alive_count": 442,
+            "dove_count": 242,
+            "hawk_count": 197,
+            "neutral_count": 3,
+            "resource_pool": 34751
+          },
+          {
+            "round": 24,
+            "alive_count": 425,
+            "dove_count": 238,
+            "hawk_count": 185,
+            "neutral_count": 2,
+            "resource_pool": 36439
+          },
+          {
+            "round": 25,
+            "alive_count": 413,
+            "dove_count": 237,
+            "hawk_count": 175,
+            "neutral_count": 1,
+            "resource_pool": 38131
+          },
+          {
+            "round": 26,
+            "alive_count": 403,
+            "dove_count": 237,
+            "hawk_count": 165,
+            "neutral_count": 1,
+            "resource_pool": 39841
+          },
+          {
+            "round": 27,
+            "alive_count": 390,
+            "dove_count": 236,
+            "hawk_count": 153,
+            "neutral_count": 1,
+            "resource_pool": 41563
+          },
+          {
+            "round": 28,
+            "alive_count": 382,
+            "dove_count": 235,
+            "hawk_count": 146,
+            "neutral_count": 1,
+            "resource_pool": 43317
+          },
+          {
+            "round": 29,
+            "alive_count": 369,
+            "dove_count": 235,
+            "hawk_count": 133,
+            "neutral_count": 1,
+            "resource_pool": 45047
+          },
+          {
+            "round": 30,
+            "alive_count": 362,
+            "dove_count": 235,
+            "hawk_count": 126,
+            "neutral_count": 1,
+            "resource_pool": 46825
+          },
+          {
+            "round": 31,
+            "alive_count": 352,
+            "dove_count": 235,
+            "hawk_count": 117,
+            "neutral_count": 0,
+            "resource_pool": 48581
+          },
+          {
+            "round": 32,
+            "alive_count": 346,
+            "dove_count": 235,
+            "hawk_count": 111,
+            "neutral_count": 0,
+            "resource_pool": 50349
+          },
+          {
+            "round": 33,
+            "alive_count": 336,
+            "dove_count": 235,
+            "hawk_count": 101,
+            "neutral_count": 0,
+            "resource_pool": 52135
+          },
+          {
+            "round": 34,
+            "alive_count": 330,
+            "dove_count": 234,
+            "hawk_count": 94,
+            "neutral_count": 2,
+            "resource_pool": 53941
+          },
+          {
+            "round": 35,
+            "alive_count": 325,
+            "dove_count": 234,
+            "hawk_count": 89,
+            "neutral_count": 2,
+            "resource_pool": 55743
+          },
+          {
+            "round": 36,
+            "alive_count": 319,
+            "dove_count": 234,
+            "hawk_count": 83,
+            "neutral_count": 2,
+            "resource_pool": 57543
+          },
+          {
+            "round": 37,
+            "alive_count": 313,
+            "dove_count": 234,
+            "hawk_count": 77,
+            "neutral_count": 2,
+            "resource_pool": 59397
+          },
+          {
+            "round": 38,
+            "alive_count": 306,
+            "dove_count": 234,
+            "hawk_count": 70,
+            "neutral_count": 2,
+            "resource_pool": 61213
+          },
+          {
+            "round": 39,
+            "alive_count": 303,
+            "dove_count": 234,
+            "hawk_count": 67,
+            "neutral_count": 2,
+            "resource_pool": 63035
+          },
+          {
+            "round": 40,
+            "alive_count": 299,
+            "dove_count": 234,
+            "hawk_count": 63,
+            "neutral_count": 2,
+            "resource_pool": 64875
+          },
+          {
+            "round": 41,
+            "alive_count": 297,
+            "dove_count": 234,
+            "hawk_count": 61,
+            "neutral_count": 2,
+            "resource_pool": 66719
+          },
+          {
+            "round": 42,
+            "alive_count": 292,
+            "dove_count": 234,
+            "hawk_count": 57,
+            "neutral_count": 1,
+            "resource_pool": 68571
+          },
+          {
+            "round": 43,
+            "alive_count": 289,
+            "dove_count": 234,
+            "hawk_count": 55,
+            "neutral_count": 0,
+            "resource_pool": 70413
+          },
+          {
+            "round": 44,
+            "alive_count": 287,
+            "dove_count": 234,
+            "hawk_count": 53,
+            "neutral_count": 0,
+            "resource_pool": 72269
+          },
+          {
+            "round": 45,
+            "alive_count": 281,
+            "dove_count": 233,
+            "hawk_count": 48,
+            "neutral_count": 0,
+            "resource_pool": 74151
+          },
+          {
+            "round": 46,
+            "alive_count": 277,
+            "dove_count": 233,
+            "hawk_count": 44,
+            "neutral_count": 0,
+            "resource_pool": 76005
+          },
+          {
+            "round": 47,
+            "alive_count": 276,
+            "dove_count": 233,
+            "hawk_count": 43,
+            "neutral_count": 0,
+            "resource_pool": 77881
+          },
+          {
+            "round": 48,
+            "alive_count": 276,
+            "dove_count": 233,
+            "hawk_count": 43,
+            "neutral_count": 0,
+            "resource_pool": 79743
+          },
+          {
+            "round": 49,
+            "alive_count": 273,
+            "dove_count": 233,
+            "hawk_count": 40,
+            "neutral_count": 0,
+            "resource_pool": 81635
+          },
+          {
+            "round": 50,
+            "alive_count": 271,
+            "dove_count": 233,
+            "hawk_count": 38,
+            "neutral_count": 0,
+            "resource_pool": 83495
+          },
+          {
+            "round": 51,
+            "alive_count": 269,
+            "dove_count": 233,
+            "hawk_count": 36,
+            "neutral_count": 0,
+            "resource_pool": 85389
+          },
+          {
+            "round": 52,
+            "alive_count": 266,
+            "dove_count": 233,
+            "hawk_count": 33,
+            "neutral_count": 0,
+            "resource_pool": 87273
+          },
+          {
+            "round": 53,
+            "alive_count": 264,
+            "dove_count": 233,
+            "hawk_count": 31,
+            "neutral_count": 0,
+            "resource_pool": 89167
+          },
+          {
+            "round": 54,
+            "alive_count": 264,
+            "dove_count": 233,
+            "hawk_count": 31,
+            "neutral_count": 0,
+            "resource_pool": 91057
+          },
+          {
+            "round": 55,
+            "alive_count": 260,
+            "dove_count": 233,
+            "hawk_count": 27,
+            "neutral_count": 0,
+            "resource_pool": 92947
+          },
+          {
+            "round": 56,
+            "alive_count": 257,
+            "dove_count": 233,
+            "hawk_count": 24,
+            "neutral_count": 0,
+            "resource_pool": 94845
+          },
+          {
+            "round": 57,
+            "alive_count": 257,
+            "dove_count": 233,
+            "hawk_count": 24,
+            "neutral_count": 0,
+            "resource_pool": 96751
+          },
+          {
+            "round": 58,
+            "alive_count": 256,
+            "dove_count": 233,
+            "hawk_count": 23,
+            "neutral_count": 0,
+            "resource_pool": 98647
+          },
+          {
+            "round": 59,
+            "alive_count": 256,
+            "dove_count": 233,
+            "hawk_count": 23,
+            "neutral_count": 0,
+            "resource_pool": 100553
+          },
+          {
+            "round": 60,
+            "alive_count": 256,
+            "dove_count": 233,
+            "hawk_count": 23,
+            "neutral_count": 0,
+            "resource_pool": 102453
+          },
+          {
+            "round": 61,
+            "alive_count": 252,
+            "dove_count": 233,
+            "hawk_count": 19,
+            "neutral_count": 0,
+            "resource_pool": 104365
+          },
+          {
+            "round": 62,
+            "alive_count": 251,
+            "dove_count": 233,
+            "hawk_count": 18,
+            "neutral_count": 0,
+            "resource_pool": 106263
+          },
+          {
+            "round": 63,
+            "alive_count": 250,
+            "dove_count": 233,
+            "hawk_count": 17,
+            "neutral_count": 0,
+            "resource_pool": 108177
+          },
+          {
+            "round": 64,
+            "alive_count": 249,
+            "dove_count": 233,
+            "hawk_count": 16,
+            "neutral_count": 0,
+            "resource_pool": 110091
+          },
+          {
+            "round": 65,
+            "alive_count": 248,
+            "dove_count": 233,
+            "hawk_count": 15,
+            "neutral_count": 0,
+            "resource_pool": 112001
+          },
+          {
+            "round": 66,
+            "alive_count": 248,
+            "dove_count": 233,
+            "hawk_count": 15,
+            "neutral_count": 0,
+            "resource_pool": 113917
+          },
+          {
+            "round": 67,
+            "alive_count": 247,
+            "dove_count": 233,
+            "hawk_count": 14,
+            "neutral_count": 0,
+            "resource_pool": 115823
+          },
+          {
+            "round": 68,
+            "alive_count": 247,
+            "dove_count": 233,
+            "hawk_count": 14,
+            "neutral_count": 0,
+            "resource_pool": 117741
+          },
+          {
+            "round": 69,
+            "alive_count": 246,
+            "dove_count": 233,
+            "hawk_count": 13,
+            "neutral_count": 0,
+            "resource_pool": 119651
+          },
+          {
+            "round": 70,
+            "alive_count": 245,
+            "dove_count": 233,
+            "hawk_count": 12,
+            "neutral_count": 0,
+            "resource_pool": 121575
+          },
+          {
+            "round": 71,
+            "alive_count": 244,
+            "dove_count": 233,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 123497
+          },
+          {
+            "round": 72,
+            "alive_count": 244,
+            "dove_count": 233,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 125403
+          },
+          {
+            "round": 73,
+            "alive_count": 243,
+            "dove_count": 233,
+            "hawk_count": 10,
+            "neutral_count": 0,
+            "resource_pool": 127331
+          },
+          {
+            "round": 74,
+            "alive_count": 242,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 129243
+          },
+          {
+            "round": 75,
+            "alive_count": 242,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 131167
+          },
+          {
+            "round": 76,
+            "alive_count": 242,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 133075
+          },
+          {
+            "round": 77,
+            "alive_count": 242,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 135001
+          },
+          {
+            "round": 78,
+            "alive_count": 242,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 136915
+          },
+          {
+            "round": 79,
+            "alive_count": 242,
+            "dove_count": 233,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 138833
+          },
+          {
+            "round": 80,
+            "alive_count": 241,
+            "dove_count": 233,
+            "hawk_count": 8,
+            "neutral_count": 0,
+            "resource_pool": 140755
+          },
+          {
+            "round": 81,
+            "alive_count": 241,
+            "dove_count": 233,
+            "hawk_count": 8,
+            "neutral_count": 0,
+            "resource_pool": 142681
+          },
+          {
+            "round": 82,
+            "alive_count": 240,
+            "dove_count": 233,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 144603
+          },
+          {
+            "round": 83,
+            "alive_count": 240,
+            "dove_count": 233,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 146529
+          },
+          {
+            "round": 84,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 148453
+          },
+          {
+            "round": 85,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 150377
+          },
+          {
+            "round": 86,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 152303
+          },
+          {
+            "round": 87,
+            "alive_count": 239,
+            "dove_count": 233,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 154229
+          },
+          {
+            "round": 88,
+            "alive_count": 238,
+            "dove_count": 233,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 156157
+          },
+          {
+            "round": 89,
+            "alive_count": 237,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 158083
+          },
+          {
+            "round": 90,
+            "alive_count": 237,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 160015
+          },
+          {
+            "round": 91,
+            "alive_count": 237,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 161943
+          },
+          {
+            "round": 92,
+            "alive_count": 237,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 163869
+          },
+          {
+            "round": 93,
+            "alive_count": 237,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 165793
+          },
+          {
+            "round": 94,
+            "alive_count": 237,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 167719
+          },
+          {
+            "round": 95,
+            "alive_count": 237,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 169651
+          },
+          {
+            "round": 96,
+            "alive_count": 237,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 171573
+          },
+          {
+            "round": 97,
+            "alive_count": 237,
+            "dove_count": 233,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 173503
+          },
+          {
+            "round": 98,
+            "alive_count": 236,
+            "dove_count": 233,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 175433
+          },
+          {
+            "round": 99,
+            "alive_count": 236,
+            "dove_count": 233,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 177361
+          },
+          {
+            "round": 100,
+            "alive_count": 236,
+            "dove_count": 233,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 179291
+          }
+        ]
+      },
+      {
+        "config_id": "R5",
+        "trial_num": 1,
+        "seed": 12301,
+        "final_round": 100,
+        "final_alive": 254,
+        "survival_rate": 0.254,
+        "dove_count": 252,
+        "hawk_count": 2,
+        "neutral_count": 0,
+        "timeline": [
+          {
+            "round": 1,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 293,
+            "neutral_count": 407,
+            "resource_pool": 9000
+          },
+          {
+            "round": 2,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 283,
+            "neutral_count": 417,
+            "resource_pool": 10770
+          },
+          {
+            "round": 3,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 308,
+            "neutral_count": 392,
+            "resource_pool": 10146
+          },
+          {
+            "round": 4,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 312,
+            "neutral_count": 388,
+            "resource_pool": 11378
+          },
+          {
+            "round": 5,
+            "alive_count": 979,
+            "dove_count": 300,
+            "hawk_count": 332,
+            "neutral_count": 347,
+            "resource_pool": 11713
+          },
+          {
+            "round": 6,
+            "alive_count": 922,
+            "dove_count": 300,
+            "hawk_count": 315,
+            "neutral_count": 307,
+            "resource_pool": 12745
+          },
+          {
+            "round": 7,
+            "alive_count": 879,
+            "dove_count": 300,
+            "hawk_count": 322,
+            "neutral_count": 257,
+            "resource_pool": 13372
+          },
+          {
+            "round": 8,
+            "alive_count": 844,
+            "dove_count": 300,
+            "hawk_count": 319,
+            "neutral_count": 225,
+            "resource_pool": 14534
+          },
+          {
+            "round": 9,
+            "alive_count": 808,
+            "dove_count": 294,
+            "hawk_count": 322,
+            "neutral_count": 192,
+            "resource_pool": 15384
+          },
+          {
+            "round": 10,
+            "alive_count": 768,
+            "dove_count": 291,
+            "hawk_count": 309,
+            "neutral_count": 168,
+            "resource_pool": 16580
+          },
+          {
+            "round": 11,
+            "alive_count": 737,
+            "dove_count": 288,
+            "hawk_count": 307,
+            "neutral_count": 142,
+            "resource_pool": 17652
+          },
+          {
+            "round": 12,
+            "alive_count": 700,
+            "dove_count": 283,
+            "hawk_count": 306,
+            "neutral_count": 111,
+            "resource_pool": 18870
+          },
+          {
+            "round": 13,
+            "alive_count": 656,
+            "dove_count": 280,
+            "hawk_count": 292,
+            "neutral_count": 84,
+            "resource_pool": 20200
+          },
+          {
+            "round": 14,
+            "alive_count": 632,
+            "dove_count": 279,
+            "hawk_count": 281,
+            "neutral_count": 72,
+            "resource_pool": 21472
+          },
+          {
+            "round": 15,
+            "alive_count": 605,
+            "dove_count": 275,
+            "hawk_count": 271,
+            "neutral_count": 59,
+            "resource_pool": 22854
+          },
+          {
+            "round": 16,
+            "alive_count": 572,
+            "dove_count": 272,
+            "hawk_count": 257,
+            "neutral_count": 43,
+            "resource_pool": 24238
+          },
+          {
+            "round": 17,
+            "alive_count": 555,
+            "dove_count": 271,
+            "hawk_count": 254,
+            "neutral_count": 30,
+            "resource_pool": 25732
+          },
+          {
+            "round": 18,
+            "alive_count": 529,
+            "dove_count": 269,
+            "hawk_count": 246,
+            "neutral_count": 14,
+            "resource_pool": 27214
+          },
+          {
+            "round": 19,
+            "alive_count": 510,
+            "dove_count": 266,
+            "hawk_count": 234,
+            "neutral_count": 10,
+            "resource_pool": 28734
+          },
+          {
+            "round": 20,
+            "alive_count": 488,
+            "dove_count": 265,
+            "hawk_count": 220,
+            "neutral_count": 3,
+            "resource_pool": 30324
+          },
+          {
+            "round": 21,
+            "alive_count": 464,
+            "dove_count": 260,
+            "hawk_count": 203,
+            "neutral_count": 1,
+            "resource_pool": 31940
+          },
+          {
+            "round": 22,
+            "alive_count": 452,
+            "dove_count": 259,
+            "hawk_count": 192,
+            "neutral_count": 1,
+            "resource_pool": 33518
+          },
+          {
+            "round": 23,
+            "alive_count": 438,
+            "dove_count": 258,
+            "hawk_count": 179,
+            "neutral_count": 1,
+            "resource_pool": 35170
+          },
+          {
+            "round": 24,
+            "alive_count": 429,
+            "dove_count": 258,
+            "hawk_count": 170,
+            "neutral_count": 1,
+            "resource_pool": 36828
+          },
+          {
+            "round": 25,
+            "alive_count": 418,
+            "dove_count": 257,
+            "hawk_count": 160,
+            "neutral_count": 1,
+            "resource_pool": 38482
+          },
+          {
+            "round": 26,
+            "alive_count": 404,
+            "dove_count": 255,
+            "hawk_count": 148,
+            "neutral_count": 1,
+            "resource_pool": 40172
+          },
+          {
+            "round": 27,
+            "alive_count": 393,
+            "dove_count": 254,
+            "hawk_count": 138,
+            "neutral_count": 1,
+            "resource_pool": 41926
+          },
+          {
+            "round": 28,
+            "alive_count": 381,
+            "dove_count": 254,
+            "hawk_count": 126,
+            "neutral_count": 1,
+            "resource_pool": 43616
+          },
+          {
+            "round": 29,
+            "alive_count": 375,
+            "dove_count": 254,
+            "hawk_count": 120,
+            "neutral_count": 1,
+            "resource_pool": 45358
+          },
+          {
+            "round": 30,
+            "alive_count": 368,
+            "dove_count": 254,
+            "hawk_count": 113,
+            "neutral_count": 1,
+            "resource_pool": 47086
+          },
+          {
+            "round": 31,
+            "alive_count": 362,
+            "dove_count": 254,
+            "hawk_count": 107,
+            "neutral_count": 1,
+            "resource_pool": 48836
+          },
+          {
+            "round": 32,
+            "alive_count": 353,
+            "dove_count": 253,
+            "hawk_count": 99,
+            "neutral_count": 1,
+            "resource_pool": 50572
+          },
+          {
+            "round": 33,
+            "alive_count": 345,
+            "dove_count": 253,
+            "hawk_count": 91,
+            "neutral_count": 1,
+            "resource_pool": 52358
+          },
+          {
+            "round": 34,
+            "alive_count": 337,
+            "dove_count": 253,
+            "hawk_count": 83,
+            "neutral_count": 1,
+            "resource_pool": 54132
+          },
+          {
+            "round": 35,
+            "alive_count": 333,
+            "dove_count": 253,
+            "hawk_count": 80,
+            "neutral_count": 0,
+            "resource_pool": 55882
+          },
+          {
+            "round": 36,
+            "alive_count": 330,
+            "dove_count": 252,
+            "hawk_count": 78,
+            "neutral_count": 0,
+            "resource_pool": 57690
+          },
+          {
+            "round": 37,
+            "alive_count": 326,
+            "dove_count": 252,
+            "hawk_count": 74,
+            "neutral_count": 0,
+            "resource_pool": 59462
+          },
+          {
+            "round": 38,
+            "alive_count": 325,
+            "dove_count": 252,
+            "hawk_count": 73,
+            "neutral_count": 0,
+            "resource_pool": 61286
+          },
+          {
+            "round": 39,
+            "alive_count": 318,
+            "dove_count": 252,
+            "hawk_count": 66,
+            "neutral_count": 0,
+            "resource_pool": 63064
+          },
+          {
+            "round": 40,
+            "alive_count": 312,
+            "dove_count": 252,
+            "hawk_count": 60,
+            "neutral_count": 0,
+            "resource_pool": 64882
+          },
+          {
+            "round": 41,
+            "alive_count": 308,
+            "dove_count": 252,
+            "hawk_count": 56,
+            "neutral_count": 0,
+            "resource_pool": 66702
+          },
+          {
+            "round": 42,
+            "alive_count": 308,
+            "dove_count": 252,
+            "hawk_count": 56,
+            "neutral_count": 0,
+            "resource_pool": 68494
+          },
+          {
+            "round": 43,
+            "alive_count": 304,
+            "dove_count": 252,
+            "hawk_count": 52,
+            "neutral_count": 0,
+            "resource_pool": 70332
+          },
+          {
+            "round": 44,
+            "alive_count": 301,
+            "dove_count": 252,
+            "hawk_count": 49,
+            "neutral_count": 0,
+            "resource_pool": 72150
+          },
+          {
+            "round": 45,
+            "alive_count": 297,
+            "dove_count": 252,
+            "hawk_count": 44,
+            "neutral_count": 1,
+            "resource_pool": 73978
+          },
+          {
+            "round": 46,
+            "alive_count": 296,
+            "dove_count": 252,
+            "hawk_count": 43,
+            "neutral_count": 1,
+            "resource_pool": 75812
+          },
+          {
+            "round": 47,
+            "alive_count": 293,
+            "dove_count": 252,
+            "hawk_count": 40,
+            "neutral_count": 1,
+            "resource_pool": 77640
+          },
+          {
+            "round": 48,
+            "alive_count": 289,
+            "dove_count": 252,
+            "hawk_count": 36,
+            "neutral_count": 1,
+            "resource_pool": 79500
+          },
+          {
+            "round": 49,
+            "alive_count": 286,
+            "dove_count": 252,
+            "hawk_count": 33,
+            "neutral_count": 1,
+            "resource_pool": 81338
+          },
+          {
+            "round": 50,
+            "alive_count": 285,
+            "dove_count": 252,
+            "hawk_count": 32,
+            "neutral_count": 1,
+            "resource_pool": 83198
+          },
+          {
+            "round": 51,
+            "alive_count": 283,
+            "dove_count": 252,
+            "hawk_count": 30,
+            "neutral_count": 1,
+            "resource_pool": 85038
+          },
+          {
+            "round": 52,
+            "alive_count": 283,
+            "dove_count": 252,
+            "hawk_count": 30,
+            "neutral_count": 1,
+            "resource_pool": 86890
+          },
+          {
+            "round": 53,
+            "alive_count": 279,
+            "dove_count": 252,
+            "hawk_count": 26,
+            "neutral_count": 1,
+            "resource_pool": 88756
+          },
+          {
+            "round": 54,
+            "alive_count": 278,
+            "dove_count": 252,
+            "hawk_count": 25,
+            "neutral_count": 1,
+            "resource_pool": 90616
+          },
+          {
+            "round": 55,
+            "alive_count": 277,
+            "dove_count": 252,
+            "hawk_count": 24,
+            "neutral_count": 1,
+            "resource_pool": 92466
+          },
+          {
+            "round": 56,
+            "alive_count": 276,
+            "dove_count": 252,
+            "hawk_count": 24,
+            "neutral_count": 0,
+            "resource_pool": 94334
+          },
+          {
+            "round": 57,
+            "alive_count": 274,
+            "dove_count": 252,
+            "hawk_count": 22,
+            "neutral_count": 0,
+            "resource_pool": 96192
+          },
+          {
+            "round": 58,
+            "alive_count": 273,
+            "dove_count": 252,
+            "hawk_count": 21,
+            "neutral_count": 0,
+            "resource_pool": 98062
+          },
+          {
+            "round": 59,
+            "alive_count": 271,
+            "dove_count": 252,
+            "hawk_count": 19,
+            "neutral_count": 0,
+            "resource_pool": 99930
+          },
+          {
+            "round": 60,
+            "alive_count": 271,
+            "dove_count": 252,
+            "hawk_count": 19,
+            "neutral_count": 0,
+            "resource_pool": 101794
+          },
+          {
+            "round": 61,
+            "alive_count": 271,
+            "dove_count": 252,
+            "hawk_count": 19,
+            "neutral_count": 0,
+            "resource_pool": 103668
+          },
+          {
+            "round": 62,
+            "alive_count": 269,
+            "dove_count": 252,
+            "hawk_count": 17,
+            "neutral_count": 0,
+            "resource_pool": 105544
+          },
+          {
+            "round": 63,
+            "alive_count": 266,
+            "dove_count": 252,
+            "hawk_count": 14,
+            "neutral_count": 0,
+            "resource_pool": 107422
+          },
+          {
+            "round": 64,
+            "alive_count": 265,
+            "dove_count": 252,
+            "hawk_count": 13,
+            "neutral_count": 0,
+            "resource_pool": 109294
+          },
+          {
+            "round": 65,
+            "alive_count": 265,
+            "dove_count": 252,
+            "hawk_count": 13,
+            "neutral_count": 0,
+            "resource_pool": 111170
+          },
+          {
+            "round": 66,
+            "alive_count": 265,
+            "dove_count": 252,
+            "hawk_count": 13,
+            "neutral_count": 0,
+            "resource_pool": 113052
+          },
+          {
+            "round": 67,
+            "alive_count": 264,
+            "dove_count": 252,
+            "hawk_count": 12,
+            "neutral_count": 0,
+            "resource_pool": 114926
+          },
+          {
+            "round": 68,
+            "alive_count": 263,
+            "dove_count": 252,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 116808
+          },
+          {
+            "round": 69,
+            "alive_count": 263,
+            "dove_count": 252,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 118688
+          },
+          {
+            "round": 70,
+            "alive_count": 263,
+            "dove_count": 252,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 120564
+          },
+          {
+            "round": 71,
+            "alive_count": 262,
+            "dove_count": 252,
+            "hawk_count": 10,
+            "neutral_count": 0,
+            "resource_pool": 122448
+          },
+          {
+            "round": 72,
+            "alive_count": 262,
+            "dove_count": 252,
+            "hawk_count": 10,
+            "neutral_count": 0,
+            "resource_pool": 124330
+          },
+          {
+            "round": 73,
+            "alive_count": 262,
+            "dove_count": 252,
+            "hawk_count": 10,
+            "neutral_count": 0,
+            "resource_pool": 126210
+          },
+          {
+            "round": 74,
+            "alive_count": 260,
+            "dove_count": 252,
+            "hawk_count": 8,
+            "neutral_count": 0,
+            "resource_pool": 128094
+          },
+          {
+            "round": 75,
+            "alive_count": 258,
+            "dove_count": 252,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 129980
+          },
+          {
+            "round": 76,
+            "alive_count": 258,
+            "dove_count": 252,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 131872
+          },
+          {
+            "round": 77,
+            "alive_count": 258,
+            "dove_count": 252,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 133754
+          },
+          {
+            "round": 78,
+            "alive_count": 258,
+            "dove_count": 252,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 135640
+          },
+          {
+            "round": 79,
+            "alive_count": 258,
+            "dove_count": 252,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 137528
+          },
+          {
+            "round": 80,
+            "alive_count": 258,
+            "dove_count": 252,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 139416
+          },
+          {
+            "round": 81,
+            "alive_count": 258,
+            "dove_count": 252,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 141302
+          },
+          {
+            "round": 82,
+            "alive_count": 258,
+            "dove_count": 252,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 143190
+          },
+          {
+            "round": 83,
+            "alive_count": 257,
+            "dove_count": 252,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 145076
+          },
+          {
+            "round": 84,
+            "alive_count": 257,
+            "dove_count": 252,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 146964
+          },
+          {
+            "round": 85,
+            "alive_count": 257,
+            "dove_count": 252,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 148848
+          },
+          {
+            "round": 86,
+            "alive_count": 257,
+            "dove_count": 252,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 150736
+          },
+          {
+            "round": 87,
+            "alive_count": 257,
+            "dove_count": 252,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 152626
+          },
+          {
+            "round": 88,
+            "alive_count": 257,
+            "dove_count": 252,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 154518
+          },
+          {
+            "round": 89,
+            "alive_count": 256,
+            "dove_count": 252,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 156406
+          },
+          {
+            "round": 90,
+            "alive_count": 255,
+            "dove_count": 252,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 158294
+          },
+          {
+            "round": 91,
+            "alive_count": 255,
+            "dove_count": 252,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 160190
+          },
+          {
+            "round": 92,
+            "alive_count": 255,
+            "dove_count": 252,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 162074
+          },
+          {
+            "round": 93,
+            "alive_count": 255,
+            "dove_count": 252,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 163970
+          },
+          {
+            "round": 94,
+            "alive_count": 255,
+            "dove_count": 252,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 165862
+          },
+          {
+            "round": 95,
+            "alive_count": 255,
+            "dove_count": 252,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 167752
+          },
+          {
+            "round": 96,
+            "alive_count": 255,
+            "dove_count": 252,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 169644
+          },
+          {
+            "round": 97,
+            "alive_count": 255,
+            "dove_count": 252,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 171536
+          },
+          {
+            "round": 98,
+            "alive_count": 255,
+            "dove_count": 252,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 173428
+          },
+          {
+            "round": 99,
+            "alive_count": 254,
+            "dove_count": 252,
+            "hawk_count": 2,
+            "neutral_count": 0,
+            "resource_pool": 175320
+          },
+          {
+            "round": 100,
+            "alive_count": 254,
+            "dove_count": 252,
+            "hawk_count": 2,
+            "neutral_count": 0,
+            "resource_pool": 177216
+          }
+        ]
+      },
+      {
+        "config_id": "R5",
+        "trial_num": 2,
+        "seed": 12302,
+        "final_round": 100,
+        "final_alive": 240,
+        "survival_rate": 0.24,
+        "dove_count": 238,
+        "hawk_count": 2,
+        "neutral_count": 0,
+        "timeline": [
+          {
+            "round": 1,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 291,
+            "neutral_count": 409,
+            "resource_pool": 9000
+          },
+          {
+            "round": 2,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 284,
+            "neutral_count": 416,
+            "resource_pool": 10774
+          },
+          {
+            "round": 3,
+            "alive_count": 1000,
+            "dove_count": 300,
+            "hawk_count": 294,
+            "neutral_count": 406,
+            "resource_pool": 10154
+          },
+          {
+            "round": 4,
+            "alive_count": 998,
+            "dove_count": 300,
+            "hawk_count": 298,
+            "neutral_count": 400,
+            "resource_pool": 11414
+          },
+          {
+            "round": 5,
+            "alive_count": 978,
+            "dove_count": 300,
+            "hawk_count": 320,
+            "neutral_count": 358,
+            "resource_pool": 11647
+          },
+          {
+            "round": 6,
+            "alive_count": 930,
+            "dove_count": 299,
+            "hawk_count": 307,
+            "neutral_count": 324,
+            "resource_pool": 12771
+          },
+          {
+            "round": 7,
+            "alive_count": 883,
+            "dove_count": 295,
+            "hawk_count": 318,
+            "neutral_count": 270,
+            "resource_pool": 13347
+          },
+          {
+            "round": 8,
+            "alive_count": 835,
+            "dove_count": 293,
+            "hawk_count": 302,
+            "neutral_count": 240,
+            "resource_pool": 14571
+          },
+          {
+            "round": 9,
+            "alive_count": 804,
+            "dove_count": 291,
+            "hawk_count": 308,
+            "neutral_count": 205,
+            "resource_pool": 15390
+          },
+          {
+            "round": 10,
+            "alive_count": 767,
+            "dove_count": 287,
+            "hawk_count": 292,
+            "neutral_count": 188,
+            "resource_pool": 16578
+          },
+          {
+            "round": 11,
+            "alive_count": 738,
+            "dove_count": 286,
+            "hawk_count": 294,
+            "neutral_count": 158,
+            "resource_pool": 17556
+          },
+          {
+            "round": 12,
+            "alive_count": 698,
+            "dove_count": 284,
+            "hawk_count": 286,
+            "neutral_count": 128,
+            "resource_pool": 18892
+          },
+          {
+            "round": 13,
+            "alive_count": 667,
+            "dove_count": 278,
+            "hawk_count": 278,
+            "neutral_count": 111,
+            "resource_pool": 20185
+          },
+          {
+            "round": 14,
+            "alive_count": 641,
+            "dove_count": 274,
+            "hawk_count": 279,
+            "neutral_count": 88,
+            "resource_pool": 21483
+          },
+          {
+            "round": 15,
+            "alive_count": 607,
+            "dove_count": 272,
+            "hawk_count": 267,
+            "neutral_count": 68,
+            "resource_pool": 22817
+          },
+          {
+            "round": 16,
+            "alive_count": 581,
+            "dove_count": 265,
+            "hawk_count": 266,
+            "neutral_count": 50,
+            "resource_pool": 24195
+          },
+          {
+            "round": 17,
+            "alive_count": 553,
+            "dove_count": 258,
+            "hawk_count": 256,
+            "neutral_count": 39,
+            "resource_pool": 25677
+          },
+          {
+            "round": 18,
+            "alive_count": 525,
+            "dove_count": 258,
+            "hawk_count": 248,
+            "neutral_count": 19,
+            "resource_pool": 27191
+          },
+          {
+            "round": 19,
+            "alive_count": 496,
+            "dove_count": 252,
+            "hawk_count": 234,
+            "neutral_count": 10,
+            "resource_pool": 28769
+          },
+          {
+            "round": 20,
+            "alive_count": 477,
+            "dove_count": 248,
+            "hawk_count": 220,
+            "neutral_count": 9,
+            "resource_pool": 30331
+          },
+          {
+            "round": 21,
+            "alive_count": 465,
+            "dove_count": 247,
+            "hawk_count": 211,
+            "neutral_count": 7,
+            "resource_pool": 31931
+          },
+          {
+            "round": 22,
+            "alive_count": 445,
+            "dove_count": 245,
+            "hawk_count": 194,
+            "neutral_count": 6,
+            "resource_pool": 33597
+          },
+          {
+            "round": 23,
+            "alive_count": 430,
+            "dove_count": 242,
+            "hawk_count": 184,
+            "neutral_count": 4,
+            "resource_pool": 35257
+          },
+          {
+            "round": 24,
+            "alive_count": 417,
+            "dove_count": 242,
+            "hawk_count": 171,
+            "neutral_count": 4,
+            "resource_pool": 36945
+          },
+          {
+            "round": 25,
+            "alive_count": 406,
+            "dove_count": 242,
+            "hawk_count": 162,
+            "neutral_count": 2,
+            "resource_pool": 38641
+          },
+          {
+            "round": 26,
+            "alive_count": 394,
+            "dove_count": 242,
+            "hawk_count": 150,
+            "neutral_count": 2,
+            "resource_pool": 40349
+          },
+          {
+            "round": 27,
+            "alive_count": 385,
+            "dove_count": 240,
+            "hawk_count": 143,
+            "neutral_count": 2,
+            "resource_pool": 42049
+          },
+          {
+            "round": 28,
+            "alive_count": 372,
+            "dove_count": 240,
+            "hawk_count": 130,
+            "neutral_count": 2,
+            "resource_pool": 43771
+          },
+          {
+            "round": 29,
+            "alive_count": 366,
+            "dove_count": 240,
+            "hawk_count": 124,
+            "neutral_count": 2,
+            "resource_pool": 45549
+          },
+          {
+            "round": 30,
+            "alive_count": 357,
+            "dove_count": 240,
+            "hawk_count": 115,
+            "neutral_count": 2,
+            "resource_pool": 47291
+          },
+          {
+            "round": 31,
+            "alive_count": 352,
+            "dove_count": 240,
+            "hawk_count": 112,
+            "neutral_count": 0,
+            "resource_pool": 49065
+          },
+          {
+            "round": 32,
+            "alive_count": 341,
+            "dove_count": 239,
+            "hawk_count": 102,
+            "neutral_count": 0,
+            "resource_pool": 50835
+          },
+          {
+            "round": 33,
+            "alive_count": 336,
+            "dove_count": 238,
+            "hawk_count": 98,
+            "neutral_count": 0,
+            "resource_pool": 52623
+          },
+          {
+            "round": 34,
+            "alive_count": 330,
+            "dove_count": 238,
+            "hawk_count": 92,
+            "neutral_count": 0,
+            "resource_pool": 54407
+          },
+          {
+            "round": 35,
+            "alive_count": 325,
+            "dove_count": 238,
+            "hawk_count": 87,
+            "neutral_count": 0,
+            "resource_pool": 56217
+          },
+          {
+            "round": 36,
+            "alive_count": 317,
+            "dove_count": 238,
+            "hawk_count": 79,
+            "neutral_count": 0,
+            "resource_pool": 58031
+          },
+          {
+            "round": 37,
+            "alive_count": 310,
+            "dove_count": 238,
+            "hawk_count": 72,
+            "neutral_count": 0,
+            "resource_pool": 59859
+          },
+          {
+            "round": 38,
+            "alive_count": 305,
+            "dove_count": 238,
+            "hawk_count": 67,
+            "neutral_count": 0,
+            "resource_pool": 61685
+          },
+          {
+            "round": 39,
+            "alive_count": 304,
+            "dove_count": 238,
+            "hawk_count": 66,
+            "neutral_count": 0,
+            "resource_pool": 63509
+          },
+          {
+            "round": 40,
+            "alive_count": 298,
+            "dove_count": 238,
+            "hawk_count": 60,
+            "neutral_count": 0,
+            "resource_pool": 65341
+          },
+          {
+            "round": 41,
+            "alive_count": 297,
+            "dove_count": 238,
+            "hawk_count": 59,
+            "neutral_count": 0,
+            "resource_pool": 67195
+          },
+          {
+            "round": 42,
+            "alive_count": 295,
+            "dove_count": 238,
+            "hawk_count": 57,
+            "neutral_count": 0,
+            "resource_pool": 69033
+          },
+          {
+            "round": 43,
+            "alive_count": 288,
+            "dove_count": 238,
+            "hawk_count": 50,
+            "neutral_count": 0,
+            "resource_pool": 70891
+          },
+          {
+            "round": 44,
+            "alive_count": 286,
+            "dove_count": 238,
+            "hawk_count": 48,
+            "neutral_count": 0,
+            "resource_pool": 72729
+          },
+          {
+            "round": 45,
+            "alive_count": 286,
+            "dove_count": 238,
+            "hawk_count": 48,
+            "neutral_count": 0,
+            "resource_pool": 74589
+          },
+          {
+            "round": 46,
+            "alive_count": 282,
+            "dove_count": 238,
+            "hawk_count": 44,
+            "neutral_count": 0,
+            "resource_pool": 76433
+          },
+          {
+            "round": 47,
+            "alive_count": 280,
+            "dove_count": 238,
+            "hawk_count": 42,
+            "neutral_count": 0,
+            "resource_pool": 78305
+          },
+          {
+            "round": 48,
+            "alive_count": 279,
+            "dove_count": 238,
+            "hawk_count": 41,
+            "neutral_count": 0,
+            "resource_pool": 80183
+          },
+          {
+            "round": 49,
+            "alive_count": 275,
+            "dove_count": 238,
+            "hawk_count": 37,
+            "neutral_count": 0,
+            "resource_pool": 82043
+          },
+          {
+            "round": 50,
+            "alive_count": 273,
+            "dove_count": 238,
+            "hawk_count": 35,
+            "neutral_count": 0,
+            "resource_pool": 83901
+          },
+          {
+            "round": 51,
+            "alive_count": 272,
+            "dove_count": 238,
+            "hawk_count": 34,
+            "neutral_count": 0,
+            "resource_pool": 85799
+          },
+          {
+            "round": 52,
+            "alive_count": 269,
+            "dove_count": 238,
+            "hawk_count": 31,
+            "neutral_count": 0,
+            "resource_pool": 87659
+          },
+          {
+            "round": 53,
+            "alive_count": 268,
+            "dove_count": 238,
+            "hawk_count": 30,
+            "neutral_count": 0,
+            "resource_pool": 89547
+          },
+          {
+            "round": 54,
+            "alive_count": 266,
+            "dove_count": 238,
+            "hawk_count": 28,
+            "neutral_count": 0,
+            "resource_pool": 91429
+          },
+          {
+            "round": 55,
+            "alive_count": 266,
+            "dove_count": 238,
+            "hawk_count": 28,
+            "neutral_count": 0,
+            "resource_pool": 93313
+          },
+          {
+            "round": 56,
+            "alive_count": 263,
+            "dove_count": 238,
+            "hawk_count": 25,
+            "neutral_count": 0,
+            "resource_pool": 95201
+          },
+          {
+            "round": 57,
+            "alive_count": 261,
+            "dove_count": 238,
+            "hawk_count": 23,
+            "neutral_count": 0,
+            "resource_pool": 97099
+          },
+          {
+            "round": 58,
+            "alive_count": 260,
+            "dove_count": 238,
+            "hawk_count": 22,
+            "neutral_count": 0,
+            "resource_pool": 98993
+          },
+          {
+            "round": 59,
+            "alive_count": 259,
+            "dove_count": 238,
+            "hawk_count": 21,
+            "neutral_count": 0,
+            "resource_pool": 100889
+          },
+          {
+            "round": 60,
+            "alive_count": 256,
+            "dove_count": 238,
+            "hawk_count": 18,
+            "neutral_count": 0,
+            "resource_pool": 102781
+          },
+          {
+            "round": 61,
+            "alive_count": 256,
+            "dove_count": 238,
+            "hawk_count": 18,
+            "neutral_count": 0,
+            "resource_pool": 104671
+          },
+          {
+            "round": 62,
+            "alive_count": 254,
+            "dove_count": 238,
+            "hawk_count": 16,
+            "neutral_count": 0,
+            "resource_pool": 106583
+          },
+          {
+            "round": 63,
+            "alive_count": 254,
+            "dove_count": 238,
+            "hawk_count": 16,
+            "neutral_count": 0,
+            "resource_pool": 108483
+          },
+          {
+            "round": 64,
+            "alive_count": 253,
+            "dove_count": 238,
+            "hawk_count": 15,
+            "neutral_count": 0,
+            "resource_pool": 110383
+          },
+          {
+            "round": 65,
+            "alive_count": 252,
+            "dove_count": 238,
+            "hawk_count": 14,
+            "neutral_count": 0,
+            "resource_pool": 112289
+          },
+          {
+            "round": 66,
+            "alive_count": 251,
+            "dove_count": 238,
+            "hawk_count": 13,
+            "neutral_count": 0,
+            "resource_pool": 114197
+          },
+          {
+            "round": 67,
+            "alive_count": 250,
+            "dove_count": 238,
+            "hawk_count": 12,
+            "neutral_count": 0,
+            "resource_pool": 116111
+          },
+          {
+            "round": 68,
+            "alive_count": 249,
+            "dove_count": 238,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 118011
+          },
+          {
+            "round": 69,
+            "alive_count": 249,
+            "dove_count": 238,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 119925
+          },
+          {
+            "round": 70,
+            "alive_count": 249,
+            "dove_count": 238,
+            "hawk_count": 11,
+            "neutral_count": 0,
+            "resource_pool": 121827
+          },
+          {
+            "round": 71,
+            "alive_count": 248,
+            "dove_count": 238,
+            "hawk_count": 10,
+            "neutral_count": 0,
+            "resource_pool": 123737
+          },
+          {
+            "round": 72,
+            "alive_count": 247,
+            "dove_count": 238,
+            "hawk_count": 9,
+            "neutral_count": 0,
+            "resource_pool": 125645
+          },
+          {
+            "round": 73,
+            "alive_count": 246,
+            "dove_count": 238,
+            "hawk_count": 8,
+            "neutral_count": 0,
+            "resource_pool": 127561
+          },
+          {
+            "round": 74,
+            "alive_count": 246,
+            "dove_count": 238,
+            "hawk_count": 8,
+            "neutral_count": 0,
+            "resource_pool": 129465
+          },
+          {
+            "round": 75,
+            "alive_count": 245,
+            "dove_count": 238,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 131383
+          },
+          {
+            "round": 76,
+            "alive_count": 245,
+            "dove_count": 238,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 133291
+          },
+          {
+            "round": 77,
+            "alive_count": 245,
+            "dove_count": 238,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 135207
+          },
+          {
+            "round": 78,
+            "alive_count": 245,
+            "dove_count": 238,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 137115
+          },
+          {
+            "round": 79,
+            "alive_count": 245,
+            "dove_count": 238,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 139031
+          },
+          {
+            "round": 80,
+            "alive_count": 245,
+            "dove_count": 238,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 140951
+          },
+          {
+            "round": 81,
+            "alive_count": 245,
+            "dove_count": 238,
+            "hawk_count": 7,
+            "neutral_count": 0,
+            "resource_pool": 142859
+          },
+          {
+            "round": 82,
+            "alive_count": 244,
+            "dove_count": 238,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 144779
+          },
+          {
+            "round": 83,
+            "alive_count": 244,
+            "dove_count": 238,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 146695
+          },
+          {
+            "round": 84,
+            "alive_count": 244,
+            "dove_count": 238,
+            "hawk_count": 6,
+            "neutral_count": 0,
+            "resource_pool": 148611
+          },
+          {
+            "round": 85,
+            "alive_count": 243,
+            "dove_count": 238,
+            "hawk_count": 5,
+            "neutral_count": 0,
+            "resource_pool": 150523
+          },
+          {
+            "round": 86,
+            "alive_count": 242,
+            "dove_count": 238,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 152445
+          },
+          {
+            "round": 87,
+            "alive_count": 242,
+            "dove_count": 238,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 154357
+          },
+          {
+            "round": 88,
+            "alive_count": 242,
+            "dove_count": 238,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 156275
+          },
+          {
+            "round": 89,
+            "alive_count": 242,
+            "dove_count": 238,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 158189
+          },
+          {
+            "round": 90,
+            "alive_count": 242,
+            "dove_count": 238,
+            "hawk_count": 4,
+            "neutral_count": 0,
+            "resource_pool": 160111
+          },
+          {
+            "round": 91,
+            "alive_count": 241,
+            "dove_count": 238,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 162031
+          },
+          {
+            "round": 92,
+            "alive_count": 241,
+            "dove_count": 238,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 163949
+          },
+          {
+            "round": 93,
+            "alive_count": 241,
+            "dove_count": 238,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 165869
+          },
+          {
+            "round": 94,
+            "alive_count": 241,
+            "dove_count": 238,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 167789
+          },
+          {
+            "round": 95,
+            "alive_count": 241,
+            "dove_count": 238,
+            "hawk_count": 3,
+            "neutral_count": 0,
+            "resource_pool": 169707
+          },
+          {
+            "round": 96,
+            "alive_count": 240,
+            "dove_count": 238,
+            "hawk_count": 2,
+            "neutral_count": 0,
+            "resource_pool": 171631
+          },
+          {
+            "round": 97,
+            "alive_count": 240,
+            "dove_count": 238,
+            "hawk_count": 2,
+            "neutral_count": 0,
+            "resource_pool": 173547
+          },
+          {
+            "round": 98,
+            "alive_count": 240,
+            "dove_count": 238,
+            "hawk_count": 2,
+            "neutral_count": 0,
+            "resource_pool": 175471
+          },
+          {
+            "round": 99,
+            "alive_count": 240,
+            "dove_count": 238,
+            "hawk_count": 2,
+            "neutral_count": 0,
+            "resource_pool": 177391
+          },
+          {
+            "round": 100,
+            "alive_count": 240,
+            "dove_count": 238,
+            "hawk_count": 2,
+            "neutral_count": 0,
+            "resource_pool": 179311
+          }
+        ]
+      }
+    ]
+  },
+  "timestamp": "2026-04-16T15:58:55.459937"
+}

@@ -261,7 +261,7 @@ def main():
     print(f"\n  vs R3基准(27.0%): {'+' if diff > 0 else ''}{diff:.1f}%")
     
     # 保存数据
-    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', '07-data',
+    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'outputs',
                               'v0.8_schemeE_intervention', 'D1_direct_death')
     os.makedirs(output_dir, exist_ok=True)
     

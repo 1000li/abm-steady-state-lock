@@ -125,7 +125,7 @@ def main():
     
     # 保存结果
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_dir = f"../../07-data/v0.8_robustness/ablation_clean"
+    output_dir = f"../../outputs/v0.8_robustness/ablation_clean"
     os.makedirs(output_dir, exist_ok=True)
     
     output_file = f"{output_dir}/ablation_clean_{timestamp}.json"

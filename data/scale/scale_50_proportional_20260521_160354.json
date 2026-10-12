@@ -1,0 +1,2564 @@
+{
+  "experiment": "v0.8_schemeE_50_proportional",
+  "timestamp": "20260521_160354",
+  "num_lobsters": 50,
+  "resource_regen": 60,
+  "initial_pool": 150,
+  "consumption_rate": 2,
+  "results": [
+    {
+      "run_id": 0,
+      "final_alive": 15,
+      "survival_rate": 0.3,
+      "final_round": 58,
+      "dove_count": 13,
+      "hawk_count": 2,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 180
+        },
+        {
+          "round": 2,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 196
+        },
+        {
+          "round": 3,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 126
+        },
+        {
+          "round": 4,
+          "alive_count": 49,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 19,
+          "resource_pool": 124
+        },
+        {
+          "round": 5,
+          "alive_count": 48,
+          "dove_count": 15,
+          "hawk_count": 17,
+          "neutral_count": 16,
+          "resource_pool": 84
+        },
+        {
+          "round": 6,
+          "alive_count": 48,
+          "dove_count": 15,
+          "hawk_count": 19,
+          "neutral_count": 14,
+          "resource_pool": 76
+        },
+        {
+          "round": 7,
+          "alive_count": 44,
+          "dove_count": 15,
+          "hawk_count": 18,
+          "neutral_count": 11,
+          "resource_pool": 58
+        },
+        {
+          "round": 8,
+          "alive_count": 42,
+          "dove_count": 14,
+          "hawk_count": 17,
+          "neutral_count": 11,
+          "resource_pool": 48
+        },
+        {
+          "round": 9,
+          "alive_count": 42,
+          "dove_count": 14,
+          "hawk_count": 17,
+          "neutral_count": 11,
+          "resource_pool": 28
+        },
+        {
+          "round": 10,
+          "alive_count": 40,
+          "dove_count": 14,
+          "hawk_count": 16,
+          "neutral_count": 10,
+          "resource_pool": 23
+        },
+        {
+          "round": 11,
+          "alive_count": 39,
+          "dove_count": 14,
+          "hawk_count": 18,
+          "neutral_count": 7,
+          "resource_pool": 19
+        },
+        {
+          "round": 12,
+          "alive_count": 36,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 7,
+          "resource_pool": 20
+        },
+        {
+          "round": 13,
+          "alive_count": 36,
+          "dove_count": 14,
+          "hawk_count": 17,
+          "neutral_count": 5,
+          "resource_pool": 28
+        },
+        {
+          "round": 14,
+          "alive_count": 34,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 5,
+          "resource_pool": 16
+        },
+        {
+          "round": 15,
+          "alive_count": 34,
+          "dove_count": 14,
+          "hawk_count": 16,
+          "neutral_count": 4,
+          "resource_pool": 32
+        },
+        {
+          "round": 16,
+          "alive_count": 33,
+          "dove_count": 14,
+          "hawk_count": 16,
+          "neutral_count": 3,
+          "resource_pool": 34
+        },
+        {
+          "round": 17,
+          "alive_count": 31,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 2,
+          "resource_pool": 32
+        },
+        {
+          "round": 18,
+          "alive_count": 29,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 1,
+          "resource_pool": 40
+        },
+        {
+          "round": 19,
+          "alive_count": 28,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 0,
+          "resource_pool": 51
+        },
+        {
+          "round": 20,
+          "alive_count": 26,
+          "dove_count": 14,
+          "hawk_count": 12,
+          "neutral_count": 0,
+          "resource_pool": 65
+        },
+        {
+          "round": 21,
+          "alive_count": 26,
+          "dove_count": 14,
+          "hawk_count": 12,
+          "neutral_count": 0,
+          "resource_pool": 79
+        },
+        {
+          "round": 22,
+          "alive_count": 25,
+          "dove_count": 13,
+          "hawk_count": 12,
+          "neutral_count": 0,
+          "resource_pool": 107
+        },
+        {
+          "round": 23,
+          "alive_count": 24,
+          "dove_count": 13,
+          "hawk_count": 11,
+          "neutral_count": 0,
+          "resource_pool": 119
+        },
+        {
+          "round": 24,
+          "alive_count": 23,
+          "dove_count": 13,
+          "hawk_count": 10,
+          "neutral_count": 0,
+          "resource_pool": 141
+        },
+        {
+          "round": 25,
+          "alive_count": 23,
+          "dove_count": 13,
+          "hawk_count": 10,
+          "neutral_count": 0,
+          "resource_pool": 157
+        },
+        {
+          "round": 26,
+          "alive_count": 22,
+          "dove_count": 13,
+          "hawk_count": 9,
+          "neutral_count": 0,
+          "resource_pool": 179
+        },
+        {
+          "round": 27,
+          "alive_count": 21,
+          "dove_count": 13,
+          "hawk_count": 8,
+          "neutral_count": 0,
+          "resource_pool": 203
+        },
+        {
+          "round": 28,
+          "alive_count": 21,
+          "dove_count": 13,
+          "hawk_count": 8,
+          "neutral_count": 0,
+          "resource_pool": 221
+        },
+        {
+          "round": 29,
+          "alive_count": 20,
+          "dove_count": 13,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 251
+        },
+        {
+          "round": 30,
+          "alive_count": 20,
+          "dove_count": 13,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 267
+        },
+        {
+          "round": 31,
+          "alive_count": 20,
+          "dove_count": 13,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 293
+        },
+        {
+          "round": 32,
+          "alive_count": 20,
+          "dove_count": 13,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 311
+        },
+        {
+          "round": 33,
+          "alive_count": 20,
+          "dove_count": 13,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 335
+        },
+        {
+          "round": 34,
+          "alive_count": 19,
+          "dove_count": 13,
+          "hawk_count": 6,
+          "neutral_count": 0,
+          "resource_pool": 361
+        },
+        {
+          "round": 35,
+          "alive_count": 19,
+          "dove_count": 13,
+          "hawk_count": 6,
+          "neutral_count": 0,
+          "resource_pool": 391
+        },
+        {
+          "round": 36,
+          "alive_count": 18,
+          "dove_count": 13,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 417
+        },
+        {
+          "round": 37,
+          "alive_count": 18,
+          "dove_count": 13,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 441
+        },
+        {
+          "round": 38,
+          "alive_count": 18,
+          "dove_count": 13,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 473
+        },
+        {
+          "round": 39,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 499
+        },
+        {
+          "round": 40,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 531
+        },
+        {
+          "round": 41,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 557
+        },
+        {
+          "round": 42,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 585
+        },
+        {
+          "round": 43,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 609
+        },
+        {
+          "round": 44,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 639
+        },
+        {
+          "round": 45,
+          "alive_count": 16,
+          "dove_count": 13,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 667
+        },
+        {
+          "round": 46,
+          "alive_count": 16,
+          "dove_count": 13,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 697
+        },
+        {
+          "round": 47,
+          "alive_count": 16,
+          "dove_count": 13,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 723
+        },
+        {
+          "round": 48,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 753
+        },
+        {
+          "round": 49,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 787
+        },
+        {
+          "round": 50,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 815
+        },
+        {
+          "round": 51,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 847
+        },
+        {
+          "round": 52,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 877
+        },
+        {
+          "round": 53,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 909
+        },
+        {
+          "round": 54,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 941
+        },
+        {
+          "round": 55,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 971
+        },
+        {
+          "round": 56,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1003
+        },
+        {
+          "round": 57,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1033
+        },
+        {
+          "round": 58,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1061
+        }
+      ]
+    },
+    {
+      "run_id": 1,
+      "final_alive": 7,
+      "survival_rate": 0.14,
+      "final_round": 76,
+      "dove_count": 5,
+      "hawk_count": 2,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 180
+        },
+        {
+          "round": 2,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 190
+        },
+        {
+          "round": 3,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 118
+        },
+        {
+          "round": 4,
+          "alive_count": 49,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 19,
+          "resource_pool": 112
+        },
+        {
+          "round": 5,
+          "alive_count": 48,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 17,
+          "resource_pool": 73
+        },
+        {
+          "round": 6,
+          "alive_count": 46,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 15,
+          "resource_pool": 67
+        },
+        {
+          "round": 7,
+          "alive_count": 44,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 13,
+          "resource_pool": 41
+        },
+        {
+          "round": 8,
+          "alive_count": 43,
+          "dove_count": 15,
+          "hawk_count": 17,
+          "neutral_count": 11,
+          "resource_pool": 29
+        },
+        {
+          "round": 9,
+          "alive_count": 40,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 10,
+          "resource_pool": 20
+        },
+        {
+          "round": 10,
+          "alive_count": 39,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 9,
+          "resource_pool": 18
+        },
+        {
+          "round": 11,
+          "alive_count": 38,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 7,
+          "resource_pool": 12
+        },
+        {
+          "round": 12,
+          "alive_count": 37,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 7,
+          "resource_pool": 17
+        },
+        {
+          "round": 13,
+          "alive_count": 36,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 6,
+          "resource_pool": 15
+        },
+        {
+          "round": 14,
+          "alive_count": 36,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 6,
+          "resource_pool": 7
+        },
+        {
+          "round": 15,
+          "alive_count": 35,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 4,
+          "resource_pool": 9
+        },
+        {
+          "round": 16,
+          "alive_count": 35,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 4,
+          "resource_pool": 12
+        },
+        {
+          "round": 17,
+          "alive_count": 31,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 1,
+          "resource_pool": 24
+        },
+        {
+          "round": 18,
+          "alive_count": 31,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 1,
+          "resource_pool": 20
+        },
+        {
+          "round": 19,
+          "alive_count": 29,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 1,
+          "resource_pool": 36
+        },
+        {
+          "round": 20,
+          "alive_count": 28,
+          "dove_count": 13,
+          "hawk_count": 14,
+          "neutral_count": 1,
+          "resource_pool": 45
+        },
+        {
+          "round": 21,
+          "alive_count": 26,
+          "dove_count": 13,
+          "hawk_count": 12,
+          "neutral_count": 1,
+          "resource_pool": 65
+        },
+        {
+          "round": 22,
+          "alive_count": 24,
+          "dove_count": 12,
+          "hawk_count": 11,
+          "neutral_count": 1,
+          "resource_pool": 85
+        },
+        {
+          "round": 23,
+          "alive_count": 24,
+          "dove_count": 12,
+          "hawk_count": 11,
+          "neutral_count": 1,
+          "resource_pool": 101
+        },
+        {
+          "round": 24,
+          "alive_count": 24,
+          "dove_count": 12,
+          "hawk_count": 11,
+          "neutral_count": 1,
+          "resource_pool": 121
+        },
+        {
+          "round": 25,
+          "alive_count": 24,
+          "dove_count": 12,
+          "hawk_count": 11,
+          "neutral_count": 1,
+          "resource_pool": 141
+        },
+        {
+          "round": 26,
+          "alive_count": 24,
+          "dove_count": 12,
+          "hawk_count": 11,
+          "neutral_count": 1,
+          "resource_pool": 163
+        },
+        {
+          "round": 27,
+          "alive_count": 23,
+          "dove_count": 12,
+          "hawk_count": 10,
+          "neutral_count": 1,
+          "resource_pool": 175
+        },
+        {
+          "round": 28,
+          "alive_count": 22,
+          "dove_count": 12,
+          "hawk_count": 9,
+          "neutral_count": 1,
+          "resource_pool": 201
+        },
+        {
+          "round": 29,
+          "alive_count": 21,
+          "dove_count": 12,
+          "hawk_count": 8,
+          "neutral_count": 1,
+          "resource_pool": 229
+        },
+        {
+          "round": 30,
+          "alive_count": 20,
+          "dove_count": 11,
+          "hawk_count": 8,
+          "neutral_count": 1,
+          "resource_pool": 253
+        },
+        {
+          "round": 31,
+          "alive_count": 20,
+          "dove_count": 11,
+          "hawk_count": 8,
+          "neutral_count": 1,
+          "resource_pool": 271
+        },
+        {
+          "round": 32,
+          "alive_count": 19,
+          "dove_count": 11,
+          "hawk_count": 7,
+          "neutral_count": 1,
+          "resource_pool": 301
+        },
+        {
+          "round": 33,
+          "alive_count": 18,
+          "dove_count": 10,
+          "hawk_count": 7,
+          "neutral_count": 1,
+          "resource_pool": 335
+        },
+        {
+          "round": 34,
+          "alive_count": 18,
+          "dove_count": 10,
+          "hawk_count": 7,
+          "neutral_count": 1,
+          "resource_pool": 355
+        },
+        {
+          "round": 35,
+          "alive_count": 18,
+          "dove_count": 10,
+          "hawk_count": 7,
+          "neutral_count": 1,
+          "resource_pool": 385
+        },
+        {
+          "round": 36,
+          "alive_count": 17,
+          "dove_count": 10,
+          "hawk_count": 6,
+          "neutral_count": 1,
+          "resource_pool": 417
+        },
+        {
+          "round": 37,
+          "alive_count": 16,
+          "dove_count": 9,
+          "hawk_count": 6,
+          "neutral_count": 1,
+          "resource_pool": 447
+        },
+        {
+          "round": 38,
+          "alive_count": 16,
+          "dove_count": 9,
+          "hawk_count": 6,
+          "neutral_count": 1,
+          "resource_pool": 483
+        },
+        {
+          "round": 39,
+          "alive_count": 16,
+          "dove_count": 9,
+          "hawk_count": 6,
+          "neutral_count": 1,
+          "resource_pool": 511
+        },
+        {
+          "round": 40,
+          "alive_count": 15,
+          "dove_count": 8,
+          "hawk_count": 6,
+          "neutral_count": 1,
+          "resource_pool": 551
+        },
+        {
+          "round": 41,
+          "alive_count": 15,
+          "dove_count": 8,
+          "hawk_count": 6,
+          "neutral_count": 1,
+          "resource_pool": 583
+        },
+        {
+          "round": 42,
+          "alive_count": 14,
+          "dove_count": 8,
+          "hawk_count": 5,
+          "neutral_count": 1,
+          "resource_pool": 619
+        },
+        {
+          "round": 43,
+          "alive_count": 14,
+          "dove_count": 8,
+          "hawk_count": 5,
+          "neutral_count": 1,
+          "resource_pool": 651
+        },
+        {
+          "round": 44,
+          "alive_count": 13,
+          "dove_count": 7,
+          "hawk_count": 5,
+          "neutral_count": 1,
+          "resource_pool": 697
+        },
+        {
+          "round": 45,
+          "alive_count": 13,
+          "dove_count": 7,
+          "hawk_count": 5,
+          "neutral_count": 1,
+          "resource_pool": 731
+        },
+        {
+          "round": 46,
+          "alive_count": 13,
+          "dove_count": 7,
+          "hawk_count": 5,
+          "neutral_count": 1,
+          "resource_pool": 769
+        },
+        {
+          "round": 47,
+          "alive_count": 13,
+          "dove_count": 7,
+          "hawk_count": 5,
+          "neutral_count": 1,
+          "resource_pool": 803
+        },
+        {
+          "round": 48,
+          "alive_count": 13,
+          "dove_count": 7,
+          "hawk_count": 5,
+          "neutral_count": 1,
+          "resource_pool": 839
+        },
+        {
+          "round": 49,
+          "alive_count": 13,
+          "dove_count": 7,
+          "hawk_count": 6,
+          "neutral_count": 0,
+          "resource_pool": 881
+        },
+        {
+          "round": 50,
+          "alive_count": 12,
+          "dove_count": 7,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 913
+        },
+        {
+          "round": 51,
+          "alive_count": 12,
+          "dove_count": 7,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 957
+        },
+        {
+          "round": 52,
+          "alive_count": 12,
+          "dove_count": 7,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 995
+        },
+        {
+          "round": 53,
+          "alive_count": 11,
+          "dove_count": 7,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 1033
+        },
+        {
+          "round": 54,
+          "alive_count": 10,
+          "dove_count": 7,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1075
+        },
+        {
+          "round": 55,
+          "alive_count": 10,
+          "dove_count": 7,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1117
+        },
+        {
+          "round": 56,
+          "alive_count": 10,
+          "dove_count": 7,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1155
+        },
+        {
+          "round": 57,
+          "alive_count": 9,
+          "dove_count": 6,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1199
+        },
+        {
+          "round": 58,
+          "alive_count": 9,
+          "dove_count": 6,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1243
+        },
+        {
+          "round": 59,
+          "alive_count": 9,
+          "dove_count": 6,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1285
+        },
+        {
+          "round": 60,
+          "alive_count": 9,
+          "dove_count": 6,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1329
+        },
+        {
+          "round": 61,
+          "alive_count": 9,
+          "dove_count": 6,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1371
+        },
+        {
+          "round": 62,
+          "alive_count": 9,
+          "dove_count": 6,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1417
+        },
+        {
+          "round": 63,
+          "alive_count": 8,
+          "dove_count": 6,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1461
+        },
+        {
+          "round": 64,
+          "alive_count": 8,
+          "dove_count": 6,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1505
+        },
+        {
+          "round": 65,
+          "alive_count": 8,
+          "dove_count": 6,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1553
+        },
+        {
+          "round": 66,
+          "alive_count": 8,
+          "dove_count": 6,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1593
+        },
+        {
+          "round": 67,
+          "alive_count": 8,
+          "dove_count": 6,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1641
+        },
+        {
+          "round": 68,
+          "alive_count": 7,
+          "dove_count": 5,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1687
+        },
+        {
+          "round": 69,
+          "alive_count": 7,
+          "dove_count": 5,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1735
+        },
+        {
+          "round": 70,
+          "alive_count": 7,
+          "dove_count": 5,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1783
+        },
+        {
+          "round": 71,
+          "alive_count": 7,
+          "dove_count": 5,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1827
+        },
+        {
+          "round": 72,
+          "alive_count": 7,
+          "dove_count": 5,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1877
+        },
+        {
+          "round": 73,
+          "alive_count": 7,
+          "dove_count": 5,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1919
+        },
+        {
+          "round": 74,
+          "alive_count": 7,
+          "dove_count": 5,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1969
+        },
+        {
+          "round": 75,
+          "alive_count": 7,
+          "dove_count": 5,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 2015
+        },
+        {
+          "round": 76,
+          "alive_count": 7,
+          "dove_count": 5,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 2065
+        }
+      ]
+    },
+    {
+      "run_id": 2,
+      "final_alive": 14,
+      "survival_rate": 0.28,
+      "final_round": 50,
+      "dove_count": 11,
+      "hawk_count": 3,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 180
+        },
+        {
+          "round": 2,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 192
+        },
+        {
+          "round": 3,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 17,
+          "neutral_count": 18,
+          "resource_pool": 130
+        },
+        {
+          "round": 4,
+          "alive_count": 48,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 18,
+          "resource_pool": 132
+        },
+        {
+          "round": 5,
+          "alive_count": 48,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 17,
+          "resource_pool": 114
+        },
+        {
+          "round": 6,
+          "alive_count": 45,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 15,
+          "resource_pool": 88
+        },
+        {
+          "round": 7,
+          "alive_count": 42,
+          "dove_count": 15,
+          "hawk_count": 14,
+          "neutral_count": 13,
+          "resource_pool": 72
+        },
+        {
+          "round": 8,
+          "alive_count": 41,
+          "dove_count": 15,
+          "hawk_count": 14,
+          "neutral_count": 12,
+          "resource_pool": 61
+        },
+        {
+          "round": 9,
+          "alive_count": 40,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 12,
+          "resource_pool": 57
+        },
+        {
+          "round": 10,
+          "alive_count": 38,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 10,
+          "resource_pool": 42
+        },
+        {
+          "round": 11,
+          "alive_count": 37,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 9,
+          "resource_pool": 48
+        },
+        {
+          "round": 12,
+          "alive_count": 37,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 8,
+          "resource_pool": 42
+        },
+        {
+          "round": 13,
+          "alive_count": 35,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 7,
+          "resource_pool": 52
+        },
+        {
+          "round": 14,
+          "alive_count": 33,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 5,
+          "resource_pool": 54
+        },
+        {
+          "round": 15,
+          "alive_count": 31,
+          "dove_count": 14,
+          "hawk_count": 13,
+          "neutral_count": 4,
+          "resource_pool": 57
+        },
+        {
+          "round": 16,
+          "alive_count": 30,
+          "dove_count": 14,
+          "hawk_count": 13,
+          "neutral_count": 3,
+          "resource_pool": 65
+        },
+        {
+          "round": 17,
+          "alive_count": 29,
+          "dove_count": 14,
+          "hawk_count": 12,
+          "neutral_count": 3,
+          "resource_pool": 77
+        },
+        {
+          "round": 18,
+          "alive_count": 29,
+          "dove_count": 14,
+          "hawk_count": 12,
+          "neutral_count": 3,
+          "resource_pool": 85
+        },
+        {
+          "round": 19,
+          "alive_count": 26,
+          "dove_count": 13,
+          "hawk_count": 12,
+          "neutral_count": 1,
+          "resource_pool": 93
+        },
+        {
+          "round": 20,
+          "alive_count": 25,
+          "dove_count": 13,
+          "hawk_count": 11,
+          "neutral_count": 1,
+          "resource_pool": 115
+        },
+        {
+          "round": 21,
+          "alive_count": 24,
+          "dove_count": 13,
+          "hawk_count": 11,
+          "neutral_count": 0,
+          "resource_pool": 135
+        },
+        {
+          "round": 22,
+          "alive_count": 23,
+          "dove_count": 12,
+          "hawk_count": 11,
+          "neutral_count": 0,
+          "resource_pool": 151
+        },
+        {
+          "round": 23,
+          "alive_count": 23,
+          "dove_count": 12,
+          "hawk_count": 11,
+          "neutral_count": 0,
+          "resource_pool": 175
+        },
+        {
+          "round": 24,
+          "alive_count": 22,
+          "dove_count": 11,
+          "hawk_count": 11,
+          "neutral_count": 0,
+          "resource_pool": 205
+        },
+        {
+          "round": 25,
+          "alive_count": 20,
+          "dove_count": 11,
+          "hawk_count": 9,
+          "neutral_count": 0,
+          "resource_pool": 219
+        },
+        {
+          "round": 26,
+          "alive_count": 20,
+          "dove_count": 11,
+          "hawk_count": 9,
+          "neutral_count": 0,
+          "resource_pool": 253
+        },
+        {
+          "round": 27,
+          "alive_count": 19,
+          "dove_count": 11,
+          "hawk_count": 8,
+          "neutral_count": 0,
+          "resource_pool": 277
+        },
+        {
+          "round": 28,
+          "alive_count": 19,
+          "dove_count": 11,
+          "hawk_count": 8,
+          "neutral_count": 0,
+          "resource_pool": 307
+        },
+        {
+          "round": 29,
+          "alive_count": 18,
+          "dove_count": 11,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 331
+        },
+        {
+          "round": 30,
+          "alive_count": 17,
+          "dove_count": 11,
+          "hawk_count": 6,
+          "neutral_count": 0,
+          "resource_pool": 361
+        },
+        {
+          "round": 31,
+          "alive_count": 16,
+          "dove_count": 11,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 395
+        },
+        {
+          "round": 32,
+          "alive_count": 16,
+          "dove_count": 11,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 429
+        },
+        {
+          "round": 33,
+          "alive_count": 16,
+          "dove_count": 11,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 455
+        },
+        {
+          "round": 34,
+          "alive_count": 16,
+          "dove_count": 11,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 485
+        },
+        {
+          "round": 35,
+          "alive_count": 15,
+          "dove_count": 11,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 519
+        },
+        {
+          "round": 36,
+          "alive_count": 15,
+          "dove_count": 11,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 555
+        },
+        {
+          "round": 37,
+          "alive_count": 15,
+          "dove_count": 11,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 589
+        },
+        {
+          "round": 38,
+          "alive_count": 15,
+          "dove_count": 11,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 619
+        },
+        {
+          "round": 39,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 655
+        },
+        {
+          "round": 40,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 685
+        },
+        {
+          "round": 41,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 719
+        },
+        {
+          "round": 42,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 749
+        },
+        {
+          "round": 43,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 785
+        },
+        {
+          "round": 44,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 815
+        },
+        {
+          "round": 45,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 853
+        },
+        {
+          "round": 46,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 883
+        },
+        {
+          "round": 47,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 917
+        },
+        {
+          "round": 48,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 951
+        },
+        {
+          "round": 49,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 981
+        },
+        {
+          "round": 50,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1015
+        }
+      ]
+    },
+    {
+      "run_id": 3,
+      "final_alive": 15,
+      "survival_rate": 0.3,
+      "final_round": 60,
+      "dove_count": 13,
+      "hawk_count": 2,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 180
+        },
+        {
+          "round": 2,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 202
+        },
+        {
+          "round": 3,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 19,
+          "resource_pool": 120
+        },
+        {
+          "round": 4,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 19,
+          "resource_pool": 126
+        },
+        {
+          "round": 5,
+          "alive_count": 49,
+          "dove_count": 15,
+          "hawk_count": 17,
+          "neutral_count": 17,
+          "resource_pool": 85
+        },
+        {
+          "round": 6,
+          "alive_count": 49,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 19,
+          "resource_pool": 64
+        },
+        {
+          "round": 7,
+          "alive_count": 47,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 17,
+          "resource_pool": 29
+        },
+        {
+          "round": 8,
+          "alive_count": 45,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 15,
+          "resource_pool": 21
+        },
+        {
+          "round": 9,
+          "alive_count": 44,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 14,
+          "resource_pool": 5
+        },
+        {
+          "round": 10,
+          "alive_count": 42,
+          "dove_count": 15,
+          "hawk_count": 14,
+          "neutral_count": 13,
+          "resource_pool": 3
+        },
+        {
+          "round": 11,
+          "alive_count": 40,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 11,
+          "resource_pool": 2
+        },
+        {
+          "round": 12,
+          "alive_count": 39,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 10,
+          "resource_pool": 1
+        },
+        {
+          "round": 13,
+          "alive_count": 37,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 9,
+          "resource_pool": 3
+        },
+        {
+          "round": 14,
+          "alive_count": 34,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 6,
+          "resource_pool": 7
+        },
+        {
+          "round": 15,
+          "alive_count": 33,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 4,
+          "resource_pool": 14
+        },
+        {
+          "round": 16,
+          "alive_count": 32,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 4,
+          "resource_pool": 9
+        },
+        {
+          "round": 17,
+          "alive_count": 31,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 3,
+          "resource_pool": 21
+        },
+        {
+          "round": 18,
+          "alive_count": 31,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 3,
+          "resource_pool": 27
+        },
+        {
+          "round": 19,
+          "alive_count": 29,
+          "dove_count": 14,
+          "hawk_count": 14,
+          "neutral_count": 1,
+          "resource_pool": 39
+        },
+        {
+          "round": 20,
+          "alive_count": 28,
+          "dove_count": 14,
+          "hawk_count": 13,
+          "neutral_count": 1,
+          "resource_pool": 47
+        },
+        {
+          "round": 21,
+          "alive_count": 28,
+          "dove_count": 14,
+          "hawk_count": 13,
+          "neutral_count": 1,
+          "resource_pool": 57
+        },
+        {
+          "round": 22,
+          "alive_count": 26,
+          "dove_count": 14,
+          "hawk_count": 11,
+          "neutral_count": 1,
+          "resource_pool": 69
+        },
+        {
+          "round": 23,
+          "alive_count": 24,
+          "dove_count": 14,
+          "hawk_count": 10,
+          "neutral_count": 0,
+          "resource_pool": 83
+        },
+        {
+          "round": 24,
+          "alive_count": 24,
+          "dove_count": 14,
+          "hawk_count": 10,
+          "neutral_count": 0,
+          "resource_pool": 101
+        },
+        {
+          "round": 25,
+          "alive_count": 23,
+          "dove_count": 14,
+          "hawk_count": 9,
+          "neutral_count": 0,
+          "resource_pool": 123
+        },
+        {
+          "round": 26,
+          "alive_count": 23,
+          "dove_count": 14,
+          "hawk_count": 8,
+          "neutral_count": 1,
+          "resource_pool": 141
+        },
+        {
+          "round": 27,
+          "alive_count": 23,
+          "dove_count": 14,
+          "hawk_count": 8,
+          "neutral_count": 1,
+          "resource_pool": 157
+        },
+        {
+          "round": 28,
+          "alive_count": 23,
+          "dove_count": 14,
+          "hawk_count": 8,
+          "neutral_count": 1,
+          "resource_pool": 177
+        },
+        {
+          "round": 29,
+          "alive_count": 23,
+          "dove_count": 14,
+          "hawk_count": 8,
+          "neutral_count": 1,
+          "resource_pool": 189
+        },
+        {
+          "round": 30,
+          "alive_count": 22,
+          "dove_count": 14,
+          "hawk_count": 7,
+          "neutral_count": 1,
+          "resource_pool": 213
+        },
+        {
+          "round": 31,
+          "alive_count": 22,
+          "dove_count": 14,
+          "hawk_count": 8,
+          "neutral_count": 0,
+          "resource_pool": 227
+        },
+        {
+          "round": 32,
+          "alive_count": 22,
+          "dove_count": 14,
+          "hawk_count": 8,
+          "neutral_count": 0,
+          "resource_pool": 251
+        },
+        {
+          "round": 33,
+          "alive_count": 21,
+          "dove_count": 14,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 279
+        },
+        {
+          "round": 34,
+          "alive_count": 21,
+          "dove_count": 14,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 287
+        },
+        {
+          "round": 35,
+          "alive_count": 21,
+          "dove_count": 14,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 319
+        },
+        {
+          "round": 36,
+          "alive_count": 19,
+          "dove_count": 14,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 339
+        },
+        {
+          "round": 37,
+          "alive_count": 19,
+          "dove_count": 14,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 367
+        },
+        {
+          "round": 38,
+          "alive_count": 19,
+          "dove_count": 14,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 389
+        },
+        {
+          "round": 39,
+          "alive_count": 19,
+          "dove_count": 14,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 413
+        },
+        {
+          "round": 40,
+          "alive_count": 18,
+          "dove_count": 14,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 443
+        },
+        {
+          "round": 41,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 473
+        },
+        {
+          "round": 42,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 499
+        },
+        {
+          "round": 43,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 533
+        },
+        {
+          "round": 44,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 557
+        },
+        {
+          "round": 45,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 583
+        },
+        {
+          "round": 46,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 617
+        },
+        {
+          "round": 47,
+          "alive_count": 17,
+          "dove_count": 13,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 643
+        },
+        {
+          "round": 48,
+          "alive_count": 16,
+          "dove_count": 13,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 669
+        },
+        {
+          "round": 49,
+          "alive_count": 16,
+          "dove_count": 13,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 699
+        },
+        {
+          "round": 50,
+          "alive_count": 16,
+          "dove_count": 13,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 727
+        },
+        {
+          "round": 51,
+          "alive_count": 16,
+          "dove_count": 13,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 757
+        },
+        {
+          "round": 52,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 783
+        },
+        {
+          "round": 53,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 817
+        },
+        {
+          "round": 54,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 845
+        },
+        {
+          "round": 55,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 877
+        },
+        {
+          "round": 56,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 909
+        },
+        {
+          "round": 57,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 939
+        },
+        {
+          "round": 58,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 967
+        },
+        {
+          "round": 59,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 997
+        },
+        {
+          "round": 60,
+          "alive_count": 15,
+          "dove_count": 13,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1029
+        }
+      ]
+    },
+    {
+      "run_id": 4,
+      "final_alive": 12,
+      "survival_rate": 0.24,
+      "final_round": 68,
+      "dove_count": 10,
+      "hawk_count": 2,
+      "neutral_count": 0,
+      "timeline": [
+        {
+          "round": 1,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 180
+        },
+        {
+          "round": 2,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 15,
+          "neutral_count": 20,
+          "resource_pool": 200
+        },
+        {
+          "round": 3,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 19,
+          "resource_pool": 130
+        },
+        {
+          "round": 4,
+          "alive_count": 50,
+          "dove_count": 15,
+          "hawk_count": 17,
+          "neutral_count": 18,
+          "resource_pool": 132
+        },
+        {
+          "round": 5,
+          "alive_count": 47,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 16,
+          "resource_pool": 94
+        },
+        {
+          "round": 6,
+          "alive_count": 45,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 14,
+          "resource_pool": 77
+        },
+        {
+          "round": 7,
+          "alive_count": 43,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 12,
+          "resource_pool": 40
+        },
+        {
+          "round": 8,
+          "alive_count": 42,
+          "dove_count": 15,
+          "hawk_count": 16,
+          "neutral_count": 11,
+          "resource_pool": 46
+        },
+        {
+          "round": 9,
+          "alive_count": 42,
+          "dove_count": 15,
+          "hawk_count": 17,
+          "neutral_count": 10,
+          "resource_pool": 26
+        },
+        {
+          "round": 10,
+          "alive_count": 40,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 11,
+          "resource_pool": 25
+        },
+        {
+          "round": 11,
+          "alive_count": 39,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 10,
+          "resource_pool": 20
+        },
+        {
+          "round": 12,
+          "alive_count": 38,
+          "dove_count": 14,
+          "hawk_count": 16,
+          "neutral_count": 8,
+          "resource_pool": 16
+        },
+        {
+          "round": 13,
+          "alive_count": 38,
+          "dove_count": 14,
+          "hawk_count": 15,
+          "neutral_count": 9,
+          "resource_pool": 13
+        },
+        {
+          "round": 14,
+          "alive_count": 35,
+          "dove_count": 13,
+          "hawk_count": 15,
+          "neutral_count": 7,
+          "resource_pool": 16
+        },
+        {
+          "round": 15,
+          "alive_count": 34,
+          "dove_count": 13,
+          "hawk_count": 15,
+          "neutral_count": 6,
+          "resource_pool": 19
+        },
+        {
+          "round": 16,
+          "alive_count": 33,
+          "dove_count": 13,
+          "hawk_count": 15,
+          "neutral_count": 5,
+          "resource_pool": 19
+        },
+        {
+          "round": 17,
+          "alive_count": 30,
+          "dove_count": 13,
+          "hawk_count": 14,
+          "neutral_count": 3,
+          "resource_pool": 29
+        },
+        {
+          "round": 18,
+          "alive_count": 28,
+          "dove_count": 13,
+          "hawk_count": 14,
+          "neutral_count": 1,
+          "resource_pool": 44
+        },
+        {
+          "round": 19,
+          "alive_count": 27,
+          "dove_count": 13,
+          "hawk_count": 13,
+          "neutral_count": 1,
+          "resource_pool": 50
+        },
+        {
+          "round": 20,
+          "alive_count": 26,
+          "dove_count": 13,
+          "hawk_count": 12,
+          "neutral_count": 1,
+          "resource_pool": 64
+        },
+        {
+          "round": 21,
+          "alive_count": 26,
+          "dove_count": 13,
+          "hawk_count": 12,
+          "neutral_count": 1,
+          "resource_pool": 82
+        },
+        {
+          "round": 22,
+          "alive_count": 25,
+          "dove_count": 13,
+          "hawk_count": 11,
+          "neutral_count": 1,
+          "resource_pool": 92
+        },
+        {
+          "round": 23,
+          "alive_count": 24,
+          "dove_count": 12,
+          "hawk_count": 11,
+          "neutral_count": 1,
+          "resource_pool": 118
+        },
+        {
+          "round": 24,
+          "alive_count": 23,
+          "dove_count": 12,
+          "hawk_count": 11,
+          "neutral_count": 0,
+          "resource_pool": 124
+        },
+        {
+          "round": 25,
+          "alive_count": 22,
+          "dove_count": 12,
+          "hawk_count": 10,
+          "neutral_count": 0,
+          "resource_pool": 152
+        },
+        {
+          "round": 26,
+          "alive_count": 22,
+          "dove_count": 12,
+          "hawk_count": 10,
+          "neutral_count": 0,
+          "resource_pool": 156
+        },
+        {
+          "round": 27,
+          "alive_count": 22,
+          "dove_count": 12,
+          "hawk_count": 10,
+          "neutral_count": 0,
+          "resource_pool": 190
+        },
+        {
+          "round": 28,
+          "alive_count": 22,
+          "dove_count": 12,
+          "hawk_count": 10,
+          "neutral_count": 0,
+          "resource_pool": 202
+        },
+        {
+          "round": 29,
+          "alive_count": 21,
+          "dove_count": 12,
+          "hawk_count": 9,
+          "neutral_count": 0,
+          "resource_pool": 226
+        },
+        {
+          "round": 30,
+          "alive_count": 21,
+          "dove_count": 12,
+          "hawk_count": 9,
+          "neutral_count": 0,
+          "resource_pool": 248
+        },
+        {
+          "round": 31,
+          "alive_count": 20,
+          "dove_count": 11,
+          "hawk_count": 9,
+          "neutral_count": 0,
+          "resource_pool": 276
+        },
+        {
+          "round": 32,
+          "alive_count": 19,
+          "dove_count": 11,
+          "hawk_count": 8,
+          "neutral_count": 0,
+          "resource_pool": 300
+        },
+        {
+          "round": 33,
+          "alive_count": 19,
+          "dove_count": 11,
+          "hawk_count": 8,
+          "neutral_count": 0,
+          "resource_pool": 330
+        },
+        {
+          "round": 34,
+          "alive_count": 18,
+          "dove_count": 11,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 344
+        },
+        {
+          "round": 35,
+          "alive_count": 18,
+          "dove_count": 11,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 376
+        },
+        {
+          "round": 36,
+          "alive_count": 18,
+          "dove_count": 11,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 400
+        },
+        {
+          "round": 37,
+          "alive_count": 18,
+          "dove_count": 11,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 430
+        },
+        {
+          "round": 38,
+          "alive_count": 18,
+          "dove_count": 11,
+          "hawk_count": 7,
+          "neutral_count": 0,
+          "resource_pool": 456
+        },
+        {
+          "round": 39,
+          "alive_count": 17,
+          "dove_count": 11,
+          "hawk_count": 6,
+          "neutral_count": 0,
+          "resource_pool": 488
+        },
+        {
+          "round": 40,
+          "alive_count": 17,
+          "dove_count": 11,
+          "hawk_count": 6,
+          "neutral_count": 0,
+          "resource_pool": 510
+        },
+        {
+          "round": 41,
+          "alive_count": 17,
+          "dove_count": 11,
+          "hawk_count": 6,
+          "neutral_count": 0,
+          "resource_pool": 544
+        },
+        {
+          "round": 42,
+          "alive_count": 17,
+          "dove_count": 11,
+          "hawk_count": 6,
+          "neutral_count": 0,
+          "resource_pool": 572
+        },
+        {
+          "round": 43,
+          "alive_count": 17,
+          "dove_count": 11,
+          "hawk_count": 6,
+          "neutral_count": 0,
+          "resource_pool": 598
+        },
+        {
+          "round": 44,
+          "alive_count": 16,
+          "dove_count": 11,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 628
+        },
+        {
+          "round": 45,
+          "alive_count": 16,
+          "dove_count": 11,
+          "hawk_count": 5,
+          "neutral_count": 0,
+          "resource_pool": 664
+        },
+        {
+          "round": 46,
+          "alive_count": 15,
+          "dove_count": 11,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 696
+        },
+        {
+          "round": 47,
+          "alive_count": 15,
+          "dove_count": 11,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 726
+        },
+        {
+          "round": 48,
+          "alive_count": 15,
+          "dove_count": 11,
+          "hawk_count": 4,
+          "neutral_count": 0,
+          "resource_pool": 760
+        },
+        {
+          "round": 49,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 794
+        },
+        {
+          "round": 50,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 828
+        },
+        {
+          "round": 51,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 858
+        },
+        {
+          "round": 52,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 890
+        },
+        {
+          "round": 53,
+          "alive_count": 14,
+          "dove_count": 11,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 924
+        },
+        {
+          "round": 54,
+          "alive_count": 13,
+          "dove_count": 10,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 964
+        },
+        {
+          "round": 55,
+          "alive_count": 13,
+          "dove_count": 10,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 996
+        },
+        {
+          "round": 56,
+          "alive_count": 13,
+          "dove_count": 10,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1034
+        },
+        {
+          "round": 57,
+          "alive_count": 13,
+          "dove_count": 10,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1068
+        },
+        {
+          "round": 58,
+          "alive_count": 13,
+          "dove_count": 10,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1102
+        },
+        {
+          "round": 59,
+          "alive_count": 13,
+          "dove_count": 10,
+          "hawk_count": 3,
+          "neutral_count": 0,
+          "resource_pool": 1136
+        },
+        {
+          "round": 60,
+          "alive_count": 12,
+          "dove_count": 10,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1172
+        },
+        {
+          "round": 61,
+          "alive_count": 12,
+          "dove_count": 10,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1212
+        },
+        {
+          "round": 62,
+          "alive_count": 12,
+          "dove_count": 10,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1248
+        },
+        {
+          "round": 63,
+          "alive_count": 12,
+          "dove_count": 10,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1284
+        },
+        {
+          "round": 64,
+          "alive_count": 12,
+          "dove_count": 10,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1320
+        },
+        {
+          "round": 65,
+          "alive_count": 12,
+          "dove_count": 10,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1358
+        },
+        {
+          "round": 66,
+          "alive_count": 12,
+          "dove_count": 10,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1394
+        },
+        {
+          "round": 67,
+          "alive_count": 12,
+          "dove_count": 10,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1432
+        },
+        {
+          "round": 68,
+          "alive_count": 12,
+          "dove_count": 10,
+          "hawk_count": 2,
+          "neutral_count": 0,
+          "resource_pool": 1468
+        }
+      ]
+    }
+  ],
+  "mean_survival_rate": 0.252,
+  "std": 0.06013318551349162,
+  "cv_percent": 23.86237520376652
+}

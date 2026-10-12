@@ -208,7 +208,7 @@ def main():
               f"{r['mean_survival_rate']*100:.1f}%       {r['cv_percent']:.1f}%   {diff}")
     
     # 保存
-    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', '07-data', 'v0.8_C1_resource_cross')
+    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'outputs', 'v0.8_C1_resource_cross')
     os.makedirs(output_dir, exist_ok=True)
     
     output_file = os.path.join(output_dir, f"C1_resource_cross_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")

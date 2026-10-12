@@ -1,0 +1,160 @@
+{
+  "experiment_type": "ablation_study_clean",
+  "target": "stance_update_necessity",
+  "conditions": [
+    "ABL-0-clean_\u65e0\u7acb\u573a\u66f4\u65b0",
+    "ABL-FULL_\u5b8c\u6574\u673a\u5236"
+  ],
+  "fixed_conditions": {
+    "n": 1000,
+    "resource_regen_per_100": 12,
+    "consumption_rate": 2,
+    "max_rounds": 100,
+    "repeats_per_condition": 5
+  },
+  "results": [
+    {
+      "condition": "ABL-0-clean_\u65e0\u7acb\u573a\u66f4\u65b0",
+      "repeats": 5,
+      "avg_survival_rate": 21.1,
+      "std": 1.2825755338380664,
+      "cv_percent": 6.078557032407898,
+      "min_survival": 19.7,
+      "max_survival": 22.5,
+      "raw_results": [
+        {
+          "survival_rate": 22.2,
+          "alive_count": 222,
+          "dove": 217,
+          "hawk": 4,
+          "neutral": 1,
+          "stance_changed": 0,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 26798,
+          "condition": "ABL-0-clean_\u65e0\u7acb\u573a\u66f4\u65b0"
+        },
+        {
+          "survival_rate": 22.5,
+          "alive_count": 225,
+          "dove": 219,
+          "hawk": 5,
+          "neutral": 1,
+          "stance_changed": 0,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 37939,
+          "condition": "ABL-0-clean_\u65e0\u7acb\u573a\u66f4\u65b0"
+        },
+        {
+          "survival_rate": 19.7,
+          "alive_count": 197,
+          "dove": 188,
+          "hawk": 7,
+          "neutral": 2,
+          "stance_changed": 0,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 49030,
+          "condition": "ABL-0-clean_\u65e0\u7acb\u573a\u66f4\u65b0"
+        },
+        {
+          "survival_rate": 21.2,
+          "alive_count": 212,
+          "dove": 208,
+          "hawk": 3,
+          "neutral": 1,
+          "stance_changed": 0,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 59837,
+          "condition": "ABL-0-clean_\u65e0\u7acb\u573a\u66f4\u65b0"
+        },
+        {
+          "survival_rate": 19.9,
+          "alive_count": 199,
+          "dove": 195,
+          "hawk": 3,
+          "neutral": 1,
+          "stance_changed": 0,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 70743,
+          "condition": "ABL-0-clean_\u65e0\u7acb\u573a\u66f4\u65b0"
+        }
+      ]
+    },
+    {
+      "condition": "ABL-FULL_\u5b8c\u6574\u673a\u5236",
+      "repeats": 5,
+      "avg_survival_rate": 21.2,
+      "std": 0.33911649915626324,
+      "cv_percent": 1.5996061280955813,
+      "min_survival": 20.9,
+      "max_survival": 21.7,
+      "raw_results": [
+        {
+          "survival_rate": 21.0,
+          "alive_count": 210,
+          "dove": 203,
+          "hawk": 5,
+          "neutral": 2,
+          "stance_changed": 0,
+          "rounds": 100,
+          "run_id": 1,
+          "seed": 81550,
+          "condition": "ABL-FULL_\u5b8c\u6574\u673a\u5236"
+        },
+        {
+          "survival_rate": 21.7,
+          "alive_count": 217,
+          "dove": 210,
+          "hawk": 6,
+          "neutral": 1,
+          "stance_changed": 0,
+          "rounds": 100,
+          "run_id": 2,
+          "seed": 6964,
+          "condition": "ABL-FULL_\u5b8c\u6574\u673a\u5236"
+        },
+        {
+          "survival_rate": 20.9,
+          "alive_count": 209,
+          "dove": 203,
+          "hawk": 5,
+          "neutral": 1,
+          "stance_changed": 0,
+          "rounds": 100,
+          "run_id": 3,
+          "seed": 32859,
+          "condition": "ABL-FULL_\u5b8c\u6574\u673a\u5236"
+        },
+        {
+          "survival_rate": 21.4,
+          "alive_count": 214,
+          "dove": 199,
+          "hawk": 11,
+          "neutral": 4,
+          "stance_changed": 1,
+          "rounds": 100,
+          "run_id": 4,
+          "seed": 58272,
+          "condition": "ABL-FULL_\u5b8c\u6574\u673a\u5236"
+        },
+        {
+          "survival_rate": 21.0,
+          "alive_count": 210,
+          "dove": 200,
+          "hawk": 8,
+          "neutral": 2,
+          "stance_changed": 0,
+          "rounds": 100,
+          "run_id": 5,
+          "seed": 84413,
+          "condition": "ABL-FULL_\u5b8c\u6574\u673a\u5236"
+        }
+      ]
+    }
+  ],
+  "timestamp": "20260521_141649"
+}

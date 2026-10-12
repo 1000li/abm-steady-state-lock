@@ -250,7 +250,7 @@ def main():
     d1_diff = (mean_rate * 100) - d1_baseline
     print(f"  vs D1直接死亡(20.7%): {'+' if d1_diff > 0 else ''}{d1_diff:.1f}%")
     
-    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', '07-data', 'v0.8_schemeE_intervention', 'I3_targeted_hawk')
+    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'outputs', 'v0.8_schemeE_intervention', 'I3_targeted_hawk')
     os.makedirs(output_dir, exist_ok=True)
     
     output_file = os.path.join(output_dir, f"I3_targeted_hawk_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")

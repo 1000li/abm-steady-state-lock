@@ -226,7 +226,7 @@ def main():
     diff = (mean_rate * 100) - baseline
     print(f"\n  vs R3基准(27.0%): {'+' if diff > 0 else ''}{diff:.1f}%")
     
-    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', '07-data', 'v0.8_schemeE_intervention', 'I4_resource_injection')
+    output_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'outputs', 'v0.8_schemeE_intervention', 'I4_resource_injection')
     os.makedirs(output_dir, exist_ok=True)
     
     output_file = os.path.join(output_dir, f"I4_resource_injection_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json")
