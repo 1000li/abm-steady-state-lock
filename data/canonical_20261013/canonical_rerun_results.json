@@ -1,0 +1,1134 @@
+{
+  "meta": {
+    "script": "rerun_canonical.py",
+    "ran_at": "2026-10-12 22:08:39",
+    "model_src": "/root/.openclaw/workspace/archive/steady-state-lock/src",
+    "canonical_init": "30% dove / 30% hawk / 40% neutral; health=100; resources=5; score -5/+5/0; pool=3n; regen=int(1.2n); cons=2; mech=默认(v0.8-Scheme E)",
+    "rounds": 100,
+    "seeds": [
+      42,
+      7,
+      123,
+      2024,
+      99
+    ],
+    "elapsed_sec": 2261.5
+  },
+  "M1": {
+    "50": {
+      "survival_mean": 0.196,
+      "survival_std": 0.029393876913398134,
+      "survival_runs": [
+        0.18,
+        0.24,
+        0.16,
+        0.22,
+        0.18
+      ],
+      "dove_share_mean": 0.8553030303030303,
+      "dove_share_std": 0.050338107927122996,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          null,
+          83,
+          68,
+          null,
+          81
+        ],
+        "neutral": [
+          21,
+          15,
+          14,
+          24,
+          16
+        ]
+      },
+      "extinction_detail": []
+    },
+    "100": {
+      "survival_mean": 0.218,
+      "survival_std": 0.0348711915483254,
+      "survival_runs": [
+        0.22,
+        0.22,
+        0.19,
+        0.18,
+        0.28
+      ],
+      "dove_share_mean": 0.9530378977747399,
+      "dove_share_std": 0.006885480920616932,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          100,
+          80,
+          87,
+          94,
+          72
+        ],
+        "neutral": [
+          19,
+          21,
+          22,
+          21,
+          17
+        ]
+      },
+      "extinction_detail": []
+    },
+    "200": {
+      "survival_mean": 0.223,
+      "survival_std": 0.008124038404635959,
+      "survival_runs": [
+        0.21,
+        0.22,
+        0.225,
+        0.225,
+        0.235
+      ],
+      "dove_share_mean": 0.9595413097540757,
+      "dove_share_std": 0.009263597842584029,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          91,
+          71,
+          75,
+          71,
+          68
+        ],
+        "neutral": [
+          19,
+          18,
+          18,
+          20,
+          20
+        ]
+      },
+      "extinction_detail": []
+    },
+    "1000": {
+      "survival_mean": 0.2164,
+      "survival_std": 0.006800000000000006,
+      "survival_runs": [
+        0.209,
+        0.217,
+        0.214,
+        0.213,
+        0.229
+      ],
+      "dove_share_mean": 0.989875625942514,
+      "dove_share_std": 0.0014923147032080502,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          70,
+          68,
+          70,
+          69,
+          69
+        ],
+        "neutral": [
+          18,
+          19,
+          20,
+          19,
+          19
+        ]
+      },
+      "extinction_detail": []
+    }
+  },
+  "M2": {
+    "0.0": {
+      "hawk_ratio": 0.0,
+      "dove_f": 0.5,
+      "survival_mean": 0.3158,
+      "survival_std": 0.013789851340750572,
+      "survival_runs": [
+        0.307,
+        0.338,
+        0.321,
+        0.297,
+        0.316
+      ],
+      "dove_share_mean": 0.9817175865628164,
+      "dove_share_std": 0.0041878074897157514,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "neutral": [
+          41,
+          41,
+          46,
+          44,
+          43
+        ]
+      },
+      "extinction_detail": []
+    },
+    "0.1": {
+      "hawk_ratio": 0.1,
+      "dove_f": 0.45,
+      "survival_mean": 0.26980000000000004,
+      "survival_std": 0.00667532770731146,
+      "survival_runs": [
+        0.281,
+        0.272,
+        0.263,
+        0.27,
+        0.263
+      ],
+      "dove_share_mean": 0.9903264109785078,
+      "dove_share_std": 0.0019756563598936185,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          73,
+          73,
+          74,
+          72,
+          78
+        ],
+        "neutral": [
+          31,
+          30,
+          31,
+          33,
+          33
+        ]
+      },
+      "extinction_detail": []
+    },
+    "0.2": {
+      "hawk_ratio": 0.2,
+      "dove_f": 0.4,
+      "survival_mean": 0.27999999999999997,
+      "survival_std": 0.009654014708917722,
+      "survival_runs": [
+        0.282,
+        0.263,
+        0.277,
+        0.29,
+        0.288
+      ],
+      "dove_share_mean": 0.9914258709511706,
+      "dove_share_std": 0.002877228272262621,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          72,
+          72,
+          70,
+          71,
+          69
+        ],
+        "neutral": [
+          24,
+          24,
+          24,
+          25,
+          23
+        ]
+      },
+      "extinction_detail": []
+    },
+    "0.3": {
+      "hawk_ratio": 0.3,
+      "dove_f": 0.35,
+      "survival_mean": 0.26680000000000004,
+      "survival_std": 0.001720465053408527,
+      "survival_runs": [
+        0.267,
+        0.269,
+        0.264,
+        0.266,
+        0.268
+      ],
+      "dove_share_mean": 0.9865163474066184,
+      "dove_share_std": 0.004452724613334783,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          70,
+          69,
+          70,
+          67,
+          70
+        ],
+        "neutral": [
+          18,
+          18,
+          19,
+          19,
+          19
+        ]
+      },
+      "extinction_detail": []
+    },
+    "0.4": {
+      "hawk_ratio": 0.4,
+      "dove_f": 0.3,
+      "survival_mean": 0.2266,
+      "survival_std": 0.005535341001239215,
+      "survival_runs": [
+        0.224,
+        0.223,
+        0.235,
+        0.231,
+        0.22
+      ],
+      "dove_share_mean": 0.9902757953889764,
+      "dove_share_std": 0.0018461048204949382,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          72,
+          69,
+          68,
+          71,
+          66
+        ],
+        "neutral": [
+          14,
+          14,
+          15,
+          14,
+          15
+        ]
+      },
+      "extinction_detail": []
+    },
+    "0.5": {
+      "hawk_ratio": 0.5,
+      "dove_f": 0.25,
+      "survival_mean": 0.2162,
+      "survival_std": 0.00534415568635496,
+      "survival_runs": [
+        0.216,
+        0.222,
+        0.215,
+        0.221,
+        0.207
+      ],
+      "dove_share_mean": 0.9907435593291776,
+      "dove_share_std": 0.00023254770684458923,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          67,
+          67,
+          66,
+          70,
+          67
+        ],
+        "neutral": [
+          13,
+          12,
+          11,
+          13,
+          13
+        ]
+      },
+      "extinction_detail": []
+    },
+    "0.6": {
+      "hawk_ratio": 0.6,
+      "dove_f": 0.2,
+      "survival_mean": 0.1686,
+      "survival_std": 0.0056780278266313515,
+      "survival_runs": [
+        0.174,
+        0.169,
+        0.173,
+        0.169,
+        0.158
+      ],
+      "dove_share_mean": 0.9822404842186853,
+      "dove_share_std": 0.006396530855312152,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          69,
+          75,
+          68,
+          70,
+          66
+        ],
+        "neutral": [
+          10,
+          10,
+          10,
+          10,
+          12
+        ]
+      },
+      "extinction_detail": []
+    },
+    "0.7": {
+      "hawk_ratio": 0.7,
+      "dove_f": 0.15000000000000002,
+      "survival_mean": 0.1234,
+      "survival_std": 0.003261901286060021,
+      "survival_runs": [
+        0.127,
+        0.12,
+        0.119,
+        0.126,
+        0.125
+      ],
+      "dove_share_mean": 0.9806063095054295,
+      "dove_share_std": 0.0036227420343307687,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          66,
+          67,
+          67,
+          71,
+          67
+        ],
+        "neutral": [
+          10,
+          10,
+          11,
+          10,
+          10
+        ]
+      },
+      "extinction_detail": []
+    },
+    "0.8": {
+      "hawk_ratio": 0.8,
+      "dove_f": 0.09999999999999998,
+      "survival_mean": 0.076,
+      "survival_std": 0.0014142135623730963,
+      "survival_runs": [
+        0.074,
+        0.075,
+        0.077,
+        0.076,
+        0.078
+      ],
+      "dove_share_mean": 0.9604451631820052,
+      "dove_share_std": 0.008557075483699633,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          70,
+          71,
+          70,
+          70,
+          65
+        ],
+        "neutral": [
+          10,
+          14,
+          11,
+          12,
+          11
+        ]
+      },
+      "extinction_detail": []
+    },
+    "0.9": {
+      "hawk_ratio": 0.9,
+      "dove_f": 0.04999999999999999,
+      "survival_mean": 0.038,
+      "survival_std": 0.003949683531626299,
+      "survival_runs": [
+        0.04,
+        0.037,
+        0.037,
+        0.032,
+        0.044
+      ],
+      "dove_share_mean": 0.9417874692874694,
+      "dove_share_std": 0.019791280614902998,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          72,
+          69,
+          72,
+          69,
+          70
+        ],
+        "neutral": [
+          9,
+          10,
+          11,
+          9,
+          10
+        ]
+      },
+      "extinction_detail": []
+    },
+    "1.0": {
+      "hawk_ratio": 1.0,
+      "dove_f": 0.0,
+      "survival_mean": 0.0024000000000000002,
+      "survival_std": 0.0004898979485566357,
+      "survival_runs": [
+        0.002,
+        0.003,
+        0.003,
+        0.002,
+        0.002
+      ],
+      "dove_share_mean": 0.0,
+      "dove_share_std": 0.0,
+      "faction_first_hit": {
+        "dove": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "hawk": [
+          69,
+          69,
+          72,
+          69,
+          69
+        ],
+        "neutral": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "extinction_detail": []
+    }
+  },
+  "M3": {
+    "survival_mean": 0.2164,
+    "survival_std": 0.006800000000000006,
+    "survival_runs": [
+      0.209,
+      0.217,
+      0.214,
+      0.213,
+      0.229
+    ],
+    "dove_share_mean": 0.989875625942514,
+    "dove_share_std": 0.0014923147032080502,
+    "faction_first_hit": {
+      "dove": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "hawk": [
+        70,
+        68,
+        70,
+        69,
+        69
+      ],
+      "neutral": [
+        18,
+        19,
+        20,
+        19,
+        19
+      ]
+    },
+    "extinction_detail": [
+      {
+        "dove": null,
+        "hawk": 70,
+        "neutral": 18
+      },
+      {
+        "dove": null,
+        "hawk": 68,
+        "neutral": 19
+      },
+      {
+        "dove": null,
+        "hawk": 70,
+        "neutral": 20
+      },
+      {
+        "dove": null,
+        "hawk": 69,
+        "neutral": 19
+      },
+      {
+        "dove": null,
+        "hawk": 69,
+        "neutral": 19
+      }
+    ],
+    "order_by_median": [
+      "neutral",
+      "hawk",
+      "dove"
+    ]
+  },
+  "M4": {
+    "R2(0.6n)": {
+      "regen": 60,
+      "survival_mean": 0.09000000000000001,
+      "survival_std": 0.022803508501982758,
+      "survival_runs": [
+        0.1,
+        0.08,
+        0.07,
+        0.13,
+        0.07
+      ],
+      "dove_share_mean": 0.8824725274725275,
+      "dove_share_std": 0.025670809494236117,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          74,
+          74,
+          74,
+          57,
+          90
+        ],
+        "neutral": [
+          11,
+          14,
+          13,
+          14,
+          14
+        ]
+      },
+      "extinction_detail": []
+    },
+    "R3(1.2n)": {
+      "regen": 120,
+      "survival_mean": 0.218,
+      "survival_std": 0.0348711915483254,
+      "survival_runs": [
+        0.22,
+        0.22,
+        0.19,
+        0.18,
+        0.28
+      ],
+      "dove_share_mean": 0.9530378977747399,
+      "dove_share_std": 0.006885480920616932,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          100,
+          80,
+          87,
+          94,
+          72
+        ],
+        "neutral": [
+          19,
+          21,
+          22,
+          21,
+          17
+        ]
+      },
+      "extinction_detail": []
+    },
+    "R4(2.0n)": {
+      "regen": 200,
+      "survival_mean": 0.226,
+      "survival_std": 0.029393876913398145,
+      "survival_runs": [
+        0.19,
+        0.21,
+        0.25,
+        0.21,
+        0.27
+      ],
+      "dove_share_mean": 0.9396112503480925,
+      "dove_share_std": 0.013843363190431094,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          94,
+          83,
+          null,
+          97,
+          null
+        ],
+        "neutral": [
+          18,
+          21,
+          20,
+          16,
+          22
+        ]
+      },
+      "extinction_detail": []
+    },
+    "R5(2.4n)": {
+      "regen": 240,
+      "survival_mean": 0.214,
+      "survival_std": 0.03440930106817051,
+      "survival_runs": [
+        0.19,
+        0.21,
+        0.23,
+        0.17,
+        0.27
+      ],
+      "dove_share_mean": 0.944674701815636,
+      "dove_share_std": 0.010684090352710132,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          94,
+          83,
+          85,
+          81,
+          null
+        ],
+        "neutral": [
+          18,
+          21,
+          20,
+          18,
+          22
+        ]
+      },
+      "extinction_detail": []
+    }
+  },
+  "M5": {
+    "baseline": {
+      "gain_pp": 0.0,
+      "survival_mean": 0.2164,
+      "survival_std": 0.006800000000000006,
+      "survival_runs": [
+        0.209,
+        0.217,
+        0.214,
+        0.213,
+        0.229
+      ],
+      "dove_share_mean": 0.989875625942514,
+      "dove_share_std": 0.0014923147032080502,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          70,
+          68,
+          70,
+          69,
+          69
+        ],
+        "neutral": [
+          18,
+          19,
+          20,
+          19,
+          19
+        ]
+      },
+      "extinction_detail": []
+    },
+    "I1_random_cull": {
+      "desc": "随机剔除5%个体 (R1)",
+      "gain_pp": -1.6399999999999997,
+      "survival_mean": 0.2,
+      "survival_std": 0.006782329983125262,
+      "survival_runs": [
+        0.2,
+        0.192,
+        0.193,
+        0.209,
+        0.206
+      ],
+      "dove_share_mean": 0.9809020733933118,
+      "dove_share_std": 0.009321320020204821,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          70,
+          75,
+          68,
+          64,
+          75
+        ],
+        "neutral": [
+          18,
+          20,
+          18,
+          19,
+          19
+        ]
+      },
+      "extinction_detail": []
+    },
+    "I2_hawk_remove": {
+      "desc": "定向移除 stance_score 前5%鹰派 (R1)",
+      "gain_pp": -0.30000000000000027,
+      "survival_mean": 0.2134,
+      "survival_std": 0.004317406628984584,
+      "survival_runs": [
+        0.211,
+        0.22,
+        0.207,
+        0.214,
+        0.215
+      ],
+      "dove_share_mean": 0.9887847689728891,
+      "dove_share_std": 0.002111085050455335,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          68,
+          70,
+          70,
+          72,
+          69
+        ],
+        "neutral": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ]
+      },
+      "extinction_detail": []
+    },
+    "I3_inject_start": {
+      "desc": "开局资源注入 +2n (R1)",
+      "gain_pp": -0.520000000000001,
+      "survival_mean": 0.2112,
+      "survival_std": 0.006209669878504006,
+      "survival_runs": [
+        0.216,
+        0.211,
+        0.209,
+        0.201,
+        0.219
+      ],
+      "dove_share_mean": 0.9876602612867327,
+      "dove_share_std": 0.0038791866554029604,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          68,
+          69,
+          73,
+          71,
+          69
+        ],
+        "neutral": [
+          19,
+          20,
+          20,
+          19,
+          19
+        ]
+      },
+      "extinction_detail": []
+    },
+    "I4_inject_mid": {
+      "desc": "中期资源注入 +2n (R50)",
+      "gain_pp": 0.0,
+      "survival_mean": 0.2164,
+      "survival_std": 0.006800000000000006,
+      "survival_runs": [
+        0.209,
+        0.217,
+        0.214,
+        0.213,
+        0.229
+      ],
+      "dove_share_mean": 0.989875625942514,
+      "dove_share_std": 0.0014923147032080502,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          70,
+          68,
+          70,
+          69,
+          69
+        ],
+        "neutral": [
+          18,
+          19,
+          20,
+          19,
+          19
+        ]
+      },
+      "extinction_detail": []
+    },
+    "I5_grant_all": {
+      "desc": "全民发放 +2 资源 (R1)",
+      "gain_pp": -0.9600000000000025,
+      "survival_mean": 0.20679999999999998,
+      "survival_std": 0.004019950248448349,
+      "survival_runs": [
+        0.199,
+        0.207,
+        0.21,
+        0.209,
+        0.209
+      ],
+      "dove_share_mean": 0.9903250694980511,
+      "dove_share_std": 0.0001929545835695074,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          69,
+          68,
+          68,
+          69,
+          71
+        ],
+        "neutral": [
+          19,
+          18,
+          18,
+          18,
+          18
+        ]
+      },
+      "extinction_detail": []
+    },
+    "I6_isolate_hawks": {
+      "desc": "隔离前5%高威胁鹰派 20轮 (R1-R19)",
+      "gain_pp": 0.3599999999999992,
+      "survival_mean": 0.22,
+      "survival_std": 0.005291502622129186,
+      "survival_runs": [
+        0.216,
+        0.213,
+        0.227,
+        0.219,
+        0.225
+      ],
+      "dove_share_mean": 0.9872700130360161,
+      "dove_share_std": 0.0060740776870968445,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          70,
+          71,
+          70,
+          73,
+          71
+        ],
+        "neutral": [
+          20,
+          19,
+          20,
+          19,
+          19
+        ]
+      },
+      "extinction_detail": []
+    },
+    "I7_execute_top_hawks": {
+      "desc": "处决前1%顶级鹰派 (R1)",
+      "gain_pp": -0.20000000000000018,
+      "survival_mean": 0.2144,
+      "survival_std": 0.003929376540877704,
+      "survival_runs": [
+        0.21,
+        0.213,
+        0.22,
+        0.211,
+        0.218
+      ],
+      "dove_share_mean": 0.9916163923208565,
+      "dove_share_std": 0.0018285746007495015,
+      "faction_first_hit": {
+        "dove": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "hawk": [
+          67,
+          71,
+          70,
+          67,
+          70
+        ],
+        "neutral": [
+          20,
+          20,
+          19,
+          18,
+          19
+        ]
+      },
+      "extinction_detail": []
+    },
+    "best_gain_pp": 0.3599999999999992
+  }
+}

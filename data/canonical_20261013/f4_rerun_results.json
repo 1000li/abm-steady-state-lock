@@ -1,0 +1,80 @@
+{
+  "batch": "F4_high_purity_n1000",
+  "config": "80D/10H/10N, n=1000, regen=1200, pool=3000, 100 rounds",
+  "seeds": [
+    42,
+    7,
+    123,
+    2024,
+    99
+  ],
+  "trials": [
+    {
+      "batch": "F4_high_purity_n1000",
+      "condition": "F4_80D_10H_10N_R3",
+      "seed": 42,
+      "intervention": "none",
+      "alive_end": 462,
+      "survival_rate": 0.462,
+      "dove_end": 458,
+      "hawk_end": 3,
+      "neutral_end": 1,
+      "dove_share_survivors": 0.9913419913419913,
+      "last_round": 100
+    },
+    {
+      "batch": "F4_high_purity_n1000",
+      "condition": "F4_80D_10H_10N_R3",
+      "seed": 7,
+      "intervention": "none",
+      "alive_end": 471,
+      "survival_rate": 0.471,
+      "dove_end": 468,
+      "hawk_end": 3,
+      "neutral_end": 0,
+      "dove_share_survivors": 0.9936305732484076,
+      "last_round": 100
+    },
+    {
+      "batch": "F4_high_purity_n1000",
+      "condition": "F4_80D_10H_10N_R3",
+      "seed": 123,
+      "intervention": "none",
+      "alive_end": 453,
+      "survival_rate": 0.453,
+      "dove_end": 448,
+      "hawk_end": 4,
+      "neutral_end": 1,
+      "dove_share_survivors": 0.9889624724061811,
+      "last_round": 100
+    },
+    {
+      "batch": "F4_high_purity_n1000",
+      "condition": "F4_80D_10H_10N_R3",
+      "seed": 2024,
+      "intervention": "none",
+      "alive_end": 466,
+      "survival_rate": 0.466,
+      "dove_end": 463,
+      "hawk_end": 3,
+      "neutral_end": 0,
+      "dove_share_survivors": 0.9935622317596566,
+      "last_round": 100
+    },
+    {
+      "batch": "F4_high_purity_n1000",
+      "condition": "F4_80D_10H_10N_R3",
+      "seed": 99,
+      "intervention": "none",
+      "alive_end": 463,
+      "survival_rate": 0.463,
+      "dove_end": 461,
+      "hawk_end": 2,
+      "neutral_end": 0,
+      "dove_share_survivors": 0.9956803455723542,
+      "last_round": 100
+    }
+  ],
+  "mean_pct": 46.3,
+  "pstdev_pct": 0.59
+}
